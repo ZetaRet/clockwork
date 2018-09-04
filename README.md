@@ -16,4 +16,8 @@ Clockwork means a mechanism with a spring and toothed gearwheels, used to drive 
 
 In development: July, 2017
 
-Author: Zeta Ret, Ivo Yankulovski, http://zetaret.com/
+## Demos
+Canvas Live Demo based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
+Zeta Ret Clockwork demo: https://clockwork.lovesvn.com/demo/  
+
+Author: Zeta Ret, Ivo Yankulovski, https://zetaret.com/
