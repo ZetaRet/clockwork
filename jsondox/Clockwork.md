@@ -53,8 +53,8 @@ Creates ProtoSS Function from Settings Object, includes shared memory, serial nu
 ##
 __runXeltoSS(*Array* xcls) : *void*__  
 Transforms an Array of ProtoSS Function into XeltoSS ES6 Classes, reading __xeltoss_amaps, __xeltoss_emaps, __xeltoss_eamaps, __xeltoss_augmentmap, __xeltoss_embedmap, __xeltoss_prepare, supports debug state  
-- __xcls*__ - __*Array*__, executes augmentKey/addEmbedMap using __xeltoss_amaps:Array and __xeltoss_emaps:array, __xeltoss_eamaps:Array is mapped version of augmentKey/addEmbedMap, __xeltoss_augmentmap:Object is custom augmentKey, __xeltoss_embedmap:Object is custom addEmbedMap, __xeltoss_prepare is custom function using ProtoSS function scope  
+- __xcls*__ - __*Array*__, executes augmentKey/addEmbedMap using __xeltoss_amaps:Array and __xeltoss_emaps:Array, __xeltoss_eamaps:Array is mapped version of augmentKey/addEmbedMap, __xeltoss_augmentmap:Object is custom augmentKey, __xeltoss_embedmap:Object is custom addEmbedMap, __xeltoss_prepare is custom function using ProtoSS function scope  
 > *return __void__*  
 
 ---
-### MarkDown - JsonDox 1.00 - Zeta Ret Zetadmin Documentation Generator
+### MarkDown - JsonDox 1.01 - Zeta Ret Zetadmin Documentation Generator
