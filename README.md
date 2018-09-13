@@ -1,7 +1,4 @@
-# clockwork
-:alien: Zeta Ret Clockwork
-
-# Clockwork
+# Zeta Ret Clockwork
 ## ProtoSS OOP Framework
 
 ![Zeta Ret Clockwork Cover](https://zetaret.com/images/clockwork1.jpg)
@@ -18,6 +15,6 @@ In development: July, 2017
 
 ## Demos
 Canvas Live Demo based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
-Zeta Ret Clockwork demo: https://clockwork.lovesvn.com/demo/  
+:alien: Zeta Ret Clockwork demo: https://clockwork.lovesvn.com/demo/  
 
 Author: Zeta Ret, Ivo Yankulovski, https://zetaret.com/
