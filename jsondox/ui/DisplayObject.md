@@ -482,5 +482,44 @@ __clone() : *zetaret.global.packages.clockwork.ui::DisplayObject*__
   
 > *return __zetaret.global.packages.clockwork.ui::DisplayObject__*  
 
+##
+### *Static Methods*
+
+##
+__invertTransform(*Array* tm) : *Array*__  
+  
+- __tm*__ - __*Array*__,   
+> *return __Array__*  
+
+##
+__deltaTransformPoint(*Array* p, *Array* tm, *Boolean* inverse) : *Array*__  
+  
+- __p*__ - __*Array*__,   
+- __tm*__ - __*Array*__,   
+- inverse - __*Boolean*__,   
+> *return __Array__*  
+
+##
+__getTransformArea(*Object* rect, *Array* matrix) : *Object*__  
+  
+- __rect*__ - __*Object*__,   
+- __matrix*__ - __*Array*__,   
+> *return __Object__*  
+
+##
+__invalidateGlobal(*zetaret.global.packages.clockwork.ui.DisplayObject* dobj) : *zetaret.global.packages.clockwork.ui::DisplayObject*__  
+  
+- __dobj*__ - __*zetaret.global.packages.clockwork.ui.DisplayObject*__,   
+> *return __zetaret.global.packages.clockwork.ui::DisplayObject__*  
+
+##
+__getUnionBounds(*Array* ch, *Array* tm, *Boolean* transformself, *Boolean* target) : *Object*__  
+  
+- __ch*__ - __*Array*__,   
+- __tm*__ - __*Array*__,   
+- transformself - __*Boolean*__,   
+- target - __*Boolean*__,   
+> *return __Object__*  
+
 ---
 ### MarkDown - JsonDox 1.01 - Zeta Ret Zetadmin Documentation Generator
