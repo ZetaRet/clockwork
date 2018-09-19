@@ -93,9 +93,9 @@ __enableGradientCache(*String* id) : *zetaret.global.packages.clockwork.graphics
 > *return __zetaret.global.packages.clockwork.graphics::Graphics__*  
 
 ##
-__addCommand(*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData* command) : *zetaret.global.packages.clockwork.graphics::Graphics*__  
+__addCommand(*/interfaces.IGraphicCommand|/interfaces.IGraphicData* command) : *zetaret.global.packages.clockwork.graphics::Graphics*__  
   
-- __command*__ - __*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData*__,   
+- __command*__ - __*/interfaces.IGraphicCommand|/interfaces.IGraphicData*__,   
 > *return __zetaret.global.packages.clockwork.graphics::Graphics__*  
 
 ##
@@ -105,11 +105,11 @@ __updateLastCommand(*Object* p) : *zetaret.global.packages.clockwork.graphics::G
 > *return __zetaret.global.packages.clockwork.graphics::Graphics__*  
 
 ##
-__getCommand(*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData* type, *Number* startIndex) : *zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData*__  
+__getCommand(*/interfaces.IGraphicCommand|/interfaces.IGraphicData* type, *Number* startIndex) : */interfaces.IGraphicCommand|/interfaces.IGraphicData*__  
   
-- __type*__ - __*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData*__,   
+- __type*__ - __*/interfaces.IGraphicCommand|/interfaces.IGraphicData*__,   
 - startIndex - __*Number*__,   
-> *return __zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData__*  
+> *return __/interfaces.IGraphicCommand|/interfaces.IGraphicData__*  
 
 ##
 __copyFrom(*zetaret.global.packages.clockwork.graphics.Graphics* graphics) : *zetaret.global.packages.clockwork.graphics::Graphics*__  
@@ -457,10 +457,10 @@ __text(*String* data, *Number* x, *Number* y, *Number* width, *Boolean* stroke) 
 > *return __zetaret.global.packages.clockwork.graphics::Graphics__*  
 
 ##
-__readCustomCommand(*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData* c) : *zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData*__  
+__readCustomCommand(*/interfaces.IGraphicCommand|/interfaces.IGraphicData* c) : */interfaces.IGraphicCommand|/interfaces.IGraphicData*__  
   
-- __c*__ - __*zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData*__,   
-> *return __zetaret.global.packages.clockwork.graphics.IGraphicCommand|zetaret.global.packages.clockwork.graphics.IGraphicData__*  
+- __c*__ - __*/interfaces.IGraphicCommand|/interfaces.IGraphicData*__,   
+> *return __/interfaces.IGraphicCommand|/interfaces.IGraphicData__*  
 
 ##
 __readGraphicsData(*Boolean* cached) : *Array*__  
