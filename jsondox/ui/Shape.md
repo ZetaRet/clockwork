@@ -81,8 +81,9 @@ uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag
 > *return __zetaret.global.packages.clockwork.ui::Shape__*  
 
 ##
-__setGraphics() : *zetaret.global.packages.clockwork.ui::Shape*__  
+__setGraphics(*zetaret.global.packages.clockwork.graphics.Graphics* graphics) : *zetaret.global.packages.clockwork.ui::Shape*__  
 uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag  
+- __graphics*__ - __*zetaret.global.packages.clockwork.graphics.Graphics*__,   
 > *return __zetaret.global.packages.clockwork.ui::Shape__*  
 
 ##
