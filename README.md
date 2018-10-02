@@ -19,6 +19,9 @@ Zeta Ret Clockwork is ProtoSS based environment framework and supports:
 
 JavaScript polyfills are included for minimum requirements on mobile and IE11 to support missing prototypes, security restrictions or class functionality. 
 
+Our Stage renderer does not define nor constitute the demonstrated rendering but it is rather a set and settings environment which works as one of the most famous stage renderers known to developers using child-parent node containers and inversible iterator mechanics wherever required. The use of fractal mathematics during transformation of colors and geometry creates an illusion to the observer based on well-known effects. Such fractal stage system may be configured and extended differently in order to reveal various rendering capabilities outside the standard 2D context i.e. simulation of molecule rendering in non-inversed trees, portal based rendering of the same DisplayObject and Graphics in many nodes of the stage, support canvas texture for WebGL Context, or 3D rendering based on vectors and cached rectangular canvases as textures.  
+"Basically this is cosmic system, where birth and dead of objects are transitions from level to level."  
+
 Clockwork means a mechanism with a spring and toothed gearwheels, used to drive a mechanical clock, very smooth and regular using repetitive and predictable precision. In horology, "caliber" refers to the specific internal mechanism of a watch or clock, also known as a movement. Although the term originally was only used to refer to the size of a movement, it is now used to designate a specific model.
 
 In development: July, 2017
