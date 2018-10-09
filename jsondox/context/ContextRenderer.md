@@ -8,7 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.context::ContextRenderer  
-> Inherits: zetaret.global.packages.clockwork.events::EventDispatcher  
+> Inherits: [zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)  
 > Interfaces:   
 
 ### *Properties*  
