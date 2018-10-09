@@ -8,7 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.ui::DisplayObject  
-> Inherits: zetaret.global.packages.clockwork.events::EventDispatcher  
+> Inherits: [zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)  
 > Interfaces: zetaret.global.packages.clockwork.ui.interfaces::IDisplayObject  
 
 ### *Properties*  
