@@ -8,7 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.ui::Shape  
-> Inherits: zetaret.global.packages.clockwork.ui::DisplayObject  
+> Inherits: [zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)  
 > Interfaces: zetaret.global.packages.clockwork.ui.interfaces::IShape  
 
 ### *Properties*  
