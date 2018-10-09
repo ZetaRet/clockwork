@@ -8,7 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.ui::TextField  
-> Inherits: zetaret.global.packages.clockwork.ui::Shape  
+> Inherits: [zetaret.global.packages.clockwork.ui::Shape](Shape.md)  
 > Interfaces: zetaret.global.packages.clockwork.ui.interfaces::ITextField  
 
 ### *Properties*  
