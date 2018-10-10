@@ -329,11 +329,11 @@ function DisplayObject(at,act) {
 		return o;
 	};
 	m.setCache=function(id, box, local){
-	    o.cacheLevel=id;
-        o.cacheBox=box;
-        o.cacheRedraw=true;
-        o.localTransform=local;
-        return o;
+		o.cacheLevel=id;
+		o.cacheBox=box;
+		o.cacheRedraw=true;
+		o.localTransform=local;
+		return o;
 	};
 	m.render=function(stage, renderer, ctx, t, ct){
 		if(o.skipt){
