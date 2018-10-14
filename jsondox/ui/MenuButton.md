@@ -22,6 +22,11 @@ default new, instance of TextField
 ### *Methods*  
 
 ##
+__MenuButton() : *void*__  
+  
+> *return __void__*  
+
+##
 __setText(*String* txt) : *zetaret.global.packages.clockwork.ui::MenuButton*__  
   
 - __txt*__ - __*String*__,   
