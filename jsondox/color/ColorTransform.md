@@ -54,6 +54,19 @@ default 0,
 ### *Methods*  
 
 ##
+__ColorTransform(*Number* redMultiplier, *Number* greenMultiplier, *Number* blueMultiplier, *Number* alphaMultiplier, *Number* redOffset, *Number* greenOffset, *Number* blueOffset, *Number* alphaOffset) : *void*__  
+  
+- redMultiplier - __*Number*__,   
+- greenMultiplier - __*Number*__,   
+- blueMultiplier - __*Number*__,   
+- alphaMultiplier - __*Number*__,   
+- redOffset - __*Number*__,   
+- greenOffset - __*Number*__,   
+- blueOffset - __*Number*__,   
+- alphaOffset - __*Number*__,   
+> *return __void__*  
+
+##
 __identity() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
