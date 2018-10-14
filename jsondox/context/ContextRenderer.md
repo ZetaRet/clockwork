@@ -54,6 +54,11 @@ default '',
 ### *Methods*  
 
 ##
+__ContextRenderer() : *void*__  
+  
+> *return __void__*  
+
+##
 __setExternalRenderer(*zetaret.global.packages.clockwork.context.ContextRenderer* renderer) : *zetaret.global.packages.clockwork.context::ContextRenderer*__  
   
 - __renderer*__ - __*zetaret.global.packages.clockwork.context.ContextRenderer*__,   
