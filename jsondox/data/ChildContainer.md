@@ -46,6 +46,11 @@ default true,
 ### *Methods*  
 
 ##
+__ChildContainer() : *void*__  
+  
+> *return __void__*  
+
+##
 __getChildren() : *Array*__  
   
 > *return __Array__*  
