@@ -15,7 +15,7 @@ __required*__
 
 #
 __name__ String  
-default undefined,   
+default undefined, name of display object  
 
 #
 __x__ Number  
@@ -186,6 +186,13 @@ default null,
 ### *Methods*  
 
 ##
+__DisplayObject(*Array* at, *Array* act) : *void*__  
+  
+- at - __*Array*__,   
+- act - __*Array*__,   
+> *return __void__*  
+
+##
 __addToList(*zetaret.global.packages.clockwork.data.ChildContainer* list, *String* id) : *zetaret.global.packages.clockwork.ui::DisplayObject*__  
   
 - __list*__ - __*zetaret.global.packages.clockwork.data.ChildContainer*__,   
@@ -354,8 +361,8 @@ __getTransform() : *Array*__
 
 ##
 __updateTransform() : *zetaret.global.packages.clockwork.ui::DisplayObject*__  
-  
-> *return __zetaret.global.packages.clockwork.ui::DisplayObject__*  
+calculate Math.cos and Math.sin of x and y rotation, transform rotate matrix using scale x and y, calculate Math.tan of x and y skew, and cross transform by multiplication the product of rotation scale matrix, set translation properties without scale, transform[0-3] values are initially multiplied by scale width 'sw', skew width 'skw', skew height 'skh' and scale height 'sh'  
+> *return __zetaret.global.packages.clockwork.ui::DisplayObject__, self, convert local transform properties in place of 'transform' Array, used properties: x, y, rx, ry, sx, sy, skx, sky, sw, sh, skw, skh*  
 
 ##
 __transformize(*Number* a2, *Number* b2, *Number* c2, *Number* d2, *Number* e2, *Number* f2) : *Array*__  
@@ -381,34 +388,34 @@ __transformizeParent(*Number* a1, *Number* b1, *Number* c1, *Number* d1, *Number
 
 ##
 __setColorTransform(*Number* r, *Number* g, *Number* b, *Number* a, *Number* ro, *Number* go, *Number* bo, *Number* ao) : *Array*__  
-  
-- __r*__ - __*Number*__,   
-- __g*__ - __*Number*__,   
-- __b*__ - __*Number*__,   
-- __a*__ - __*Number*__,   
-- __ro*__ - __*Number*__,   
-- __go*__ - __*Number*__,   
-- __bo*__ - __*Number*__,   
-- __ao*__ - __*Number*__,   
-> *return __Array__*  
+sets new color channels in place of current 'colortransform' property  
+- __r*__ - __*Number*__, red multiplier in 'colortransform'[0]  
+- __g*__ - __*Number*__, green multiplier in 'colortransform'[1]  
+- __b*__ - __*Number*__, blue multiplier in 'colortransform'[2]  
+- __a*__ - __*Number*__, alpha multiplier in 'colortransform'[3]  
+- __ro*__ - __*Number*__, red offset in 'colortransform'[4]  
+- __go*__ - __*Number*__, green offset in 'colortransform'[5]  
+- __bo*__ - __*Number*__, blue offset in 'colortransform'[6]  
+- __ao*__ - __*Number*__, alpha offset in 'colortransform'[7]  
+> *return __Array__, current DisplayObject's 'colortransform' array*  
 
 ##
 __getColorTransform() : *Array*__  
-  
-> *return __Array__*  
+method getter for 'colortransform'  
+> *return __Array__, reference to 'colortransform' property*  
 
 ##
 __colorTransformize(*Number* r, *Number* g, *Number* b, *Number* a, *Number* ro, *Number* go, *Number* bo, *Number* ao) : *Array*__  
-  
-- __r*__ - __*Number*__,   
-- __g*__ - __*Number*__,   
-- __b*__ - __*Number*__,   
-- __a*__ - __*Number*__,   
-- __ro*__ - __*Number*__,   
-- __go*__ - __*Number*__,   
-- __bo*__ - __*Number*__,   
-- __ao*__ - __*Number*__,   
-> *return __Array__*  
+compute result color transformation array, usually used by context renderer/mediator or self rendering methods  
+- __r*__ - __*Number*__, red multiplies with 'colortransform'[0]  
+- __g*__ - __*Number*__, green multiplies with 'colortransform'[1]  
+- __b*__ - __*Number*__, blue multiplies with 'colortransform'[2]  
+- __a*__ - __*Number*__, alpha multiplies with 'colortransform'[3] and 'alpha' property  
+- __ro*__ - __*Number*__, red offsets 'colortransform'[4]  
+- __go*__ - __*Number*__, green offsets 'colortransform'[5]  
+- __bo*__ - __*Number*__, blue offsets 'colortransform'[6]  
+- __ao*__ - __*Number*__, alpha offsets 'colortransform'[7]  
+> *return __Array__, new Array definition of color transformation, usually used in vertical computation of parent-child structures*  
 
 ##
 __rotatePoint(*Object* p, *Boolean* invertSigma) : *zetaret.global.packages.clockwork.ui::DisplayObject*__  
@@ -479,8 +486,8 @@ __invalidateStage() : *zetaret.global.packages.clockwork.ui::DisplayObject*__
 
 ##
 __clone() : *zetaret.global.packages.clockwork.ui::DisplayObject*__  
-  
-> *return __zetaret.global.packages.clockwork.ui::DisplayObject__*  
+Clone this DisplayObject using direct copy/concat of properties. If 'cloneprops' is available to the constructor of this object then it will apply the new assignments.  
+> *return __zetaret.global.packages.clockwork.ui::DisplayObject__, new instance of this 'constructor' DisplayObject, subclasses may extend method or define 'cloneprops' to subclass constructor*  
 
 ##
 ### *Static Methods*
@@ -522,4 +529,4 @@ __getUnionBounds(*Array* ch, *Array* tm, *Boolean* transformself, *Boolean* targ
 > *return __Object__*  
 
 ---
-### MarkDown - JsonDox 1.01 - Zeta Ret Zetadmin Documentation Generator
+### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
