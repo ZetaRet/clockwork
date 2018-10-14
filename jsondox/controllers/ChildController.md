@@ -54,6 +54,11 @@ default false,
 ### *Methods*  
 
 ##
+__ChildController() : *void*__  
+  
+> *return __void__*  
+
+##
 __setRoot(*zetaret.global.packages.clockwork.data.ChildContainer* root) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __root*__ - __*zetaret.global.packages.clockwork.data.ChildContainer*__,   
