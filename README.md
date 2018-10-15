@@ -13,7 +13,7 @@ PHP Bundling enforces the compilation at real time, including a JSON auto docume
 
 Zeta Ret Clockwork is ProtoSS based environment framework and supports:  
 * desktop browsers: IE 11, Edge, Chrome, Firefox, Safari, Opera  
-* mobile browsers: Chrome, Safari  
+* mobile browsers: Edge, Chrome, Firefox, Safari, Opera  
 * minimum mobile platforms: iOS9, Android 4.4  
 * minimum virtual machines: ES5 JavaScript  
 
