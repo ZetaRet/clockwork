@@ -234,7 +234,6 @@ function Matrix(rows, columns) {
 		var co=o.columns,ro=o.rows,s=new o.constructor(ro, co),d=o.data,z=d.length,cc,c,r,i,rco;
 		s.copy(o);
 		var sd=s.data;
-		if(n<=1)return s;
 		while(n--){
 			var sdc=sd.concat();
 			s.fill(0);
