@@ -95,10 +95,11 @@ __KeyboardController() : *void*__
 > *return __void__*  
 
 ##
-__init(*[/Stage2DController](Stage2DController.md)* stage, *[/InteractionController](InteractionController.md)* interaction) : *zetaret.global.packages.clockwork.controllers::KeyboardController*__  
+__init(*[/Stage2DController](Stage2DController.md)* stage, *[/InteractionController](InteractionController.md)* interaction, *HTMLDocument* target) : *zetaret.global.packages.clockwork.controllers::KeyboardController*__  
   
 - __stage*__ - __*[/Stage2DController](Stage2DController.md)*__,   
 - __interaction*__ - __*[/InteractionController](InteractionController.md)*__,   
+- __target*__ - __*HTMLDocument*__,   
 > *return __zetaret.global.packages.clockwork.controllers::KeyboardController__*  
 
 ##
