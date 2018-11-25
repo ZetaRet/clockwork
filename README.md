@@ -1,5 +1,5 @@
 # Zeta Ret Clockwork
-[![Zeta Ret Clockwork Logo](https://clockwork.lovesvn.com/demo/imgs/clockwork_logo_small.png)](https://clockwork.lovesvn.com/demo/) [Open Demo](https://clockwork.lovesvn.com/demo/)
+[![Zeta Ret Clockwork Logo](https://clockwork.lovesvn.com/demo/imgs/clockwork_logo_small.png)](https://clockwork.lovesvn.com/demo/) [Open Our G-Demo](https://clockwork.lovesvn.com/demo/)
 
 ## ProtoSS OOP Framework
 
