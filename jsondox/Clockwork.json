@@ -1,0 +1,72 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"Zeta Ret Clockwork, ProtoSS OOP",
+    "text":"Interface Generator, Mass Class/Header Resolve, Function Decomposer, Class Parser, ProtoSS-XeltoSS Transformator",
+    "requires":"ProtoSS, XeltoSS, protoss.all.js",
+    "version":"1.04",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork::Clockwork",
+    "inherits":["ProtoSS", "XeltoSS"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "useXeltoSS":"Boolean: false",
+        "calibers":"Object: {}"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Clockwork":"",
+        "unpackCaliber":"clbrname*: String, toppack: Object, xeltoss: Boolean; return Array",
+        "xeltossCaliber":"clbrname*: String; return zetaret.global.packages.clockwork::Clockwork",
+        "caliberClass":"name*: String, supers*: Array, settings*: Object, defname: Boolean, superargs: null|Boolean|Object, supertype: Boolean; return Function",
+        "runXeltoSS":"xcls*: Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "useXeltoSS":"Use XeltoSS Configuration to transform ProtoSS Function Class to XeltoSS ES6 Class",
+        "calibers":"Package of settings, includes Array of Caliber ProtoSS Function",
+        "Clockwork":{
+            "this":"constructor, creates Clockwork object based on ProtoSS and XeltoSS",
+            "return":""
+        },
+        "unpackCaliber":{
+            "this":"Creates Array of Caliber ProtoSS Function from package of settings",
+            "clbrname":"name of the caliber",
+            "toppack":"default package object",
+            "xeltoss":"execute runXeltoSS",
+            "return":"array of functions, headers are auto resolved"
+        },
+        "xeltossCaliber":{
+            "this":"Transforms the entire Caliber Package into XeltoSS ES6 Classes",
+            "clbrname":"name of the caliber",
+            "return":"Clockwork Object, self"
+        },
+        "caliberClass":{
+            "this":"Creates ProtoSS Function from Settings Object, includes shared memory, serial number, original settings, and adjacent methods",
+            "name":"name of the caliber class",
+            "supers":"array of ProtoSS Function Classes to inherit",
+            "settings":"calibration settings object embedded in the final class",
+            "defname":"redefine function name using Object.defineProperty",
+            "superargs":"arguments passed to inherited classes in super call",
+            "supertype":"switch between superList and superList2 prototype",
+            "return":"ProtoSS Function with unique serialnumber"
+        },
+        "runXeltoSS":{
+            "this":"Transforms an Array of ProtoSS Function into XeltoSS ES6 Classes, reading __xeltoss_amaps, __xeltoss_emaps, __xeltoss_eamaps, __xeltoss_augmentmap, __xeltoss_embedmap, __xeltoss_prepare, supports debug state",
+            "xcls":"executes augmentKey/addEmbedMap using __xeltoss_amaps:Array and __xeltoss_emaps:Array, __xeltoss_eamaps:Array is mapped version of augmentKey/addEmbedMap, __xeltoss_augmentmap:Object is custom augmentKey, __xeltoss_embedmap:Object is custom addEmbedMap, __xeltoss_prepare is custom function using ProtoSS function scope",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
