@@ -2,6 +2,7 @@
 	"name": "Zeta Ret Clockwork",
 	"type": "protossdox",
 	"path": "jsondox/",
+	"src": "src/",
 	"namespace": "zetaret.global.packages.clockwork",
 	"relative": true,
 	"markdown": true
