@@ -30,8 +30,10 @@ default 0,
 ### *Methods*  
 
 ##
-__KeyboardEvent() : *void*__  
+__KeyboardEvent(*String* type, */interfaces.IEventTarget* target) : *void*__  
   
+- __type*__ - __*String*__,   
+- target - __*/interfaces.IEventTarget*__,   
 > *return __void__*  
 
 ##
