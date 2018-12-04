@@ -93,10 +93,10 @@ __getXY() : *Array*__
 > *return __Array__*  
 
 ##
-__setNativeEvent(*MouseEvent* e) : *zetaret.global.packages.clockwork.events::KeyboardEvent*__  
+__setNativeEvent(*MouseEvent* e) : *zetaret.global.packages.clockwork.events::MouseEvent*__  
   
 - __e*__ - __*MouseEvent*__,   
-> *return __zetaret.global.packages.clockwork.events::KeyboardEvent__*  
+> *return __zetaret.global.packages.clockwork.events::MouseEvent__*  
 
 ---
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
