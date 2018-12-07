@@ -13,29 +13,29 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __label__ zetaret.global.packages.clockwork.ui.TextField  
 default null,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __LabelButton() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __initLabelButton(*String* name) : *zetaret.global.packages.clockwork.ui::LabelButton*__  
   
 - __name*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.ui::LabelButton__*  
 
-##
+##  
 __destruct() : *void*__  
   
 > *return __void__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
