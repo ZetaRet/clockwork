@@ -13,15 +13,15 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __Alpha__ Number  
 default alpha||0,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __ARGB(*Number* red, *Number* green, *Number* blue, *Number* alpha) : *void*__  
   
 - red - __*Number*__,   
@@ -30,26 +30,26 @@ __ARGB(*Number* red, *Number* green, *Number* blue, *Number* alpha) : *void*__
 - alpha - __*Number*__,   
 > *return __void__*  
 
-##
+##  
 __Normalize() : *zetaret.global.packages.clockwork.color::ARGB*__  
   
 > *return __zetaret.global.packages.clockwork.color::ARGB__*  
 
-##
+##  
 __FromColor(*Number* color) : *zetaret.global.packages.clockwork.color::ARGB*__  
   
 - __color*__ - __*Number*__,   
 > *return __zetaret.global.packages.clockwork.color::ARGB__*  
 
-##
+##  
 __ToColor() : *Number*__  
   
 > *return __Number__*  
 
-##
+##  
 __toString() : *String*__  
   
 > *return __String__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
