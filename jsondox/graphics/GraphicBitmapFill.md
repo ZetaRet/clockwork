@@ -13,51 +13,51 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __bitmapData__ String|CanvasImageSource  
 default null,   
 
-#
+#  
 __matrix__ SVGMatrix  
 default null,   
 
-#
+#  
 __repeat__ String  
 default null,   
 
-#
+#  
 __smooth__ Boolean  
 default null,   
 
-#
+#  
 __alpha__ Number  
 default 1,   
 
-#
+#  
 __stroke__ Boolean  
 default false,   
 
-#
+#  
 __imgid__ String  
 default '',   
 
-#
+#  
 __command__ Number  
 default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.PATTERN,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __GraphicBitmapFill() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __toCommandData() : *Array*__  
   
 > *return __Array__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
