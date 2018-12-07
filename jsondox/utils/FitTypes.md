@@ -12,29 +12,29 @@ __required*__
 > Interfaces:   
 
 
-##
+##  
 ### *Static Properties*  
 
-#
+#  
 __Normal__ Number  
 default 0,   
 
-#
+#  
 __Stretch__ Number  
 default 1,   
 
-#
+#  
 __TouchFromInside__ Number  
 default 2,   
 
-#
+#  
 __TouchFromOutside__ Number  
 default 3,   
 
-##
-### *Static Methods*
+##  
+### *Static Methods*  
 
-##
+##  
 __Fit(*Number* targetWidth, *Number* targetHeight, *Number* frameWidth, *Number* frameHeight, *Number* xAlign, *Number* yAlign, *Number* type, *Number* maxScale, *Number* minScale, *Number* scaleMultiplier, *Number* downscale, *Number* frameScale, *Number* minMaxMultiplier) : *Object*__  
   
 - __targetWidth*__ - __*Number*__,   
@@ -52,5 +52,5 @@ __Fit(*Number* targetWidth, *Number* targetHeight, *Number* frameWidth, *Number*
 - minMaxMultiplier - __*Number*__,   
 > *return __Object__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
