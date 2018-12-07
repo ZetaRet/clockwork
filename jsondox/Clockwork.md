@@ -13,19 +13,24 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __useXeltoSS__ Boolean  
 default false, Use XeltoSS Configuration to transform ProtoSS Function Class to XeltoSS ES6 Class  
 
-#
+#  
 __calibers__ Object  
 default {}, Package of settings, includes Array of Caliber ProtoSS Function  
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
+__Clockwork() : *void*__  
+constructor, creates Clockwork object based on ProtoSS and XeltoSS  
+> *return __void__*  
+
+##  
 __unpackCaliber(*String* clbrname, *Object* toppack, *Boolean* xeltoss) : *Array*__  
 Creates Array of Caliber ProtoSS Function from package of settings  
 - __clbrname*__ - __*String*__, name of the caliber  
@@ -33,13 +38,13 @@ Creates Array of Caliber ProtoSS Function from package of settings
 - xeltoss - __*Boolean*__, execute runXeltoSS  
 > *return __Array__, array of functions, headers are auto resolved*  
 
-##
+##  
 __xeltossCaliber(*String* clbrname) : *zetaret.global.packages.clockwork::Clockwork*__  
 Transforms the entire Caliber Package into XeltoSS ES6 Classes  
 - __clbrname*__ - __*String*__, name of the caliber  
 > *return __zetaret.global.packages.clockwork::Clockwork__, Clockwork Object, self*  
 
-##
+##  
 __caliberClass(*String* name, *Array* supers, *Object* settings, *Boolean* defname, *null|Boolean|Object* superargs, *Boolean* supertype) : *Function*__  
 Creates ProtoSS Function from Settings Object, includes shared memory, serial number, original settings, and adjacent methods  
 - __name*__ - __*String*__, name of the caliber class  
@@ -50,11 +55,11 @@ Creates ProtoSS Function from Settings Object, includes shared memory, serial nu
 - supertype - __*Boolean*__, switch between superList and superList2 prototype  
 > *return __Function__, ProtoSS Function with unique serialnumber*  
 
-##
+##  
 __runXeltoSS(*Array* xcls) : *void*__  
 Transforms an Array of ProtoSS Function into XeltoSS ES6 Classes, reading __xeltoss_amaps, __xeltoss_emaps, __xeltoss_eamaps, __xeltoss_augmentmap, __xeltoss_embedmap, __xeltoss_prepare, supports debug state  
 - __xcls*__ - __*Array*__, executes augmentKey/addEmbedMap using __xeltoss_amaps:Array and __xeltoss_emaps:Array, __xeltoss_eamaps:Array is mapped version of augmentKey/addEmbedMap, __xeltoss_augmentmap:Object is custom augmentKey, __xeltoss_embedmap:Object is custom addEmbedMap, __xeltoss_prepare is custom function using ProtoSS function scope  
 > *return __void__*  
 
----
-### MarkDown - JsonDox 1.01 - Zeta Ret Zetadmin Documentation Generator
+---  
+### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
