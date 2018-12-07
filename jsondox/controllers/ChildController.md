@@ -13,70 +13,70 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __root__ zetaret.global.packages.clockwork.data.ChildContainer  
 default null,   
 
-#
+#  
 __iterateExitHandler__ Function  
 default null,   
 
-#
+#  
 __bubbleMechanics__ String  
 default '',   
 
-#
+#  
 __bubblePhase__ String  
 default '',   
 
-#
+#  
 __childrenkey__ String  
 default 'children',   
 
-#
+#  
 __targetkey__ String  
 default 'target',   
 
-#
+#  
 __listskey__ String  
 default 'lists',   
 
-#
+#  
 __parentkey__ String  
 default 'parent',   
 
-#
+#  
 __useFractalRoot__ Boolean  
 default false,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __ChildController() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __setRoot(*zetaret.global.packages.clockwork.data.ChildContainer* root) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __root*__ - __*zetaret.global.packages.clockwork.data.ChildContainer*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
-##
+##  
 __setBubblePhase(*String* bphase) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __bphase*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
-##
+##  
 __setBubbleMechanics(*String* bmech) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __bmech*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
-##
+##  
 __childToRoot(*Object* child, *Function* f, *Object* d, *Object* scope) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __child*__ - __*Object*__,   
@@ -85,7 +85,7 @@ __childToRoot(*Object* child, *Function* f, *Object* d, *Object* scope) : *zetar
 - scope - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
-##
+##  
 __iterate(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clockwork.data.ChildContainer* parent, *Array* list, *Object* scope, *String* mode, *Boolean* skip) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __child*__ - __*Object*__,   
@@ -98,7 +98,7 @@ __iterate(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clo
 - skip - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
-##
+##  
 __iterateInversed(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clockwork.data.ChildContainer* parent, *Array* list, *Object* scope, *String* mode, *Boolean* skip) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
   
 - __child*__ - __*Object*__,   
@@ -111,5 +111,5 @@ __iterateInversed(*Object* child, *Function* f, *Object* d, *zetaret.global.pack
 - skip - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
