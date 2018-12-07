@@ -13,27 +13,27 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __color__ Number|String|CanvasGradient|CanvasPattern  
 default 0,   
 
-#
+#  
 __command__ Number  
 default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SOLID_FILL,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __GraphicSolidFill() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __toCommandData() : *Array*__  
   
 > *return __Array__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
