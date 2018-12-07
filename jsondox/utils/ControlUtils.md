@@ -12,10 +12,10 @@ __required*__
 > Interfaces:   
 
 
-##
-### *Static Methods*
+##  
+### *Static Methods*  
 
-##
+##  
 __configDrag(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *Boolean* dx, *zetaret.global.packages.clockwork.ui.DisplayObject* dtarget, *Function* handler, *Object* hscope) : *zetaret.global.packages.clockwork.controllers::DragController*__  
   
 - __target*__ - __*zetaret.global.packages.clockwork.ui.DisplayObject*__,   
@@ -25,5 +25,5 @@ __configDrag(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *Boole
 - hscope - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.controllers::DragController__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
