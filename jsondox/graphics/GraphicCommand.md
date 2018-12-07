@@ -13,23 +13,23 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __command__ Number  
 default 0,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __GraphicCommand() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __toCommandData() : *Array*__  
   
 > *return __Array__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
