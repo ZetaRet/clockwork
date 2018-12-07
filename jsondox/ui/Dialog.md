@@ -13,45 +13,45 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __autoShow__ Boolean  
 default true,   
 
-#
+#  
 __autoArrange__ Boolean  
 default true,   
 
-#
+#  
 __autoInvalidateStage__ Boolean  
 default true,   
 
-#
+#  
 __visible__ Boolean  
 default false,   
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __Dialog() : *void*__  
   
 > *return __void__*  
 
-##
+##  
 __arrangeBox() : *zetaret.global.packages.clockwork.ui::Dialog*__  
   
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
-##
+##  
 __show() : *zetaret.global.packages.clockwork.ui::Dialog*__  
   
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
-##
+##  
 __hide() : *zetaret.global.packages.clockwork.ui::Dialog*__  
   
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
