@@ -13,24 +13,24 @@ __required*__
 
 ### *Properties*  
 
-#
+#  
 __containerGroup__ String  
 default '', name of this container group  
 
 
-##
+##  
 ### *Methods*  
 
-##
+##  
 __DisplayObjectContainer() : *void*__  
 ProtoSS model extending both ChildContainer and DisplayObject, works with ChildController super types  
 > *return __void__*  
 
-##
+##  
 __getBounds(*Array* tm) : *Object*__  
 obtain all rectangular bounds of children using static zetaret.global.packages.clockwork.ui.DisplayObject.getUnionBounds  
 - __tm*__ - __*Array*__,   
 > *return __Object__*  
 
----
+---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
