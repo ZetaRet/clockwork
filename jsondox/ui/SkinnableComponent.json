@@ -1,0 +1,47 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"skin model",
+    "text":"component to skin and decorate objects",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::SkinnableComponent",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "skinId":"String: ''",
+        "skin":"Object: null",
+        "toskin":"Array: []",
+        "skintarget":"Object: this",
+        "skindata":"Object: {}"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "SkinnableComponent":"",
+        "setSkin":"skinid*: String, skin*: Object, toskin*: Object, skindata: Object; return zetaret.global.packages.clockwork.ui::SkinnableComponent",
+        "setSkinTarget":"target*: Object; return zetaret.global.packages.clockwork.ui::SkinnableComponent",
+        "onUpdateSkin":"e: zetaret.global.packages.clockwork.events.Event, d: Object",
+        "skinme":"; return zetaret.global.packages.clockwork.ui::SkinnableComponent"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "skinId":"",
+        "SkinnableComponent":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
