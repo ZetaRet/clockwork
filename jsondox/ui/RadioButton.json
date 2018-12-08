@@ -1,0 +1,54 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"radio button model",
+    "text":"button container bound to skin capabilities with background, button and text",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::RadioButton",
+    "inherits":["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
+    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IRadioButton"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "checked":"Boolean: false",
+        "value":"Object: null",
+        "radioGroup":"Array: null",
+        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
+        "checkBtn":"zetaret.global.packages.clockwork.ui.ButtonContainer: new",
+        "txt":"zetaret.global.packages.clockwork.ui.TextField: new",
+        "bgcheck":"Boolean: false",
+        "autoInvalidateStage":"Boolean: true"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "RadioButton":"",
+        "createRadioGroup":"btns*: Array; return zetaret.global.packages.clockwork.ui::RadioButton",
+        "configureRadioGroupButton":"button*: zetaret.global.packages.clockwork.ui.RadioButton; return zetaret.global.packages.clockwork.ui::RadioButton",
+        "onRadioChange":"e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "initBox":"check: Boolean, label: Boolean; return zetaret.global.packages.clockwork.ui::RadioButton",
+        "onCheckClick":"e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "check":"val: Boolean; return Boolean",
+        "change":"; return zetaret.global.packages.clockwork.ui::RadioButton",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "checked":"",
+        "RadioButton":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
