@@ -1,0 +1,290 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"contex mediator for Canvas2DRenderer",
+    "text":"cache, clear and reset mechanisms, transform/style/composite/color/gradient/pattern polyfills, shader/filter instruction availability",
+    "requires":"protoss.all.js",
+    "version":"1.12",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "cnvs2drender":"zetaret.global.packages.clockwork.context.c2d.Canvas2DRenderer: null",
+        "renderlist":"Array: null",
+        "context":"CanvasRenderingContext2D: null",
+        "inverse":"Boolean: false",
+        "patternCache":"Object: {}",
+        "assetCache":"Object: {}",
+        "gradientCache":"Object: {}"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GraphicContext2DMediator":"",
+        "setRenderList":"list*: Array; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "invalidateList":"; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "clear":"; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "render":"; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "setContextRenderer":"cnvs2drender*: zetaret.global.packages.clockwork.context.c2d.Canvas2DRenderer; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "configureSetters":"",
+        "unconfigureContext":"; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "configureContext":"ctx*: CanvasRenderingContext2D; return zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator",
+        "setShadowStyle":"color*: Number|String, blur*: Number, offsetX*: Number, offsetY*: Number, composite: String; return CanvasRenderingContext2D",
+        "setImageStyle":"smooth*: Boolean; return CanvasRenderingContext2D",
+        "setComposite":"alpha*: Number, blend*: String; return CanvasRenderingContext2D",
+        "setLineStyle":"colorStyle*: Number|String|CanvasGradient|CanvasPattern, alpha*: Number, width*: Number, cap*: String, join*: String, miterLimit*: Number, dashOffset*: Number; return CanvasRenderingContext2D",
+        "setTextStyle":"color*: Number|String|CanvasGradient|CanvasPattern, font*: String, alpha*: Number, stroke*: Boolean, align*: String, baseline*: String, direction*: String; return CanvasRenderingContext2D",
+        "setColor":"colorStyle*: Number|String|CanvasGradient|CanvasPattern; return CanvasRenderingContext2D",
+        "setColorAlpha":"colorStyle*: Number|String|CanvasGradient|CanvasPattern, fill: Boolean, stroke: Boolean, shadow: Boolean; return CanvasRenderingContext2D",
+        "setFillStyle":"colorStyle*: Number|String|CanvasGradient|CanvasPattern, alpha*: Number; return CanvasRenderingContext2D",
+        "setLinearGradientStyle":"gradient*: Array, colors*: Array, alpha*: Number, stroke: Boolean, gid: Boolean|String; return CanvasRenderingContext2D",
+        "setRadialGradientStyle":"gradient*: Array, colors*: Array, alpha*: Number, stroke: Boolean, gid: Boolean|String; return CanvasRenderingContext2D",
+        "setPatternStyle":"asset*: String|CanvasImageSource, repetition*: String, alpha*: Number, matrix: SVGMatrix, stroke: Boolean, imgid: String; return CanvasRenderingContext2D",
+        "clearStyle":"; return CanvasRenderingContext2D",
+        "resetShadow":"; return CanvasRenderingContext2D",
+        "resetText":"; return CanvasRenderingContext2D",
+        "resetStroke":"; return CanvasRenderingContext2D",
+        "resetColor":"resetct: Boolean; return CanvasRenderingContext2D",
+        "resetTransform":"; return CanvasRenderingContext2D",
+        "clearReset":"; return CanvasRenderingContext2D",
+        "filterImageData":"filter*: Function, filterParams*: Object, data*: ImageData|Object, x*: Number, y*: Number, dx*: Number, dy*: Number, dw*: Number, dh*: Number; return CanvasRenderingContext2D",
+        "shaderFill":"shader*: Function, byteCode*: Object, precisionHint*: String, sx*: Number, sy*: Number, sw*: Number, sh*: Number, data*: ImageData|Object, x*: Number, y*: Number, dx*: Number, dy*: Number, dw*: Number, dh*: Number; return CanvasRenderingContext2D",
+        "skew":"x*: Number, y*: Number; return CanvasRenderingContext2D",
+        "cacheAsset":"id*: String, asset*: Object; return CanvasRenderingContext2D",
+        "setColorTransform":"r*: Number, g*: Number, b*: Number, a*: Number, ro*: Number, go*: Number, bo*: Number, ao*: Number; return CanvasRenderingContext2D",
+        "resetColorTransform":"; return CanvasRenderingContext2D",
+        "flushGradientCache":"; return CanvasRenderingContext2D"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "cnvs2drender":"",
+        "renderlist":"",
+        "context":"",
+        "inverse":"",
+        "patternCache":"",
+        "assetCache":"",
+        "gradientCache":"",
+        "GraphicContext2DMediator":{
+            "this":"",
+            "return":""
+        },
+        "setRenderList":{
+            "this":"",
+            "list":"",
+            "return":""
+        },
+        "invalidateList":{
+            "this":"",
+            "return":""
+        },
+        "clear":{
+            "this":"",
+            "return":""
+        },
+        "render":{
+            "this":"",
+            "return":""
+        },
+        "setContextRenderer":{
+            "this":"",
+            "cnvs2drender":"",
+            "return":""
+        },
+        "configureSetters":{
+            "this":"",
+            "return":""
+        },
+        "setShadowStyle":{
+            "this":"",
+            "color":"",
+            "blur":"",
+            "offsetX":"",
+            "offsetY":"",
+            "composite":"",
+            "return":""
+        },
+        "setImageStyle":{
+            "this":"",
+            "smooth":"",
+            "return":""
+        },
+        "setComposite":{
+            "this":"",
+            "alpha":"",
+            "blend":"",
+            "return":""
+        },
+        "setLineStyle":{
+            "this":"",
+            "colorStyle":"",
+            "alpha":"",
+            "width":"",
+            "cap":"",
+            "join":"",
+            "miterLimit":"",
+            "dashOffset":"",
+            "return":""
+        },
+        "setTextStyle":{
+            "this":"",
+            "color":"",
+            "font":"",
+            "alpha":"",
+            "stroke":"",
+            "align":"",
+            "baseline":"",
+            "direction":"",
+            "return":""
+        },
+        "setColor":{
+            "this":"",
+            "colorStyle":"",
+            "return":""
+        },
+        "setColorAlpha":{
+            "this":"",
+            "colorStyle":"",
+            "fill":"",
+            "stroke":"",
+            "shadow":"",
+            "return":""
+        },
+        "setFillStyle":{
+            "this":"",
+            "colorStyle":"",
+            "alpha":"",
+            "return":""
+        },
+        "setLinearGradientStyle":{
+            "this":"",
+            "gradient":"",
+            "colors":"",
+            "alpha":"",
+            "stroke":"",
+            "gid":"",
+            "return":""
+        },
+        "setRadialGradientStyle":{
+            "this":"",
+            "gradient":"",
+            "colors":"",
+            "alpha":"",
+            "stroke":"",
+            "gid":"",
+            "return":""
+        },
+        "setPatternStyle":{
+            "this":"",
+            "asset":"",
+            "repetition":"",
+            "alpha":"",
+            "matrix":"",
+            "stroke":"",
+            "imgid":"",
+            "return":""
+        },
+        "clearStyle":{
+            "this":"",
+            "return":""
+        },
+        "resetShadow":{
+            "this":"",
+            "return":""
+        },
+        "resetText":{
+            "this":"",
+            "return":""
+        },
+        "resetStroke":{
+            "this":"",
+            "return":""
+        },
+        "resetColor":{
+            "this":"",
+            "return":""
+        },
+        "resetTransform":{
+            "this":"",
+            "return":""
+        },
+        "clearReset":{
+            "this":"",
+            "return":""
+        },
+        "filterImageData":{
+            "this":"",
+            "filter":"",
+            "filterParams":"",
+            "data":"",
+            "x":"",
+            "y":"",
+            "dx":"",
+            "dy":"",
+            "dw":"",
+            "dh":"",
+            "return":""
+        },
+        "shaderFill":{
+            "this":"",
+            "shader":"",
+            "byteCode":"",
+            "precisionHint":"",
+            "sx":"",
+            "sy":"",
+            "sw":"",
+            "sh":"",
+            "data":"",
+            "x":"",
+            "y":"",
+            "dx":"",
+            "dy":"",
+            "dw":"",
+            "dh":"",
+            "return":""
+        },
+        "skew":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "return":""
+        },
+        "cacheAsset":{
+            "this":"",
+            "id":"",
+            "asset":"",
+            "return":""
+        },
+        "setColorTransform":{
+            "this":"",
+            "r":"",
+            "g":"",
+            "b":"",
+            "a":"",
+            "ro":"",
+            "go":"",
+            "bo":"",
+            "ao":"",
+            "return":""
+        },
+        "resetColorTransform":{
+            "this":"",
+            "return":""
+        },
+        "flushGradientCache":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
