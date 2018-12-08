@@ -1,0 +1,68 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"display object drag controller",
+    "text":"controller with tracking events on down/move/up with Stage2DController or HTMLDocument, setup/unsetup methods",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.controllers::DragController",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "dragging":"Boolean: false",
+        "enabled":"Boolean: false",
+        "target":"zetaret.global.packages.clockwork.ui.DisplayObject: null",
+        "downHandler":"Function: null",
+        "dragHandler":"Function: null",
+        "upHandler":"Function: null",
+        "downArgs":"Object: null",
+        "dragArgs":"Object: null",
+        "upArgs":"Object: null",
+        "lastEvent":"MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent: null",
+        "downEvent":"MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent: null",
+        "moveEvent":"MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent: null",
+        "upEvent":"MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent: null",
+        "stage":"HTMLDocument|zetaret.global.packages.clockwork.controllers.Stage2DController: null",
+        "useDocumentStage":"Boolean: true",
+        "mouseCapabilities":"Object: null"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "DragController":"",
+        "setEnabled":"value: Boolean; return zetaret.global.packages.clockwork.controllers::DragController",
+        "init":"target*: zetaret.global.packages.clockwork.ui.DisplayObject, downHandler: Function, dragHandler: Function, upHandler: Function, downArgs: Object, dragArgs: Object, upArgs: Object; return zetaret.global.packages.clockwork.controllers::DragController",
+        "StartDragging":"event: zetaret.global.packages.clockwork.events.MouseEvent, d: zetaret.global.packages.clockwork.controllers.Stage2DController; return zetaret.global.packages.clockwork.controllers::DragController",
+        "OnDragging":"event: MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent, d: Object|zetaret.global.packages.clockwork.controllers.Stage2DController; return zetaret.global.packages.clockwork.controllers::DragController",
+        "StopDragging":"event: MouseEvent|zetaret.global.packages.clockwork.events.MouseEvent, d: Object|zetaret.global.packages.clockwork.controllers.Stage2DController; return zetaret.global.packages.clockwork.controllers::DragController",
+        "UnsetupDragging":"; return zetaret.global.packages.clockwork.controllers::DragController",
+        "StartDrag":"; return Boolean",
+        "Drag":"; return Boolean",
+        "EndDrag":"; return Boolean",
+        "InitDrag":"",
+        "StopDrag":"",
+        "Setup":"; return zetaret.global.packages.clockwork.controllers::DragController",
+        "Unsetup":"; return zetaret.global.packages.clockwork.controllers::DragController",
+        "Destroy":"; return zetaret.global.packages.clockwork.controllers::DragController"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "dragging":"",
+        "DragController":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
