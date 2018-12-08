@@ -1,0 +1,132 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"base parent-child container model",
+    "text":"configuration properties and crud operations on child objects",
+    "requires":"protoss.all.js",
+    "version":"1.05",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.data::ChildContainer",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "children":"Array: []",
+        "target":"Object: null",
+        "autochild":"Boolean: true",
+        "namecache":"Object: null",
+        "autosetstage":"Boolean: true",
+        "recursiveStage":"Boolean: true",
+        "stageEvents":"Boolean: true"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "ChildContainer":"",
+        "getChildren":"; return Array",
+        "numChildren":"; return Number",
+        "addChild":"child*: Object; return zetaret.global.packages.clockwork.data::ChildContainer",
+        "addChildAt":"child*: Object, index*: Number; return zetaret.global.packages.clockwork.data::ChildContainer",
+        "containsChild":"child*: Object; return Boolean",
+        "removeChild":"child*: Object; return zetaret.global.packages.clockwork.data::ChildContainer",
+        "removeChildAt":"index*: Number; return Object",
+        "getChildIndex":"child*: Object; return Number",
+        "getChildByName":"name*: String, cache: Boolean; return Object",
+        "getChildByType":"type*: Object, strict: Boolean; return Object",
+        "getChildIndexByName":"name*: String; return Number",
+        "swapChildren":"child1*: Object, child2*: Object; return zetaret.global.packages.clockwork.data::ChildContainer",
+        "swapChildrenAt":"index1*: Number, index2*: Number; return zetaret.global.packages.clockwork.data::ChildContainer"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "children":"",
+        "target":"",
+        "autochild":"",
+        "namecache":"",
+        "autosetstage":"",
+        "recursiveStage":"",
+        "stageEvents":"",
+        "ChildContainer":{
+            "this":"",
+            "return":""
+        },
+        "getChildren":{
+            "this":"",
+            "return":""
+        },
+        "numChildren":{
+            "this":"",
+            "return":""
+        },
+        "addChild":{
+            "this":"",
+            "child":"",
+            "return":""
+        },
+        "addChildAt":{
+            "this":"",
+            "child":"",
+            "index":"",
+            "return":""
+        },
+        "containsChild":{
+            "this":"",
+            "child":"",
+            "return":""
+        },
+        "removeChild":{
+            "this":"",
+            "child":"",
+            "return":""
+        },
+        "removeChildAt":{
+            "this":"",
+            "index":"",
+            "return":""
+        },
+        "getChildIndex":{
+            "this":"",
+            "child":"",
+            "return":""
+        },
+        "getChildByName":{
+            "this":"",
+            "name":"",
+            "cache":"",
+            "return":""
+        },
+        "getChildByType":{
+            "this":"",
+            "type":"",
+            "strict":"",
+            "return":""
+        },
+        "getChildIndexByName":{
+            "this":"",
+            "name":"",
+            "return":""
+        },
+        "swapChildren":{
+            "this":"",
+            "child1":"",
+            "child2":"",
+            "return":""
+        },
+        "swapChildrenAt":{
+            "this":"",
+            "index1":"",
+            "index2":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
