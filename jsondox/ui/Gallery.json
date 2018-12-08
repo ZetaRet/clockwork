@@ -1,0 +1,46 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"gallery display model",
+    "text":"display object container with gallery item navigation",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::Gallery",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "galleryItems":"Array: []",
+        "currentItem":"zetaret.global.packages.clockwork.ui.GalleryItem: null",
+        "rotateGallery":"Boolean: false"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Gallery":"",
+        "addGalleryItem":"; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "setGalleryItem":"item*: zetaret.global.packages.clockwork.ui.GalleryItem; return zetaret.global.packages.clockwork.ui::Gallery",
+        "nextGalleryItem":"; return zetaret.global.packages.clockwork.ui::Gallery",
+        "prevGalleryItem":"; return zetaret.global.packages.clockwork.ui::Gallery",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "galleryItems":"",
+        "Gallery":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
