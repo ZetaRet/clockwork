@@ -1,0 +1,57 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"graphic path command object",
+    "text":"created by drawCircle/drawEllipse/drawEllipse2/drawPath/drawRect/drawRect2/drawRoundRect/drawRoundRect2/drawOuterRect/drawOuterArc/drawRadient of Graphics model, described by line settings",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.graphics::GraphicPath",
+    "inherits":[],
+    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicPath"],
+    "static":{
+        "public_properties":{
+            "EVEN_ODD":"String: 'evenOdd'",
+            "NON_ZERO":"String: 'nonZero'"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "commands":"Array: []",
+        "data":"Array: []",
+        "winding":"String: ''",
+        "closeAfter":"Boolean: false",
+        "autoClose":"Boolean: false",
+        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.PATH"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GraphicPath":"",
+        "cubicCurveTo":"cx1*: Number, cy1*: Number, cx2*: Number, cy2*: Number, ax*: Number, ay*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "curveTo":"cx*: Number, cy*: Number, ax*: Number, ay*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "lineTo":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "moveTo":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "arc":"x*: Number, y*: Number, r*: Number, startAngle*: Number, endAngle*: Number, anticlockwise: Boolean; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "arcTo":"x1*: Number, y1*: Number, x2*: Number, y2*: Number, r*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "rect":"x*: Number, y*: Number, w*: Number, h*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "ellipse":"x*: Number, y*: Number, rx*: Number, ry*: Number, rotation*: Number, startAngle*: Number, endAngle*: Number, anticlockwise: Boolean; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "circle":"x*: Number, y*: Number, r*: Number; return zetaret.global.packages.clockwork.graphics::GraphicPath",
+        "toCommandData":"; return Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "commands":"",
+        "GraphicPath":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
