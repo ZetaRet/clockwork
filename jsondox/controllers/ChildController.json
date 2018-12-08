@@ -1,0 +1,106 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"base parent-child controller of hierarchy structures",
+    "text":"direct and inversed interator of complex structures using bubble mechanics",
+    "requires":"ProtoSS, protoss.all.js",
+    "version":"1.05",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.controllers::ChildController",
+    "inherits":["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "root":"zetaret.global.packages.clockwork.data.ChildContainer: null",
+        "iterateExitHandler":"Function: null",
+        "bubbleMechanics":"String: ''",
+        "bubblePhase":"String: ''",
+        "childrenkey":"String: 'children'",
+        "targetkey":"String: 'target'",
+        "listskey":"String: 'lists'",
+        "parentkey":"String: 'parent'",
+        "useFractalRoot":"Boolean: false"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "ChildController":"",
+        "setRoot":"root*: zetaret.global.packages.clockwork.data.ChildContainer; return zetaret.global.packages.clockwork.controllers::ChildController",
+        "setBubblePhase":"bphase*: String; return zetaret.global.packages.clockwork.controllers::ChildController",
+        "setBubbleMechanics":"bmech*: String; return zetaret.global.packages.clockwork.controllers::ChildController",
+        "childToRoot":"child*: Object, f*: Function, d: Object, scope: Object; return zetaret.global.packages.clockwork.controllers::ChildController",
+        "iterate":"child*: Object, f*: Function, d: Object, parent: zetaret.global.packages.clockwork.data.ChildContainer, list: Array, scope: Object, mode: String, skip: Boolean; return zetaret.global.packages.clockwork.controllers::ChildController",
+        "iterateInversed":"child*: Object, f*: Function, d: Object, parent: zetaret.global.packages.clockwork.data.ChildContainer, list: Array, scope: Object, mode: String, skip: Boolean; return zetaret.global.packages.clockwork.controllers::ChildController"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "root":"",
+        "iterateExitHandler":"",
+        "bubbleMechanics":"",
+        "bubblePhase":"",
+        "childrenkey":"",
+        "targetkey":"",
+        "listskey":"",
+        "parentkey":"",
+        "useFractalRoot":"",
+        "ChildController":{
+            "this":"",
+            "return":""
+        },
+        "setRoot":{
+            "this":"",
+            "root":"",
+            "return":""
+        },
+        "setBubblePhase":{
+            "this":"",
+            "bphase":"",
+            "return":""
+        },
+        "setBubbleMechanics":{
+            "this":"",
+            "bmech":"",
+            "return":""
+        },
+        "childToRoot":{
+            "this":"",
+            "child":"",
+            "f":"",
+            "d":"",
+            "scope":"",
+            "return":""
+        },
+        "iterate":{
+            "this":"",
+            "child":"",
+            "f":"",
+            "d":"",
+            "parent":"",
+            "list":"",
+            "mode":"",
+            "skip":"",
+            "return":""
+        },
+        "iterateInversed":{
+            "this":"",
+            "child":"",
+            "f":"",
+            "d":"",
+            "parent":"",
+            "list":"",
+            "mode":"",
+            "skip":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
