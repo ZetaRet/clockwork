@@ -1,0 +1,84 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"color transform model",
+    "text":"red, green, blue, alpha multiplier/offset of color and adjacent methods",
+    "requires":"protoss.all.js",
+    "version":"1.00",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.color::ColorTransform",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "redMultiplier":"Number: 0",
+        "greenMultiplier":"Number: 0",
+        "blueMultiplier":"Number: 0",
+        "alphaMultiplier":"Number: 0",
+        "redOffset":"Number: 0",
+        "greenOffset":"Number: 0",
+        "blueOffset":"Number: 0",
+        "alphaOffset":"Number: 0",
+        "color":"Number: 0"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "ColorTransform":"redMultiplier: Number, greenMultiplier: Number, blueMultiplier: Number, alphaMultiplier: Number, redOffset: Number, greenOffset: Number, blueOffset: Number, alphaOffset: Number",
+        "identity":"; return zetaret.global.packages.clockwork.color::ColorTransform",
+        "nullify":"; return zetaret.global.packages.clockwork.color::ColorTransform",
+        "concat":"ct*: zetaret.global.packages.clockwork.color.ColorTransform; return zetaret.global.packages.clockwork.color::ColorTransform",
+        "toArr":"; return Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "redMultiplier":"",
+        "greenMultiplier":"",
+        "blueMultiplier":"",
+        "alphaMultiplier":"",
+        "redOffset":"",
+        "greenOffset":"",
+        "blueOffset":"",
+        "alphaOffset":"",
+        "color":"",
+        "ColorTransform":{
+            "this":"",
+            "redMultiplier":"",
+            "greenMultiplier":"",
+            "blueMultiplier":"",
+            "alphaMultiplier":"",
+            "redOffset":"",
+            "greenOffset":"",
+            "blueOffset":"",
+            "alphaOffset":"",
+            "return":""
+        },
+        "identity":{
+            "this":"",
+            "return":""
+        },
+        "nullify":{
+            "this":"",
+            "return":""
+        },
+        "concat":{
+            "this":"",
+            "ct":"",
+            "return":""
+        },
+        "toArr":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
