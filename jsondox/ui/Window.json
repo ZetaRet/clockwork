@@ -1,0 +1,53 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"window model",
+    "text":"display object container with background shape, header/footer button container, sidebar/body/details scrollpanes and properties",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::Window",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IWindow"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "title":"String: ''",
+        "windowId":"String: ''",
+        "parentWindow":"zetaret.global.packages.clockwork.ui.Window: null",
+        "windowWidth":"Number: 0",
+        "windowHeight":"Number: 0",
+        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
+        "header":"zetaret.global.packages.clockwork.ui.ButtonContainer: new",
+        "sidebar":"zetaret.global.packages.clockwork.ui.SimpleScrollpane: new",
+        "body":"zetaret.global.packages.clockwork.ui.SimpleScrollpane: new",
+        "details":"zetaret.global.packages.clockwork.ui.SimpleScrollpane: new",
+        "footer":"zetaret.global.packages.clockwork.ui.ButtonContainer: new",
+        "topcontainer":"zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
+        "autoInvalidateStage":"Boolean: true"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Window":"",
+        "initWindow":"width*: Number, height*: Number, header: Boolean, footer: Boolean, sidebar: Boolean, details: Boolean; return zetaret.global.packages.clockwork.ui::Window",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "title":"",
+        "Window":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
