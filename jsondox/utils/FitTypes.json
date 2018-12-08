@@ -1,0 +1,42 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"static object type",
+    "text":"access of enumerated fitting utils used for direct reference in inheritance",
+    "requires":"protoss.all.js",
+    "version":"1.00",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.utils::FitTypes",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{
+            "Normal":"Number: 0",
+            "Stretch":"Number: 1",
+            "TouchFromInside":"Number: 2",
+            "TouchFromOutside":"Number: 3"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{
+            "Fit":"targetWidth*: Number, targetHeight*: Number, frameWidth*: Number, frameHeight*: Number, xAlign: Number, yAlign: Number, type: Number, maxScale: Number, minScale: Number, scaleMultiplier: Number, downscale: Number, frameScale: Number, minMaxMultiplier: Number; return Object"
+        },
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{},
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{},
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{
+        "Normal":"",
+        "Fit":{
+            "this":"",
+            "return":""
+        }
+    },
+    "descriptions":{},
+    "static_examples":{},
+    "examples":{}
+}
