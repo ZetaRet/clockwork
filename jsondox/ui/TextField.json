@@ -1,0 +1,76 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"text field model",
+    "text":"basic text field properties and graphics api shortcuts, manage style lists based on css-like rules and execute text rendering",
+    "requires":"ProtoSS, protoss.all.js",
+    "version":"1.04",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::TextField",
+    "inherits":["[zetaret.global.packages.clockwork.ui::Shape](Shape.md)"],
+    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::ITextField"],
+    "static":{
+        "public_properties":{
+            "BORDER_THICKNESS":"Number: 1",
+            "BORDER_ALPHA":"Number: 1",
+            "BG_ALPHA":"Number: 1"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "textColor":"Number|String|CanvasGradient|CanvasPattern: 0",
+        "textFont":"String: '10px Arial'",
+        "textAlpha":"Number: 1",
+        "text":"String: ''",
+        "isHtml":"Boolean: false",
+        "maxChars":"Number: -1",
+        "autoSize":"Boolean: false",
+        "multiline":"Boolean: false",
+        "wordWrap":"Boolean: false",
+        "textRuns":"Array: []",
+        "autoRenderText":"Boolean: false",
+        "textWidth":"Number: -1",
+        "textX":"Number: 0",
+        "textY":"Number: 0",
+        "textAlign":"String: 'left'",
+        "textBaseline":"String: 'alphabetic'",
+        "textDirection":"String: 'inherit'",
+        "strokedText":"Boolean: false",
+        "backgroundColor":"String: 'white'",
+        "backgroundBorder":"String: 'black'",
+        "backgroundDraw":"Function: null",
+        "background":"Boolean: false",
+        "border":"Boolean: false",
+        "styleList":"Array: null"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "TextField":"",
+        "setText":"v*: String; return zetaret.global.packages.clockwork.ui::TextField",
+        "setHtmlText":"v*: String; return zetaret.global.packages.clockwork.ui::TextField",
+        "setStyleList":"list*: Array; return zetaret.global.packages.clockwork.ui::TextField",
+        "addStyle":"style*: Object; return zetaret.global.packages.clockwork.ui::TextField",
+        "removeStyle":"style*: Object; return zetaret.global.packages.clockwork.ui::TextField",
+        "applyStyles":"; return zetaret.global.packages.clockwork.ui::TextField",
+        "setStyle":"s*: Object, ignore: Boolean; return zetaret.global.packages.clockwork.ui::TextField",
+        "resetStyle":"; return zetaret.global.packages.clockwork.ui::TextField",
+        "renderText":"; return zetaret.global.packages.clockwork.ui::TextField",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "textColor":"",
+        "TextField":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
