@@ -1,0 +1,73 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"button container model",
+    "text":"display object container with button functionality applied to children",
+    "requires":"ProtoSS, protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::ButtonContainer",
+    "inherits":["[zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md)","[zetaret.global.packages.clockwork.ui::Button](Button.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{
+            "statis":"Object: {drag=true}"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{
+            "ButtonContainerStatis":"s*: Object, c*: zetaret.global.packages.clockwork.ui.ButtonContainer"
+        },
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "addButtonShapeCls":"Function: zetaret.global.packages.clockwork.ui.Shape"
+    },
+    "protected_properties":{
+    },
+    "private_properties":{},
+    "public_methods":{
+        "ButtonContainer":"",
+        "addButtonShape":"name: String, nocfg: Boolean, listeners: Boolean, interaction: Boolean, mouseEnabled: Boolean, mouseChildren: Boolean; return Object",
+        "configButtonShape":"btnsh: zetaret.global.packages.clockwork.ui.DisplayObject, listeners: Boolean, interaction: Boolean, mouseEnabled: Boolean, mouseChildren: Boolean; return zetaret.global.packages.clockwork.ui::ButtonContainer",
+        "getBounds":"tm*: Array; return Object"
+    },
+    "protected_methods":{
+        "ButtonContainerStatis":"s*: Object, c*: zetaret.global.packages.clockwork.ui.ButtonContainer",
+        "drag":"target: zetaret.global.packages.clockwork.ui.DisplayObject, dx: Boolean, dtarget: zetaret.global.packages.clockwork.ui.DisplayObject, handler: Function, hscope: Object; return zetaret.global.packages.clockwork.controllers::DragController"
+    },
+    "private_methods":{},
+    "static_descriptions":{
+        "statis":"",
+        "ButtonContainerStatis":{
+            "this":"statis invoker of the ButtonContainer constructor",
+            "s":"statis map",
+            "c":"invoked constructor",
+            "return":""
+        }
+    },
+    "descriptions":{
+        "addButtonShapeCls":"default ProtoSS class used in addButtonShape method to create button children",
+        "ButtonContainer":{
+            "this":"ProtoSS model extending both ChildContainer and Button, works with ChildController/MouseController/DragController/InteractionController super types",
+            "return":""
+        },
+        "ButtonContainerStatis":{
+            "this":"statis invoker, called once by protoss superize mechanics, static flags of the statis embed only allowed methods in the final compilation",
+            "s":"statis map",
+            "c":"invoked constructor",
+            "return":""
+        },
+        "drag":{
+            "this":"uses zetaret.global.packages.clockwork.ui.ButtonContainerStatis.statis.drag flag and zetaret.global.packages.clockwork.utils.ControlUtils.configDrag method reference",
+            "target":"",
+            "dx":"",
+            "dtarget":"",
+            "handler":"",
+            "hscope":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
