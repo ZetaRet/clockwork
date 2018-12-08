@@ -1,0 +1,45 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"context 2d renderer wrapper",
+    "text":"override methods and clear properties",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer",
+    "inherits":["[zetaret.global.packages.clockwork.context::ContextRenderer](../ContextRenderer.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "clearColor":"Number|String|CanvasGradient|CanvasPattern: null",
+        "clearAlpha":"Number: 1",
+        "defaultBlend":"String: 'source-over'",
+        "type":"String: '2d'"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Canvas2DRenderer":"",
+        "clear":"; return zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer",
+        "renderGraphics":"graphics*: zetaret.global.packages.clockwork.graphics.Graphics; return zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer",
+        "renderGraphicData":"gdata*: Array; return zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "clearColor":"",
+        "Canvas2DRenderer":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
