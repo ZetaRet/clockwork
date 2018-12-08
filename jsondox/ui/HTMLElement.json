@@ -1,0 +1,59 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"ProtoSS HTMLElement model",
+    "text":"self rendering html element outside canvas represented as normal stage child in the display list",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::HTMLElement",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "element":"HTMLElement: null",
+        "cachedStyle":"Object: {}",
+        "ctxreset":"Boolean: true",
+        "pointer":"Boolean: false",
+        "zindex":"Boolean: true",
+        "transformPrefix":"String: ''",
+        "transformSuffix":"String: ''",
+        "transformX":"String: '0%'",
+        "transformY":"String: '0%'",
+        "transformZ":"String: '0px'"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "HTMLElement":"",
+        "createElement":"tag*:String; return zetaret.global.packages.clockwork.ui::HTMLElement",
+        "onAddedToStage":"e*: zetaret.global.packages.clockwork.events.Event, stage*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "onRemovedFromStage":"e*: zetaret.global.packages.clockwork.events.Event, stage*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "setAttribute":"attributes*: Object; return zetaret.global.packages.clockwork.ui::HTMLElement",
+        "setStyle":"style*: Object; return zetaret.global.packages.clockwork.ui::HTMLElement",
+        "removeElement":"; return HTMLElement",
+        "clearElement":"; return zetaret.global.packages.clockwork.ui::HTMLElement",
+        "render":"stage*: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer*: zetaret.global.packages.clockwork.context.ContextRenderer, ctx*: CanvasRenderingContext2D, t*: Array, ct*: Array; return zetaret.global.packages.clockwork.ui::HTMLElement"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "element":"",
+        "ctxreset":"auto reset native context transform, alpha and color transform during self rendering",
+        "pointer":"allow native dom pointer over html element or traverse through canvas display list interaction controller",
+        "zindex":"auto compute html element css z-index based on canvas stage index of child, disable to use custom z-index i.e. negative values under the canvas element",
+        "HTMLElement":{
+            "this":"canrender is auto set to true and uses overriden render method",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
