@@ -1,0 +1,60 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"scrolling container model",
+    "text":"rectangular masked display object container with background and horizontal/vertical support",
+    "requires":"protoss.all.js",
+    "version":"1.05",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::Scrollpane",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "container":"zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
+        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
+        "bgcolor":"Number|String|CanvasGradient|CanvasPattern: 0x00000000",
+        "maskobj":"zetaret.global.packages.clockwork.ui.Shape: new",
+        "autoInvalidate":"Boolean: true",
+        "maskWidth":"Number: 0",
+        "maskHeight":"Number: 0",
+        "scrollWidth":"Number: 0",
+        "scrollHeight":"Number: 0",
+        "xoffset":"Number: 0",
+        "yoffset":"Number: 0",
+        "xyRound":"Boolean: true"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Scrollpane":"",
+        "initScrollpane":"width*: Number, height*: Number; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "setScrollSize":"width*: Number, height*: Number; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "setOffset":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "setScrollMask":"width*: Number, height*: Number; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "isHScroll":"; return Boolean",
+        "isVScroll":"; return Boolean",
+        "setScroll":"; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "setScrollP":"; return zetaret.global.packages.clockwork.ui::Scrollpane",
+        "addContent":"dobj*: zetaret.global.packages.clockwork.ui.DisplayObject",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "container":"",
+        "Scrollpane":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
