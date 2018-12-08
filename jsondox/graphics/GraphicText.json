@@ -1,0 +1,56 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"graphic text command object",
+    "text":"created by textStyle of Graphics model, described by color and font settings",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.graphics::GraphicText",
+    "inherits":[],
+    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicText"],
+    "static":{
+        "public_properties":{
+            "RTL":"String: 'rtl'",
+            "LTR":"String: 'ltr'",
+            "TOP":"String: 'top'",
+            "HANGING":"String: 'hanging'",
+            "MIDDLE":"String: 'middle'",
+            "ALPHABETIC":"String: 'alphabetic'",
+            "IDEOGRAPHIC":"String: 'ideographic'",
+            "BOTTOM":"String: 'bottom'"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "color":"Number|String|CanvasGradient|CanvasPattern: 0",
+        "alpha":"alpha: 1",
+        "stroke":"Boolean: false",
+        "font":"String: ''",
+        "textAlign":"String: ''",
+        "textBaseline":"String: ''",
+        "direction":"String: ''",
+        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.TEXT"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GraphicText":"",
+        "toCommandData":"; return Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "color":"",
+        "GraphicText":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
