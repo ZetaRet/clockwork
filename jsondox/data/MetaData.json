@@ -1,0 +1,42 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"meta data model",
+    "text":"data class with set/get methods prepared for inheritance",
+    "requires":"protoss.all.js",
+    "version":"1.01",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.data::MetaData",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "metadata":"Object: {}"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "MetaData":"",
+        "setMetaData":"key*: String, value*: Object; return zetaret.global.packages.clockwork.data::MetaData",
+        "getMetaData":"; return Object",
+        "getMetaDataByKey":"key*: String; return Object"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "metadata":"",
+        "MetaData":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
