@@ -1,0 +1,52 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"gallery item display model",
+    "text":"display object container with text, image and alignment rules",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::GalleryItem",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "title":"zetaret.global.packages.clockwork.ui.TextField: null",
+        "image":"zetaret.global.packages.clockwork.ui.Image: null",
+        "itemWidth":"Number: 0",
+        "itemHeight":"Number: 0",
+        "itemAlignX":"Number: 0",
+        "itemAlignY":"Number: 0",
+        "imageFit":"Number: 0"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GalleryItem":"",
+        "onImageLoaded":"e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "fitImage":"; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "setDefaults":"; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "setImageUrl":"url*: String; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "activate":"; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "deactivate":"; return zetaret.global.packages.clockwork.ui::GalleryItem",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "title":"",
+        "GalleryItem":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
