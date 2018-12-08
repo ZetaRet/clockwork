@@ -1,0 +1,47 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"graphic bitmap fill command object",
+    "text":"created by beginBitmapFill/lineBitmapStyle of Graphics model, described by flags, alpha, image data and command id",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.graphics::GraphicBitmapFill",
+    "inherits":[],
+    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicBitmapFill"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "bitmapData":"String|CanvasImageSource: null",
+        "matrix":"SVGMatrix: null",
+        "repeat":"String: null",
+        "smooth":"Boolean: null",
+        "alpha":"Number: 1",
+        "stroke":"Boolean: false",
+        "imgid":"String: ''",
+        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.PATTERN"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GraphicBitmapFill":"",
+        "toCommandData":"; return Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "bitmapData":"",
+        "GraphicBitmapFill":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
