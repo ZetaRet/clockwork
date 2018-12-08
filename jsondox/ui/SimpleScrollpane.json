@@ -1,0 +1,45 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"scrolling container model with scrollbars",
+    "text":"rectangular masked display object container with background and horizontal/vertical scrollbars",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::SimpleScrollpane",
+    "inherits":["[zetaret.global.packages.clockwork.ui::Scrollpane](Scrollpane.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "vscrollbar":"zetaret.global.packages.clockwork.ui.Scrollbar: new",
+        "hscrollbar":"zetaret.global.packages.clockwork.ui.Scrollbar: new"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "SimpleScrollpane":"",
+        "initScrollpane":"width*: Number, height*: Number; return zetaret.global.packages.clockwork.ui::SimpleScrollpane",
+        "onWheel":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "onVScroll":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "onHScroll":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "vscrollbar":"",
+        "SimpleScrollpane":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
