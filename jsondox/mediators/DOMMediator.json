@@ -1,0 +1,41 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"HTML Dom Mediator",
+    "text":"mediate events from HTMLElement into another object",
+    "requires":"protoss.all.js",
+    "version":"1.02",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.mediators::DOMMediator",
+    "inherits":["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "obj":"Object: obj",
+        "domo":"HTMLElement: domo"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "DOMMediator":"obj: Object, domo: HTMLElement",
+        "eventize":"e1*: String, e2*: String, cls*: zetaret.global.packages.clockwork.events.Event|Function, fname*: String, h: Function , obj: Object, domo: HTMLElement; return Function"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "obj":"",
+        "DOMMediator":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
