@@ -1,0 +1,69 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"image model",
+    "text":"canvas image wrapper based on id, url, HTMLImageElement, caching and pattern mechanism using custom positioning of the outer frame",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::Image",
+    "inherits":["[zetaret.global.packages.clockwork.ui::Shape](Shape.md)"],
+    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IImage"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "imageId":"String: ''",
+        "imageData":"CanvasImageSource: null",
+        "imageUrl":"String: ''",
+        "imageTag":"HTMLImageElement: null",
+        "imageLoadEvent":"String: 'load'",
+        "imageErrorEvent":"String: 'error'",
+        "imageX":"Number: 0",
+        "imageY":"Number: 0",
+        "imageWidth":"Number: 0",
+        "imageHeight":"Number: 0",
+        "cacheAssets":"Boolean: false",
+        "patternEnabled":"Boolean: false",
+        "pattern":"CanvasPattern: null",
+        "patternStyle":"String: ''",
+        "imageDrawHandler":"Function: null",
+        "imageHandlerScope":"Object: null",
+        "rebuild":"Boolean: false",
+        "invalidateStage":"Boolean: false",
+        "imgCrossOrigin":"String: null"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Image":"",
+        "setImageId":"id*: String, width*: Number, height*: Number; return zetaret.global.packages.clockwork.ui::Image",
+        "setImageUrl":"url*: String, id*: String; return zetaret.global.packages.clockwork.ui::Image",
+        "onImageLoaded":"e*: Event",
+        "onImageError":"e*: Event",
+        "loadImageFromUrl":"; return zetaret.global.packages.clockwork.ui::Image",
+        "setImageData":"idata*: CanvasImageSource; return zetaret.global.packages.clockwork.ui::Image",
+        "setDefaults":"; return zetaret.global.packages.clockwork.ui::Image",
+        "clearDefaults":"; return zetaret.global.packages.clockwork.ui::Image",
+        "clearImage":"keepurl: Boolean, keepid: Boolean; return zetaret.global.packages.clockwork.ui::Image",
+        "buildImage":"; return zetaret.global.packages.clockwork.ui::Image",
+        "drawImage":"; return zetaret.global.packages.clockwork.ui::Image",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "imageId":"",
+        "Image":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
