@@ -1,0 +1,43 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"label model",
+    "text":"simple display object container with TextField and support methods",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.ui::Label",
+    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::ILabel"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "label":"zetaret.global.packages.clockwork.ui.TextField: new",
+        "autoInvalidate":"Boolean: true"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Label":"",
+        "setLabel":"v*: String; return zetaret.global.packages.clockwork.ui::Label",
+        "initLabel":"style*: Object; return zetaret.global.packages.clockwork.ui::Label",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "label":"",
+        "Label":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
