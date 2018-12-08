@@ -1,0 +1,505 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"canvas graphics api",
+    "text":"draw paths/shapes/lines/curves/text, composite layers and gradients, compute dimensions and execute crud operations on graphics data commands, manage invalidation and cache clearance",
+    "requires":"ProtoSS, protoss.all.js",
+    "version":"1.17",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.graphics::Graphics",
+    "inherits":[],
+    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphics"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "invalid":"Boolean: false",
+        "cachedIntArray":"Array: null",
+        "cachedDirect":"Array: null",
+        "direct":"Boolean: true",
+        "fillPath":"Boolean: true",
+        "autoStroke":"Boolean: true",
+        "autoFill":"Boolean: true",
+        "autoPath":"Boolean: true",
+        "autoOP":"Boolean: true",
+        "autoCacheGradients":"Boolean: false",
+        "gradientCacheId":"String: null",
+        "gradientCache":"Array: null",
+        "graphicsMediator":"zetaret.global.packages.clockwork.mediators.GraphicContext2DMediator: null",
+        "commands":"Array: []",
+        "graphicsData":"Array: []",
+        "cacheMap":"Object: null"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "Graphics":"",
+        "enableGradientCache":"id*: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "addCommand":"command*: /interfaces.IGraphicCommand|/interfaces.IGraphicData; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "updateLastCommand":"p*: Object; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "getCommand":"type*: /interfaces.IGraphicCommand|/interfaces.IGraphicData, startIndex: Number; return /interfaces.IGraphicCommand|/interfaces.IGraphicData",
+        "copyFrom":"graphics*: zetaret.global.packages.clockwork.graphics.Graphics; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "beginBitmapFill":"bitmap*: String|CanvasImageSource, matrix: SVGMatrix, repeat: String, smooth: Boolean, alpha: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "beginFill":"color*: Number|String|CanvasGradient|CanvasPattern, alpha: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "beginGradientFill":"type*: String, gradient*: Array, colors*: Array, alphas: Array, ratios: Array, matrix: SVGMatrix, spreadMethod: String, interpolationMethod: String, focalPointRatio: Number, alpha: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "beginPath":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "endPath":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "strokePath":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "stroke":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "arc":"x*: Number, y*: Number, r*: Number, startAngle*: Number, endAngle*: Number, anticlockwise: Boolean; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "arcTo":"x1*: Number, y1*: Number, x2*: Number, y2*: Number, r*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "cubicCurveTo":"cx1*: Number, cy1*: Number, cx2*: Number, cy2*: Number, ax*: Number, ay*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "curveTo":"cx*: Number, cy*: Number, ax*: Number, ay*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawCircle":"cx*: Number, cy*: Number, radius*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawEllipse":"x*: Number, y*: Number, width*: Number, height*: Number, rx*: Number, ry*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawEllipse2":"x*: Number, y*: Number, rx*: Number, ry*: Number, rotation*: Number, startAngle*: Number, endAngle*: Number, anticlockwise: Boolean; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawGraphicsData":"graphicsData*: Array; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawPath":"commands*: Array, data: Object, winding: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRect":"x*: Number, y*: Number, width*: Number, height*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRect2":"x*: Number, y*: Number, width*: Number, height*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRoundRect":"x*: Number, y*: Number, width*: Number, height*: Number, rtl*: Number, rtr*: Number, rbl*: Number, rbr*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRoundRect2":"x*: Number, y*: Number, width*: Number, height*: Number, rtl*: Number, rtr*: Number, rbl*: Number, rbr*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawOuterRect":"x*: Number, y*: Number, w*: Number, h*: Number, s*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawOuterArc":"hs*: Number, x*: Number, y*: Number, r*: Number, startAngle*: Number, endAngle*: Number, anticlockwise: Boolean; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "dropShadow":"color*: Number|String, blur*: Number, offsetX*: Number, offsetY*: Number, composite: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "setComposite":"alpha*: Number, blend*: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawMask":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawLayer":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRestore":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "drawRadient":"x*: Number, y*: Number, r*: Number, colors*: Array, facet*: Number, stroke*: Number, offset: Number, circum: Number, gdata: Object, gradienth: Function, pathh: Function, alpha: Number, ldata: Object, edata: Object; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "endFill":"stroke: Boolean, resetColor: Boolean, resetColorTransform: Boolean, resetStroke: Boolean; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "lineBitmapStyle":"bitmap*: String|CanvasImageSource, matrix: SVGMatrix, repeat: String, smooth: Boolean, alpha: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "lineGradientStyle":"type*: String, gradient*: Array, colors*: Array, alphas: Array, ratios: Array, matrix: SVGMatrix, spreadMethod: String, interpolationMethod: String, focalPointRatio: Number, alpha: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "lineStyle":"thickness*: Number, color*: Number|String|CanvasGradient|CanvasPattern, alpha: Number, pixelHinting: Boolean, scaleMode: String, caps: String, joints: String, miterLimit: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "lineTo":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "moveTo":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "textStyle":"color*: Number|String|CanvasGradient|CanvasPattern, font: String, alpha: Number, stroke: Boolean, align: String, baseline: String, direction: String; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "text":"data*: String, x*: Number, y*: Number, width: Number, stroke: Boolean; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "readCustomCommand":"c*: /interfaces.IGraphicCommand|/interfaces.IGraphicData; return /interfaces.IGraphicCommand|/interfaces.IGraphicData",
+        "readGraphicsData":"cached: Boolean; return Array",
+        "toIntArray":"ctxrenderer: zetaret.global.packages.clockwork.context.ContextRenderer; return Array",
+        "toDirect":"ctxrenderer: zetaret.global.packages.clockwork.context.ContextRenderer; return Array",
+        "filterGraphicsData":"types*: Array, cached: Boolean; return Array",
+        "getGraphicsDimensions":"; return Array",
+        "clearCache":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "clearGradientCache":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "clearGraphicsData":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "clear":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "invalidate":"; return zetaret.global.packages.clockwork.graphics::Graphics",
+        "clone":"; return zetaret.global.packages.clockwork.graphics::Graphics"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "invalid":"",
+        "cachedIntArray":"",
+        "cachedDirect":"",
+        "direct":"",
+        "fillPath":"",
+        "autoStroke":"",
+        "autoFill":"",
+        "autoPath":"",
+        "autoOP":"",
+        "autoCacheGradients":"",
+        "gradientCacheId":"",
+        "gradientCache":"",
+        "graphicsMediator":"",
+        "commands":"",
+        "graphicsData":"",
+        "cacheMap":"",
+        "Graphics":{
+            "this":"",
+            "return":""
+        },
+        "enableGradientCache":{
+            "this":"",
+            "id":"",
+            "return":""
+        },
+        "addCommand":{
+            "this":"",
+            "command":"",
+            "return":""
+        },
+        "updateLastCommand":{
+            "this":"",
+            "p":"",
+            "return":""
+        },
+        "getCommand":{
+            "this":"",
+            "type":"",
+            "startIndex":"",
+            "return":""
+        },
+        "copyFrom":{
+            "this":"",
+            "graphics":"",
+            "return":""
+        },
+        "beginBitmapFill":{
+            "this":"",
+            "bitmap":"",
+            "matrix":"",
+            "repeat":"",
+            "smooth":"",
+            "alpha":"",
+            "return":""
+        },
+        "beginFill":{
+            "this":"",
+            "color":"",
+            "alpha":"",
+            "return":""
+        },
+        "beginGradientFill":{
+            "this":"",
+            "type":"",
+            "gradient":"",
+            "colors":"",
+            "alphas":"",
+            "ratios":"",
+            "matrix":"",
+            "spreadMethod":"",
+            "interpolationMethod":"",
+            "focalPointRatio":"",
+            "alpha":"",
+            "return":""
+        },
+        "beginPath":{
+            "this":"",
+            "return":""
+        },
+        "endPath":{
+            "this":"",
+            "return":""
+        },
+        "strokePath":{
+            "this":"",
+            "return":""
+        },
+        "stroke":{
+            "this":"",
+            "return":""
+        },
+        "arc":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "r":"",
+            "startAngle":"",
+            "endAngle":"",
+            "anticlockwise":"",
+            "return":""
+        },
+        "arcTo":{
+            "this":"",
+            "x1":"",
+            "y1":"",
+            "x2":"",
+            "y2":"",
+            "r":"",
+            "return":""
+        },
+        "cubicCurveTo":{
+            "this":"",
+            "cx1":"",
+            "cy1":"",
+            "cx2":"",
+            "cy2":"",
+            "ax":"",
+            "ay":"",
+            "return":""
+        },
+        "curveTo":{
+            "this":"",
+            "cx":"",
+            "cy":"",
+            "ax":"",
+            "ay":"",
+            "return":""
+        },
+        "drawCircle":{
+            "this":"",
+            "cx":"",
+            "cy":"",
+            "radius":"",
+            "return":""
+        },
+        "drawEllipse":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "height":"",
+            "rx":"",
+            "ry":"",
+            "return":""
+        },
+        "drawEllipse2":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "rx":"",
+            "ry":"",
+            "rotation":"",
+            "startAngle":"",
+            "endAngle":"",
+            "anticlockwise":"",
+            "return":""
+        },
+        "drawGraphicsData":{
+            "this":"",
+            "graphicsData":"",
+            "return":""
+        },
+        "drawPath":{
+            "this":"",
+            "commands":"",
+            "data":"",
+            "winding":"",
+            "return":""
+        },
+        "drawRect":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "height":"",
+            "return":""
+        },
+        "drawRect2":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "height":"",
+            "return":""
+        },
+        "drawRoundRect":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "height":"",
+            "rtl":"",
+            "rtr":"",
+            "rbl":"",
+            "rbr":"",
+            "return":""
+        },
+        "drawRoundRect2":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "height":"",
+            "rtl":"",
+            "rtr":"",
+            "rbl":"",
+            "rbr":"",
+            "return":""
+        },
+        "drawOuterRect":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "w":"",
+            "h":"",
+            "s":"",
+            "return":""
+        },
+        "drawOuterArc":{
+            "this":"",
+            "hs":"",
+            "x":"",
+            "y":"",
+            "r":"",
+            "startAngle":"",
+            "endAngle":"",
+            "anticlockwise":"",
+            "return":""
+        },
+        "dropShadow":{
+            "this":"",
+            "color":"",
+            "blur":"",
+            "offsetX":"",
+            "offsetY":"",
+            "composite":"",
+            "return":""
+        },
+        "setComposite":{
+            "this":"",
+            "alpha":"",
+            "blend":"",
+            "return":""
+        },
+        "drawMask":{
+            "this":"",
+            "return":""
+        },
+        "drawLayer":{
+            "this":"",
+            "return":""
+        },
+        "drawRestore":{
+            "this":"",
+            "return":""
+        },
+        "drawRadient":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "r":"",
+            "colors":"",
+            "facet":"",
+            "stroke":"",
+            "offset":"",
+            "circum":"",
+            "gdata":"",
+            "gradienth":"",
+            "pathh":"",
+            "alpha":"",
+            "ldata":"",
+            "edata":"",
+            "return":""
+        },
+        "endFill":{
+            "this":"",
+            "stroke":"",
+            "resetColor":"",
+            "resetColorTransform":"",
+            "resetStroke":"",
+            "return":""
+        },
+        "lineBitmapStyle":{
+            "this":"",
+            "bitmap":"",
+            "matrix":"",
+            "repeat":"",
+            "smooth":"",
+            "alpha":"",
+            "return":""
+        },
+        "lineGradientStyle":{
+            "this":"",
+            "type":"",
+            "gradient":"",
+            "colors":"",
+            "alphas":"",
+            "ratios":"",
+            "matrix":"",
+            "spreadMethod":"",
+            "interpolationMethod":"",
+            "focalPointRatio":"",
+            "alpha":"",
+            "return":""
+        },
+        "lineStyle":{
+            "this":"",
+            "thickness":"",
+            "color":"",
+            "alpha":"",
+            "pixelHinting":"",
+            "scaleMode":"",
+            "caps":"",
+            "joints":"",
+            "miterLimit":"",
+            "return":""
+        },
+        "lineTo":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "return":""
+        },
+        "moveTo":{
+            "this":"",
+            "x":"",
+            "y":"",
+            "return":""
+        },
+        "textStyle":{
+            "this":"",
+            "color":"",
+            "font":"",
+            "alpha":"",
+            "stroke":"",
+            "align":"",
+            "baseline":"",
+            "direction":"",
+            "return":""
+        },
+        "text":{
+            "this":"",
+            "data":"",
+            "x":"",
+            "y":"",
+            "width":"",
+            "stroke":"",
+            "return":""
+        },
+        "readCustomCommand":{
+            "this":"",
+            "c":"",
+            "return":""
+        },
+        "readGraphicsData":{
+            "this":"",
+            "cached":"",
+            "return":""
+        },
+        "toIntArray":{
+            "this":"",
+            "ctxrenderer":"",
+            "return":""
+        },
+        "toDirect":{
+            "this":"",
+            "ctxrenderer":"",
+            "return":""
+        },
+        "filterGraphicsData":{
+            "this":"",
+            "types":"",
+            "cached":"",
+            "return":""
+        },
+        "getGraphicsDimensions":{
+            "this":"",
+            "return":""
+        },
+        "clearCache":{
+            "this":"",
+            "return":""
+        },
+        "clearGradientCache":{
+            "this":"",
+            "return":""
+        },
+        "clearGraphicsData":{
+            "this":"",
+            "return":""
+        },
+        "clear":{
+            "this":"",
+            "return":""
+        },
+        "invalidate":{
+            "this":"",
+            "return":""
+        },
+        "clone":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
