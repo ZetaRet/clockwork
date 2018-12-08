@@ -1,0 +1,49 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"aggregate an instance of event dispatcher",
+    "text":"subscribe, unsubscribe and observe pattern, event and data dispatching mechanism along with adjacent crud operations",
+    "requires":"ProtoSS, protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.events::EventDispatcher",
+    "inherits":["ZetaRet_EventDispatcher"],
+    "interfaces":["zetaret.global.packages.clockwork.events.interfaces::IEventDispatcher","zetaret.global.packages.clockwork.events.interfaces::IEventTarget"],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "eventTarget":"/interfaces.IEventTarget: this",
+        "events":"Object: {}"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "EventDispatcher":"target: /interfaces.IEventTarget",
+        "setEventTarget":"target*: /interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::EventDispatcher",
+        "addEventListener":"event*: String, callback*: Function; return zetaret.global.packages.clockwork.events::EventDispatcher",
+        "removeEventListener":"event*: String, callback: Function; return zetaret.global.packages.clockwork.events::EventDispatcher",
+        "hasEvent":"event*: String; return Boolean",
+        "dispatch":"event*: String, data: Object|/interfaces.IEventData; return zetaret.global.packages.clockwork.events::EventDispatcher",
+        "dispatchEvent":"event*: /interfaces.IEvent, data: Object|/interfaces.IEventData, settarget: Boolean; return zetaret.global.packages.clockwork.events::EventDispatcher",
+        "destruct":""
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "eventTarget":"",
+        "events":"",
+        "EventDispatcher":{
+            "this":"",
+            "target":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
