@@ -1,0 +1,45 @@
+{
+    "author": "Zeta Ret, Ivo Yankulovski",
+    "description": "keyboard event model used in keyboard controller",
+    "text": "key, code, and numeric keyCode properties and methods, overrides setNativeEvent to use DOM KeyboardEvent",
+    "requires": "protoss.all.js",
+    "version": "1.03",
+    "date": "2017 - Today",
+    "supername": "zetaret.global.packages.clockwork.events::KeyboardEvent",
+    "inherits": ["[zetaret.global.packages.clockwork.events::Event](Event.md)"],
+    "interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IKeyboardEvent"],
+    "static": {
+        "public_properties": {},
+        "protected_properties": {},
+        "private_properties": {},
+        "public_methods": {},
+        "protected_methods": {},
+        "private_methods": {}
+    },
+    "public_properties": {
+        "key":"String: ''",
+        "code":"String: ''",
+        "keyCode":"Number: 0"
+    },
+    "protected_properties": {},
+    "private_properties": {},
+    "public_methods": {
+        "KeyboardEvent":"type*: String, target: /interfaces.IEventTarget",
+        "getKey":"; return String",
+        "getCode":"; return String",
+        "getKeyCode":"; return String",
+        "setNativeEvent":"e*: KeyboardEvent; return zetaret.global.packages.clockwork.events::KeyboardEvent"
+    },
+    "protected_methods": {},
+    "private_methods": {},
+    "static_descriptions": {},
+    "descriptions": {
+        "key":"",
+        "KeyboardEvent":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples": {},
+    "examples": {}
+}
