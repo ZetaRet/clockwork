@@ -1,0 +1,51 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"graphic end fill command object",
+    "text":"created by endFill of Graphics model, described by reset flags and command ids",
+    "requires":"protoss.all.js",
+    "version":"1.03",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.graphics::GraphicEndFill",
+    "inherits":[],
+    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicEndFill"],
+    "static":{
+        "public_properties":{
+            "NONZERO":"String: 'nonzero'",
+            "EVENODD":"String: 'evenodd'"
+        },
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{
+        "resetColorTransform":"Boolean: false",
+        "fillRule":"String: zetaret.global.packages.clockwork.graphics.GraphicEndFill.NONZERO",
+        "stroke":"Boolean: false",
+        "resetColor":"Boolean: false",
+        "resetStroke":"Boolean: false",
+        "commandResetColor":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET_COLOR",
+        "commandResetStroke":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET_STROKE",
+        "commandStroke":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.STROKE",
+        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.END_FILL"
+    },
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "GraphicEndFill":"",
+        "toCommandData":"; return Array"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "resetColorTransform":"",
+        "GraphicEndFill":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
