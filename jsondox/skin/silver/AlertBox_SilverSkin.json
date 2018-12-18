@@ -1,0 +1,46 @@
+{
+    "author":"Zeta Ret, Ivo Yankulovski",
+    "description":"AlertBox Silver Skin",
+    "text":"change appearance based on skin data in buttons, background and text of AlertBox component",
+    "requires":"protoss.all.js",
+    "version":"1.02",
+    "date":"2017 - Today",
+    "supername":"zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+    "inherits":[],
+    "interfaces":[],
+    "static":{
+        "public_properties":{},
+        "protected_properties":{},
+        "private_properties":{},
+        "public_methods":{},
+        "protected_methods":{},
+        "private_methods":{}
+    },
+    "public_properties":{},
+    "protected_properties":{},
+    "private_properties":{},
+    "public_methods":{
+        "AlertBox_SilverSkin":"",
+        "initSkin":"target*: zetaret.global.packages.clockwork.ui.AlertBox, skindata*: Object; return zetaret.global.packages.clockwork.ui.SkinnableComponent",
+        "onBtnHover":"btn*: zetaret.global.packages.clockwork.ui.LabelButton, sdata*: Object",
+        "onBtnUnhover":"btn*: zetaret.global.packages.clockwork.ui.LabelButton, sdata*: Object",
+        "onUpdateSkin":"e*: zetaret.global.packages.clockwork.events.Event, d: Object",
+        "bg":"skin*: zetaret.global.packages.clockwork.ui.Shape, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+        "yesBtn":"skin*: zetaret.global.packages.clockwork.ui.LabelButton, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+        "noBtn":"skin*: zetaret.global.packages.clockwork.ui.LabelButton, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+        "closeBtn":"skin*: zetaret.global.packages.clockwork.ui.ButtonContainer, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+        "txt":"skin*: zetaret.global.packages.clockwork.ui.TextField, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin",
+        "icon":"skin*: zetaret.global.packages.clockwork.ui.Image, target*: zetaret.global.packages.clockwork.ui.AlertBox, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin"
+    },
+    "protected_methods":{},
+    "private_methods":{},
+    "static_descriptions":{},
+    "descriptions":{
+        "AlertBox_SilverSkin":{
+            "this":"",
+            "return":""
+        }
+    },
+    "static_examples":{},
+    "examples":{}
+}
