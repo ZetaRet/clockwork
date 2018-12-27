@@ -73,6 +73,18 @@ function ProtoCSS() {
 	m.cssToString=function(){
 		return o.cssToArray().join('');
 	};
+	m.destroy=function(){
+		var e=o.cssElement;
+		if(e && e.parentNode){
+			try{
+			e.parentNode.removeChild(e);
+			}catch(e){}
+		}
+		o.cssElement=null;
+		o.cssContainer=null;
+		o.css=null;
+		o.cssIds=null;
+	};
 	o.superize(a, m, true, true);
 	return o;
 });
