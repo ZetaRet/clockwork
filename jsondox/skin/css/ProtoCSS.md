@@ -99,5 +99,10 @@ __cssToString() : *String*__
   
 > *return __String__*  
 
+##  
+__destroy() : *void*__  
+  
+> *return __void__*  
+
 ---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
