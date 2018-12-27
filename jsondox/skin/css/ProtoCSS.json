@@ -36,7 +36,8 @@
         "bindClassToCSSId":"cls*: String, id*: String; return Boolean",
         "idToCSS":"; return Object",
         "cssToArray":"; return Array",
-        "cssToString":"; return String"
+        "cssToString":"; return String",
+        "destroy":""
     },
     "protected_methods":{},
     "private_methods":{},
