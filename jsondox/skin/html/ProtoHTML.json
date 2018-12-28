@@ -1,0 +1,46 @@
+{
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "Zeta Ret Proto HTML",
+	"text": "Register Custom prototypes of HTML Elements by using HTMLUnknownElement",
+	"requires": "protoss.all.js",
+	"version": "1.05",
+	"date": "2018 - Today",
+	"supername": "zetaret.global.packages.clockwork.skin.html::ProtoHTML",
+	"inherits": [],
+	"interfaces": [],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {
+			"ProtoHTMLStatis": "s*: Object, c*: zetaret.global.packages.clockwork.skin.html.ProtoHTML"
+		},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"ProtoHTML": ""
+	},
+	"protected_methods": {
+		"ProtoHTMLStatis": "s*: Object, c*: zetaret.global.packages.clockwork.skin.html.ProtoHTML",
+		"registerZetaConstructor": "name*: String"
+	},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"ProtoHTML": {
+			"this": "instance of ProtoHTML will invoke ProtoHTMLStatis and add prototypes to HTMLDocument, HTMLCollection, HTMLUnknownElement",
+			"return": ""
+		},
+		"registerZetaConstructor": {
+			"this": "",
+			"name": "name of element and method attached to ProtoHTML subtype",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
+}
