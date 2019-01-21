@@ -6,10 +6,6 @@
 ![Zeta Ret Clockwork Cover](https://zetaret.com/images/clockwork1.jpg)
 
 Based on [ProtoSS](https://github.com/ZetaRet/protoss), this library brings the classic OOP from C-suit/Java/ActionScript into JavaScript. 
-The entire library - Interfaces for each class, variety of implementations, UI controls (Buttons, Dialogs, Scrollbars, Windows, Panels, Lists, Trees, Menus, etc.), popular design patterns (MVC, factories, decorators, state machine, composite, builder, facade, injectors, observer, filter, command, visitor, double/multiple dispatch, etc.), http communication api, data binding outside MVC scope. Ambiguity testing, super class name resolve and transpile (transcompiler source-to-source) compatibility from ProtoSS classes to descriptors and instruction sets.
-
-Every ProtoSS Class consists of IClass interface and Class.Header, including packages and namespaces, and can be used independently outside its bundle or the entire Clockwork Library. 
-Bundling into a single assembly called Caliber, since every Class is multiplied by 3 (Class, IClass, Class.Header) a certain mechanism is required to compile the entire library of used classes into one solid monolith library.
 
 PHP Bundling enforces the compilation at real time, including a JSON auto documentation strategy based on a single JSON descriptor template of the JS Class which generates MarkDown and HTML output readable files.
 
