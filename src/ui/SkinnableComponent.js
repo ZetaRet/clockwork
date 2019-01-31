@@ -25,12 +25,13 @@ function SkinnableComponent() {
 	};
 	m.onUpdateSkin._p=1;
 	m.skinme=function(){
-		var ts=o.toskin,i,l=ts.length,s,st=o.skintarget,sd=o.skindata;
+		var ts=o.toskin,i,l=ts.length,s,st=o.skintarget,sd=o.skindata,sts;
 		if(o.skin){
 			for(i=0;i<l;i++){
 				s=ts[i];
-				o.skin[s](st[s], st, sd, o);
-				st[s].dispatchEvent(new zetaret.global.packages.clockwork.events.Event("updateSkin"));
+				sts=st[s];
+				o.skin[s](sts, st, sd, o);
+				if(sts)sts.dispatchEvent(new zetaret.global.packages.clockwork.events.Event("updateSkin"));
 			}
 		}
 		return o;
