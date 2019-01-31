@@ -16,12 +16,16 @@ function Checkbox_SilverSkin() {
 	};
 	m.onChange._p=1;
 	m.onUpdateSkin=function(e,d){
-		
+
 	};
 	m.onUpdateSkin._p=1;
 	m.bg=function(skin, target, sdata, scomp){
-		skin.resetGraphics();
-		
+		if(skin){
+		skin.graphics.clear();
+		skin.graphics.beginFill(sdata.bgcolor,0)
+			.drawRoundRect(0,0,sdata.closesize+sdata.margin+sdata.cbtxtx+sdata.cbtxtstyle.width,sdata.closesize,sdata.cbradius,sdata.cbradius,sdata.cbradius,sdata.cbradius)
+			.endFill();
+		}
 		return o;
 	};
 	m.checkBtn=function(skin, target, sdata, scomp){
