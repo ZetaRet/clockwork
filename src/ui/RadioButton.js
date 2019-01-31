@@ -4,7 +4,7 @@ function RadioButton() {
 	o.checked=false;
 	o.value=null;
 	o.radioGroup=null;
-	o.bg=new zetaret.global.packages.clockwork.ui.Shape();
+	o.bg=null;
 	o.checkBtn=new zetaret.global.packages.clockwork.ui.ButtonContainer();
 	o.txt=new zetaret.global.packages.clockwork.ui.TextField();
 	o.bgcheck=false;
@@ -40,12 +40,10 @@ function RadioButton() {
 	};
 	m.onRadioChange._p=1;
 	m.initBox=function(check, label){
-		o.bg.name="bg";
-		o.addChild(o.bg);
-		if(o.bgcheck)o.bg.addEventListener("click",o.onCheckClick);
 		if(check){
 			o.checkBtn.name="close";
 			o.checkBtn.buttonMode(true,true);
+			if(o.bgcheck)o.bg=o.checkBtn.addButtonShape("rootbg");
 			o.checkBtn.addButtonShape("bg");
 			o.checkBtn.addButtonShape("check");
 			o.addChild(o.checkBtn);
@@ -80,11 +78,11 @@ function RadioButton() {
 		return o;
 	};
 	m.destruct=function(){
-		if(o.bg.graphics){
+		if(o.bg && o.bg.graphics){
 			o.bg.graphics.clear();
 			o.bg.graphics=null;
 		}
-		o.bg.destruct();
+		if(o.bg)o.bg.destruct();
 		o.txt.destruct();
 		var cbg=o.checkBtn.getChildByName('bg');
 		if(cbg){
