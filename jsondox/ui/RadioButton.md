@@ -27,7 +27,7 @@ default null,
 
 #  
 __bg__ zetaret.global.packages.clockwork.ui.Shape  
-default new,   
+default null,   
 
 #  
 __checkBtn__ zetaret.global.packages.clockwork.ui.ButtonContainer  
