@@ -19,7 +19,7 @@
     "public_properties":{
         "checked":"Boolean: false",
         "value":"Object: null",
-        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
+        "bg":"zetaret.global.packages.clockwork.ui.Shape: null",
         "checkBtn":"zetaret.global.packages.clockwork.ui.ButtonContainer: new",
         "txt":"zetaret.global.packages.clockwork.ui.TextField: new",
         "bgcheck":"Boolean: false",
