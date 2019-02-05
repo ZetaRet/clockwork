@@ -3,7 +3,7 @@
     "description":"mouse controller",
     "text":"interacts with stage, default mouse event control and maps, support of bubble events and inversed stage iterator, custom cursors, deep mask verification",
     "requires":"protoss.all.js",
-    "version":"1.07",
+    "version":"1.08",
     "date":"2017 - Today",
     "supername":"zetaret.global.packages.clockwork.controllers::MouseController",
     "inherits":[],
@@ -21,6 +21,7 @@
         "stage":"[zetaret.global.packages.clockwork.controllers.Stage2DController](Stage2DController.md): null",
         "interaction":"[zetaret.global.packages.clockwork.controllers.InteractionController](InteractionController.md): null",
         "defaultInteractiveMap":"Object: {}",
+        "mouseEventClass":"zetaret.global.packages.clockwork.events.MouseEvent: null",
         "mouseEventTarget":"HTMLCanvasElement: null",
         "mouseEvents":"Array: []",
         "mouseTargets":"Array: []",
@@ -85,7 +86,8 @@
         "computeSystemXY":"event*: Object; return zetaret.global.packages.clockwork.controllers::MouseController",
         "mouseEventHandler":"e*: MouseEvent, data: Object, id: String, customEvent: zetaret.global.packages.clockwork.events.MouseEvent, overEvent: zetaret.global.packages.clockwork.events.MouseEvent, outEvent: zetaret.global.packages.clockwork.events.MouseEvent; return zetaret.global.packages.clockwork.controllers::MouseController",
         "setMouseCursor":"id*: String; return Boolean",
-        "any":";return Boolean"
+        "any":";return Boolean",
+        "hasMouse":";return Boolean"
     },
     "protected_methods":{},
     "private_methods":{},
