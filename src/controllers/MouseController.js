@@ -243,6 +243,7 @@ function MouseController() {
 		if(etype===mmet){
 			o.lastMouseMoveEvent=e;
 		} else if(etype===o.mouseDownEventType){
+			if(o.lastMouseDownEvent && e.button!==o.lastMouseDownEvent.button && o.mouseDownTargets.length>0)return o;
 			if(id)mdtbi[id]=mouseTargets;
 			else o.mouseDownTargets=mouseTargets;
 			o.lastMouseDownEvent=e;
@@ -334,7 +335,7 @@ function MouseController() {
 					mto=umdt[i];
 					if(lumt===0 || umt.indexOf(mto)<0){mto.dispatchEvent(outsideEvent, stage);}
 				}
-				if(etype===mlet){
+				if(etype===mlet||(etype==muet && e.button!==0)){
 					if(id)mdtbi[id]=[];
 					else o.mouseDownTargets=[];
 				}
