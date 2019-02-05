@@ -88,6 +88,17 @@ __getKeys() : *Object*__
 > *return __Object__*  
 
 ##  
+__getMouseIn(*HTMLElement* el) : *Object*__  
+  
+- __el*__ - __*HTMLElement*__,   
+> *return __Object__*  
+
+##  
+__updateTargetOffset() : *zetaret.global.packages.clockwork.events::MouseEvent*__  
+  
+> *return __zetaret.global.packages.clockwork.events::MouseEvent__*  
+
+##  
 __getXY() : *Array*__  
   
 > *return __Array__*  
