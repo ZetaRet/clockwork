@@ -5,6 +5,7 @@ function MouseController() {
 	o.stage=null;
 	o.interaction=null;
 	o.defaultInteractiveMap={};
+	o.mouseEventClass=null;
 	o.mouseEventTarget=null;
 	o.mouseEvents=[];
 	o.mouseTargets=[];
@@ -54,6 +55,7 @@ function MouseController() {
 		o.stage=stage;
 		o.interaction=interaction;
 		o.mouseEventTarget=target;
+		o.mouseEventClass=zetaret.global.packages.clockwork.events.MouseEvent;
 		o.initCapabilities();
 		return o;
 	};
@@ -230,7 +232,7 @@ function MouseController() {
 		e._capabilities=mcap;
 		if(o.systemXY)o.computeSystemXY(e);
 		if(!customEvent){
-			customEvent=new zetaret.global.packages.clockwork.events.MouseEvent();
+			customEvent=new o.mouseEventClass();
 			customEvent.type=e.type;
 			customEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 			customEvent.bubbles=true;
@@ -297,7 +299,7 @@ function MouseController() {
 		if(umob)luomt=mot.length;
 		if(luomt>0 && (etype===mlet || etype===mmet)){
 			if(outEvent===undefined){
-				outEvent=new zetaret.global.packages.clockwork.events.MouseEvent();
+				outEvent=new o.mouseEventClass();
 				outEvent.type=mlet;
 				outEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 				outEvent.setNativeEvent(e);
@@ -323,7 +325,7 @@ function MouseController() {
 			umdt=umdt.unique();
 			l=umdt.length;
 			if(l>0){
-				var outsideEvent=new zetaret.global.packages.clockwork.events.MouseEvent();
+				var outsideEvent=new o.mouseEventClass();
 				outsideEvent.type=etype===muet||mlet?o.mouseUpOutsideEventType:o.mouseWheelOutsideEventType;
 				outsideEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 				outsideEvent.setNativeEvent(e);
@@ -343,7 +345,7 @@ function MouseController() {
 		}
 		if(lumt>0 && etype===mmet){
 			if(overEvent===undefined){
-				overEvent=new zetaret.global.packages.clockwork.events.MouseEvent();
+				overEvent=new o.mouseEventClass();
 				overEvent.type=o.mouseEnterEventType;
 				overEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 				overEvent.setNativeEvent(e);
@@ -377,6 +379,9 @@ function MouseController() {
 	};
 	m.any=function(){
 		return o.mouseTargets.length>0 || o.mouseOverTargets.length>0 || o.mouseDownTargets.length>0;
+	};
+	m.hasMouse=function(){
+		return (o.lastMouseMoveEvent||o.lastMouseDownEvent)?true:false;
 	};
 	o.superize(a, m, true, true);
 	return o;
