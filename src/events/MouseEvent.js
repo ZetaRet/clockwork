@@ -34,6 +34,22 @@ function MouseEvent(type, target) {
 	m.getXY=function(){
 		return [o.x,o.y,o.lx,o.ly,o.ox,o.oy];
 	};
+	m.getMouseIn=function(el){
+		var elo={x:o.lx-el.offsetLeft,y:o.ly-el.offsetTop},elop=el;
+		while(elop=elop.offsetParent){
+			elo.x-=elop.offsetLeft;
+			elo.y-=elop.offsetTop;
+		}
+		return elo;
+	};
+	m.updateTargetOffset=function(){
+		o.lx=o.x+window.scrollX;
+		o.ly=o.y+window.scrollY;
+		var gmi=o.getMouseIn(o.nativeEvent.target);
+		o.ox=gmi.x;
+		o.oy=gmi.y;
+		return o;
+	};
 	m.setNativeEvent=function(e){
 		o.nativeEvent=e;
 		o.x=e.clientX;
