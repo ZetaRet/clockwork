@@ -2,7 +2,7 @@
 > __mouse controller__  
 # interacts with stage, default mouse event control and maps, support of bubble events and inversed stage iterator, custom cursors, deep mask verification  
 > *Requires: protoss.all.js*  
-> *Version: 1.07*  
+> *Version: 1.08*  
 > *Date: 2017 - Today*  
 
 __required*__
@@ -28,6 +28,10 @@ default null,
 #  
 __defaultInteractiveMap__ Object  
 default {},   
+
+#  
+__mouseEventClass__ zetaret.global.packages.clockwork.events.MouseEvent  
+default null,   
 
 #  
 __mouseEventTarget__ HTMLCanvasElement  
@@ -175,7 +179,7 @@ default {},
 
 #  
 __defaultEvents__ Array  
-default ['click','dblclick','mousemove','mousedown','mouseout','mouseup','wheel','touchstart','touchend','touchmove','touchcancel'],   
+default ['click', 'dblclick', 'mousemove', 'mousedown', 'mouseout', 'mouseup', 'wheel', 'touchstart', 'touchend', 'touchmove', 'touchcancel'],   
 
 #  
 __systemXY__ Boolean  
@@ -328,6 +332,11 @@ __setMouseCursor(*String* id) : *Boolean*__
 
 ##  
 __any() : *Boolean*__  
+  
+> *return __Boolean__*  
+
+##  
+__hasMouse() : *Boolean*__  
   
 > *return __Boolean__*  
 
