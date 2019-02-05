@@ -36,6 +36,8 @@
         "getOffsetX":"; return Number",
         "getOffsetY":"; return Number",
         "getKeys":"; return Object",
+        "getMouseIn":"el*: HTMLElement; return Object",
+        "updateTargetOffset":"; return zetaret.global.packages.clockwork.events::MouseEvent",
         "getXY":"; return Array",
         "setNativeEvent":"e*: MouseEvent; return zetaret.global.packages.clockwork.events::MouseEvent"
     },
