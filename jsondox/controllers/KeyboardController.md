@@ -2,7 +2,7 @@
 > __keyboard controller__  
 # interacts with stage, down/press/up event control, focus, default keyboard maps, support of bubble events and inversed stage iterator  
 > *Requires: protoss.all.js*  
-> *Version: 1.07*  
+> *Version: 1.08*  
 > *Date: 2017 - Today*  
 
 __required*__
@@ -84,6 +84,10 @@ default false,
 #  
 __defaultEvents__ Array  
 default ['keydown','keypress','keyup'],   
+
+#  
+__invalidateStage__ Boolean  
+default true,   
 
 
 ##  
