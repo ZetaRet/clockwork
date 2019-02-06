@@ -179,7 +179,7 @@ default {},
 
 #  
 __defaultEvents__ Array  
-default ['click', 'dblclick', 'mousemove', 'mousedown', 'mouseout', 'mouseup', 'wheel', 'touchstart', 'touchend', 'touchmove', 'touchcancel'],   
+default ['click', 'dblclick', 'mousemove', 'mousedown', 'mouseover', 'mouseout', 'mouseup', 'wheel', 'touchstart', 'touchend', 'touchmove', 'touchcancel'],   
 
 #  
 __systemXY__ Boolean  
