@@ -335,7 +335,7 @@ function MouseController() {
 					mto=umdt[i];
 					if(lumt===0 || umt.indexOf(mto)<0){mto.dispatchEvent(outsideEvent, stage);}
 				}
-				if(etype===mlet||(etype==muet && e.button!==0)){
+				if(etype===mlet||(etype===muet && e.button!==0)){
 					if(id)mdtbi[id]=[];
 					else o.mouseDownTargets=[];
 				}
