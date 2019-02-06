@@ -42,7 +42,7 @@ function MouseController() {
 	o.autoPreventTypes={};
 	o.autoTransformInteraction=false;
 	o.mouseCapabilities={};
-	o.defaultEvents=["click","dblclick","mousemove","mousedown","mouseout","mouseup","wheel","touchstart","touchend","touchmove","touchcancel"];
+	o.defaultEvents=["click","dblclick","mousemove","mousedown","mouseover","mouseout","mouseup","wheel","touchstart","touchend","touchmove","touchcancel"];
 	o.systemXY=false;
 	o.systemXKey="_systemX";
 	o.systemYKey="_systemY";
@@ -227,13 +227,14 @@ function MouseController() {
 		var etype=e.type,stage=o.stage,mouseTargets=[],mtbi=o.mouseTargetsById,
 			oldMouseTargets=id?mtbi[id]:o.mouseTargets,
 			mt,l=0,i,mouseIterated=[],
-			k,mdtbi=o.mouseDownTargetsById,mcap=o.mouseCapabilities,
-			mlet=o.mouseLeaveEventType,mmet=o.mouseMoveEventType,umob=o.useMouseOverBuffer,muet=o.mouseUpEventType;
+			k,mdtbi=o.mouseDownTargetsById,mcap=o.mouseCapabilities,umob=o.useMouseOverBuffer,
+			meet=o.mouseEnterEventType,mlet=o.mouseLeaveEventType,mmet=o.mouseMoveEventType,muet=o.mouseUpEventType;
 		e._capabilities=mcap;
+		if(etype===meet)etype=mmet;
 		if(o.systemXY)o.computeSystemXY(e);
 		if(!customEvent){
 			customEvent=new o.mouseEventClass();
-			customEvent.type=e.type;
+			customEvent.type=etype;
 			customEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 			customEvent.bubbles=true;
 			customEvent.setNativeEvent(e);
@@ -347,7 +348,7 @@ function MouseController() {
 		if(lumt>0 && etype===mmet){
 			if(overEvent===undefined){
 				overEvent=new o.mouseEventClass();
-				overEvent.type=o.mouseEnterEventType;
+				overEvent.type=meet;
 				overEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
 				overEvent.setNativeEvent(e);
 				if(id)overEvent.identifier=id;
