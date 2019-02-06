@@ -3,7 +3,7 @@
     "description":"keyboard controller",
     "text":"interacts with stage, down/press/up event control, focus, default keyboard maps, support of bubble events and inversed stage iterator",
     "requires":"protoss.all.js",
-    "version":"1.07",
+    "version":"1.08",
     "date":"2017 - Today",
     "supername":"zetaret.global.packages.clockwork.controllers::KeyboardController",
     "inherits":[],
@@ -34,7 +34,8 @@
         "keyboardFocusKey":"String: 'keyboardFocus'",
         "keyboardCustomEvent":"zetaret.global.packages.clockwork.events.KeyboardEvent: null",
         "preventNative":"Boolean: false",
-        "defaultEvents":"Array: ['keydown','keypress','keyup']"
+        "defaultEvents":"Array: ['keydown','keypress','keyup']",
+        "invalidateStage":"Boolean: true"
     },
     "protected_properties":{},
     "private_properties":{},
