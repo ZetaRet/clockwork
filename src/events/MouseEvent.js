@@ -43,8 +43,8 @@ function MouseEvent(type, target) {
 		return elo;
 	};
 	m.updateTargetOffset=function(){
-		o.lx=o.x+window.scrollX;
-		o.ly=o.y+window.scrollY;
+		o.lx=o.x+(window.scrollX!==undefined?window.scrollX:window.pageXOffset);
+		o.ly=o.y+(window.scrollY!==undefined?window.scrollY:window.pageYOffset);
 		var gmi=o.getMouseIn(o.nativeEvent.target);
 		o.ox=gmi.x;
 		o.oy=gmi.y;
