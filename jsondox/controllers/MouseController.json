@@ -58,7 +58,7 @@
         "autoPreventTypes":"Object: {}",
         "autoTransformInteraction":"Boolean: false",
         "mouseCapabilities":"Object: {}",
-        "defaultEvents":"Array: ['click','dblclick','mousemove','mousedown','mouseout','mouseup','wheel','touchstart','touchend','touchmove','touchcancel']",
+        "defaultEvents":"Array: ['click', 'dblclick', 'mousemove', 'mousedown', 'mouseover', 'mouseout', 'mouseup', 'wheel', 'touchstart', 'touchend', 'touchmove', 'touchcancel']",
         "systemXY":"Boolean: false",
         "systemXKey":"String: '_systemX'",
         "systemYKey":"String: '_systemY'"
