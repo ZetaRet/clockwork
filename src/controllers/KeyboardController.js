@@ -19,6 +19,7 @@ function KeyboardController() {
 	o.keyboardCustomEvent=null;
 	o.preventNative=false;
 	o.defaultEvents=["keydown","keypress","keyup"];
+	o.invalidateStage=true;
 	o.super(a, true);
 	var m = {};
 	m.init=function(stage, interaction, target){
@@ -112,7 +113,7 @@ function KeyboardController() {
 		customEvent.setNativeEvent(e);
 		o.keyboardCustomEvent=customEvent;
 		stage.iterateInversed(stage.root,o.stageIterator,customEvent,null,keyboardIterated,o);
-		
+		if(o.invalidateStage)o.stage.invalidate=true;
 		if(o.preventNative)e.preventDefault();
 		return o;
 	};
