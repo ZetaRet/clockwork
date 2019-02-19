@@ -314,9 +314,9 @@ function Graphics() {
 		lscale=(ldata?ldata.scaleMode:null)||undefined;
 		ljoint=(ldata?ldata.joints:null)||undefined;
 		lmiter=(ldata?ldata.miterLimit:null)||undefined;
-		
+
 		if(useStroke)o.lineStyle(stroke, "#000", alpha, lpxhint,lscale,ljoint,lmiter);
-		
+
 		for(i=0;i<cl;i++){
 			startColor=colors[i];
 			endColor=colors[(i+1)%cl];
@@ -326,11 +326,11 @@ function Graphics() {
 			er=endColor >> 16 & 0xff;
 			eg=endColor >> 8 & 0xff;
 			eb=endColor & 0xff;
-			
+
 			for(j=0;j<facet;j++){
 				startColor=(sr+j*(er-sr)/facet)<<16|(sg+j*(eg-sg)/facet)<<8|(sb+j*(eb-sb)/facet);
 				endColor=(sr+(j+1)*(er-sr)/facet)<<16|(sg+(j+1)*(eg-sg)/facet)<<8|(sb+(j+1)*(eb-sb)/facet);
-				
+
 				path=new zetaret.global.packages.clockwork.graphics.GraphicPath();
 				path.autoClose=true;
 				path.closeAfter=true;
@@ -361,7 +361,7 @@ function Graphics() {
 				start=endphase;
 			}
 		}
-		
+
 		return o;
 	};
 	m.endFill=function(stroke, resetColor, resetColorTransform, resetStroke){
@@ -457,13 +457,13 @@ function Graphics() {
 	};
 	m.readGraphicsData=function(cached){
 		if(cached&&o.graphicsData)return o.graphicsData;
-		
+
 		var data=[],cs=o.commands,cl=cs.length,c,d,i;
 		var oPath=false,rPath=false,cPath=false,
 			stroke=false,fill=false,
 			concatd=false,
 			autoclose=false,closeafter=false;
-		
+
 		for(i=0;i<cl;i++){
 			c=cs[i];
 			if(c.is(zetaret.global.packages.clockwork.graphics.GraphicData)){
@@ -528,7 +528,7 @@ function Graphics() {
 				d=o.readCustomCommand(c);
 				data=data.concat(d);
 			}
-			
+
 			if(rPath){
 				if(!oPath)data.push([zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.PATH, zetaret.global.packages.clockwork.graphics.Graphics.EMPTY_ARRAY]);
 				oPath=true;
@@ -555,7 +555,7 @@ function Graphics() {
 					data.push([zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.STROKE, zetaret.global.packages.clockwork.graphics.Graphics.EMPTY_ARRAY]);
 				}
 				if(closeafter)data.push([zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.CLOSE_PATH, zetaret.global.packages.clockwork.graphics.Graphics.EMPTY_ARRAY]);
-				
+
 			}
 		}
 		if(oPath && o.autoPath){
@@ -614,7 +614,7 @@ function Graphics() {
 		var pt=[],t=zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES,
 			c,cid,minx=0,miny=0,maxx=0,maxy=0,x,y,w,h,start,
 			grd,i,l,ar;
-		
+
 		pt.push(t.MOVE_TO);
 		pt.push(t.LINE_TO);
 		pt.push(t.CURVE_TO);
@@ -624,10 +624,10 @@ function Graphics() {
 		pt.push(t.ELLIPSE);
 		pt.push(t.ARC);
 		pt.push(t.ARC_TO);
-		
+
 		grd=o.filterGraphicsData(pt);
 		l=grd.length;
-		
+
 		for(i=0;i<l;i++){
 			c=grd[i];
 			cid=c[0];
@@ -697,7 +697,7 @@ function Graphics() {
 				if(maxy<(y+h))maxy=y+h;
 			}
 		}
-		
+
 		return [minx,miny,maxx,maxy,Math.abs(maxx-minx),Math.abs(maxy-miny)];
 	};
 	m.clearCache=function(){
