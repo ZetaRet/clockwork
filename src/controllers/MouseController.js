@@ -385,6 +385,24 @@ function MouseController() {
 	m.hasMouse=function(){
 		return (o.lastMouseMoveEvent||o.lastMouseDownEvent)?true:false;
 	};
+	m.remouse=function(customEvent){
+		var lmme=o.lastMouseMoveEvent;
+		if (lmme) {
+			customEvent.type="mousemove";
+			customEvent.bubbles=true;
+			customEvent.cancelBubble=false;
+			customEvent.cancelable=false;
+			customEvent.currentTarget=null;
+			customEvent.defaultPrevented=false;
+			customEvent.targetMap=null;
+			customEvent.identifier=null;
+			customEvent.eventPhase=ZetaRet_Event.CAPTURE_PHASE;
+			customEvent.setNativeEvent(lmme);
+			customEvent.updateTargetOffset();
+			o.mouseEventHandler(lmme,null,null,customEvent);
+		}
+		return o;
+	};
 	o.superize(a, m, true, true);
 	return o;
 }
