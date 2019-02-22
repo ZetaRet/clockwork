@@ -51,12 +51,12 @@ function AppData() {
 		}
 		return o;
 	};
-	m.initStage=function(cnvs,cnvscntnr,stagedata){
+	m.initStage=function(cntxt,cnvscntnr,stagedata){
 		if(!stagedata)stagedata={};
 		o.stageData=stagedata;
 		if(!stagedata.clearColor)stagedata.clearColor="#EAEAEA";
 		var cc=new zetaret.global.packages.clockwork.context.c2d.Canvas2DRenderer(),stage;
-		cc.setContext(cnvs||document.getElementById("canvas").getContext('2d', {
+		cc.setContext(cntxt||document.getElementById("canvas").getContext('2d', {
 			alpha: false
 		})).setDefaultContext()
 		.generateIntLookup(zetaret.global.packages.clockwork.context.c2d.Canvas2DRenderer.TYPES, zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES);
