@@ -38,7 +38,7 @@
         "detectEnvironment":"; return zetaret.global.packages.clockwork.data::AppData",
         "initClockwork":"; return zetaret.global.packages.clockwork.data::AppData",
         "initClasses":"xlist*: Array, scrcntnr: HTMLElement; return zetaret.global.packages.clockwork.data::AppData",
-        "initStage":"cnvs: HTMLCanvasElement ,cnvscntnr: HTMLElement ,stagedata: Object; return zetaret.global.packages.clockwork.data::AppData",
+        "initStage":"cntxt: CanvasRenderingContext2D ,cnvscntnr: HTMLElement ,stagedata: Object; return zetaret.global.packages.clockwork.data::AppData",
         "initInteraction":"cnvs: HTMLCanvasElement, interdata: Object; return zetaret.global.packages.clockwork.data::AppData",
         "remouse":"; return zetaret.global.packages.clockwork.data::AppData",
         "render":"; return zetaret.global.packages.clockwork.data::AppData"
