@@ -93,9 +93,9 @@ __initClasses(*Array* xlist, *HTMLElement* scrcntnr) : *zetaret.global.packages.
 > *return __zetaret.global.packages.clockwork.data::AppData__*  
 
 ##  
-__initStage(*HTMLCanvasElement* cnvs, *HTMLElement* cnvscntnr, *Object* stagedata) : *zetaret.global.packages.clockwork.data::AppData*__  
+__initStage(*CanvasRenderingContext2D* cntxt, *HTMLElement* cnvscntnr, *Object* stagedata) : *zetaret.global.packages.clockwork.data::AppData*__  
   
-- cnvs - __*HTMLCanvasElement*__,   
+- cntxt - __*CanvasRenderingContext2D*__,   
 - cnvscntnr - __*HTMLElement*__,   
 - stagedata - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.data::AppData__*  
