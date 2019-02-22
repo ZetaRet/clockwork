@@ -2,7 +2,7 @@
 > __mouse controller__  
 # interacts with stage, default mouse event control and maps, support of bubble events and inversed stage iterator, custom cursors, deep mask verification  
 > *Requires: protoss.all.js*  
-> *Version: 1.08*  
+> *Version: 1.09*  
 > *Date: 2017 - Today*  
 
 __required*__
@@ -339,6 +339,12 @@ __any() : *Boolean*__
 __hasMouse() : *Boolean*__  
   
 > *return __Boolean__*  
+
+##  
+__remouse(*zetaret.global.packages.clockwork.events.MouseEvent* customEvent) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
+  
+- __customEvent*__ - __*zetaret.global.packages.clockwork.events.MouseEvent*__,   
+> *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
