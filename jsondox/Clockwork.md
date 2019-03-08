@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork::Clockwork  
 > Inherits: ProtoSS, XeltoSS  
-> Interfaces:   
 
 ### *Properties*  
 
