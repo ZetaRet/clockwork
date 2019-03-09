@@ -2,14 +2,12 @@
 > __mouse controller__  
 # interacts with stage, default mouse event control and maps, support of bubble events and inversed stage iterator, custom cursors, deep mask verification  
 > *Requires: protoss.all.js*  
-> *Version: 1.09*  
+> *Version: 1.10*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.controllers::MouseController  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 
