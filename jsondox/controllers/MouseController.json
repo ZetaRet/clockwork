@@ -6,8 +6,8 @@
 	"version": "1.10",
 	"date": "2017 - Today",
 	"supername": "zetaret.global.packages.clockwork.controllers::MouseController",
-	"inherits": [],
-	"interfaces": [],
+	"inherits": null,
+	"interfaces": null,
 	"static": {
 		"public_properties": {},
 		"protected_properties": {},
