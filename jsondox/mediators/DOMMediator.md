@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.mediators::DOMMediator  
 > Inherits: [zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)  
-> Interfaces:   
 
 ### *Properties*  
 

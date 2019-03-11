@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.mediators::GraphicContext2DMediator  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 
