@@ -1,14 +1,15 @@
 window.package("zetaret.global.packages.clockwork.skin.html").internal(
 function ProtoHTML() {
-	var o=this,a=arguments;
+	var o = this,
+		a = arguments;
 	o.super(a);
-	var m={};
-	var s=o.superize(a, m, true, true);
+	var m = {};
+	var s = o.superize(a, m, true, true);
 	o.statis(a, a.callee.packobj.ProtoHTMLStatis, s, true, true);
 	return o;
 }).internal(
-function ProtoHTMLStatis(s,c){
-	s.registerZetaConstructor=function(name){
+function ProtoHTMLStatis(s, c) {
+	s.registerZetaConstructor = function(name) {
 		HTMLDocument.prototype.registerZetaConstructor(name, this[name]);
 	};
 
@@ -25,14 +26,16 @@ function ProtoHTMLStatis(s,c){
 		HTMLUnknownElement.prototype[name.toUpperCase() + '_constructor'] = constructor;
 	};
 	HTMLDocument.prototype.observeZetaElements = function() {
-		var doc = this, observer = new MutationObserver(function(mutations) {
-			var l = mutations.length, i, an;
-			for (i = 0; i < l; i++) {
-				an = mutations[i].addedNodes;
-				if (an && an.length > 0)
-					doc.constructZetaElements(an);
-			}
-		});
+		var doc = this,
+			observer = new MutationObserver(function(mutations) {
+				var l = mutations.length,
+					i, an;
+				for (i = 0; i < l; i++) {
+					an = mutations[i].addedNodes;
+					if (an && an.length > 0)
+						doc.constructZetaElements(an);
+				}
+			});
 		observer.observe(doc.body, {
 			childList: true,
 			subtree: true
@@ -41,7 +44,8 @@ function ProtoHTMLStatis(s,c){
 		return observer;
 	};
 	HTMLDocument.prototype.constructZetaElements = function(list) {
-		var zel = this.__zetaElements, name, un, j, el, anl = list.length, protoElement;
+		var protoElement, zel = this.__zetaElements,
+			name, un, j, el, anl = list.length;
 		for (j = 0; j < anl; j++) {
 			el = list[j];
 			un = el.tagName;
@@ -55,7 +59,7 @@ function ProtoHTMLStatis(s,c){
 		return this;
 	};
 	HTMLDocument.prototype.registerZetaElementMap = function(map) {
-		var doc = this, k, v;
+		var k, v, doc = this;
 		for (k in map) {
 			v = map[k];
 			doc.registerZetaConstructor(k, v.protoConstructor);
@@ -67,7 +71,9 @@ function ProtoHTMLStatis(s,c){
 	HTMLCollection.prototype.constructZetaElement = function(name, list, protoElement) {
 		if (!list)
 			list = this;
-		var un = name.toUpperCase(), l = list.length, i, el;
+		var un = name.toUpperCase(),
+			l = list.length,
+			i, el;
 		if (!protoElement)
 			protoElement = HTMLElement;
 		for (i = 0; i < l; i++) {

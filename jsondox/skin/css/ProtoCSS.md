@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.skin.css::ProtoCSS  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 

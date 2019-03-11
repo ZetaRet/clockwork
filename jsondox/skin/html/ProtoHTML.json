@@ -6,8 +6,8 @@
 	"version": "1.05",
 	"date": "2018 - Today",
 	"supername": "zetaret.global.packages.clockwork.skin.html::ProtoHTML",
-	"inherits": [],
-	"interfaces": [],
+	"inherits": null,
+	"interfaces": null,
 	"static": {
 		"public_properties": {},
 		"protected_properties": {},

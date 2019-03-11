@@ -1,54 +1,54 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"Prototype CSS",
-    "text":"dynamic programming of style tag in the DOM, create selectors [classes, tags, ids] in real time, bind style ids and update DOM",
-    "requires":"protoss.all.js",
-    "version":"1.00",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.skin.css::ProtoCSS",
-    "inherits":[],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "cssElement":"HTMLStyleElement: null",
-        "cssContainer":"HTMLElement: null",
-        "cssContainerAppendMethod":"String: 'appendChild'",
-        "css":"Object: {}",
-        "cssIds":"Object: {}",
-        "autoUpdate":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "ProtoCSS":"",
-        "createCSSElement":"; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
-        "updateCSS":"; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
-        "updateRule":"id*: String, rules*: Object; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
-        "style":"selectors*: String|Array, rules*: Object, id: String; return String",
-        "hasCSSId":"id*: String; return Boolean",
-        "bindClassToCSSId":"cls*: String, id*: String; return Boolean",
-        "idToCSS":"; return Object",
-        "cssToArray":"; return Array",
-        "cssToString":"; return String",
-        "destroy":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "cssElement":"",
-        "ProtoCSS":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "Prototype CSS",
+	"text": "dynamic programming of style tag in the DOM, create selectors [classes, tags, ids] in real time, bind style ids and update DOM",
+	"requires": "protoss.all.js",
+	"version": "1.00",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.skin.css::ProtoCSS",
+	"inherits": null,
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"cssElement": "HTMLStyleElement: null",
+		"cssContainer": "HTMLElement: null",
+		"cssContainerAppendMethod": "String: 'appendChild'",
+		"css": "Object: {}",
+		"cssIds": "Object: {}",
+		"autoUpdate": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"ProtoCSS": "",
+		"createCSSElement": "; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
+		"updateCSS": "; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
+		"updateRule": "id*: String, rules*: Object; return zetaret.global.packages.clockwork.skin.css::ProtoCSS",
+		"style": "selectors*: String|Array, rules*: Object, id: String; return String",
+		"hasCSSId": "id*: String; return Boolean",
+		"bindClassToCSSId": "cls*: String, id*: String; return Boolean",
+		"idToCSS": "; return Object",
+		"cssToArray": "; return Array",
+		"cssToString": "; return String",
+		"destroy": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"cssElement": "",
+		"ProtoCSS": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

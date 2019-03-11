@@ -8,8 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin  
-> Inherits:   
-> Interfaces:   
+>Activate per component or multi initiate  
 
 
 ##  

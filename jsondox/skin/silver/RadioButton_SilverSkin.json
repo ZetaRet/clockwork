@@ -1,42 +1,43 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"Radio Button Silver Skin",
-    "text":"change appearance based on skin data in button, background and text of RadioButton component",
-    "requires":"protoss.all.js",
-    "version":"1.02",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
-    "inherits":[],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{},
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "RadioButton_SilverSkin":"",
-        "initSkin":"target*: zetaret.global.packages.clockwork.ui.RadioButton, skindata*: Object; return zetaret.global.packages.clockwork.ui.SkinnableComponent",
-        "onChange":"e*: zetaret.global.packages.clockwork.events.Event, d: Object",
-        "onUpdateSkin":"e*: zetaret.global.packages.clockwork.events.Event, d: Object",
-        "bg":"skin*: zetaret.global.packages.clockwork.ui.Shape, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
-        "checkBtn":"skin*: zetaret.global.packages.clockwork.ui.ButtonContainer, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
-        "txt":"skin*: zetaret.global.packages.clockwork.ui.TextField, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "RadioButton_SilverSkin":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "Radio Button Silver Skin",
+	"text": "change appearance based on skin data in button, background and text of RadioButton component",
+	"requires": "protoss.all.js",
+	"version": "1.02",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
+	"inherits": null,
+	"interfaces": null,
+	"nohierarchy": "Activate per component or multi initiate",
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"RadioButton_SilverSkin": "",
+		"initSkin": "target*: zetaret.global.packages.clockwork.ui.RadioButton, skindata*: Object; return zetaret.global.packages.clockwork.ui.SkinnableComponent",
+		"onChange": "e*: zetaret.global.packages.clockwork.events.Event, d: Object",
+		"onUpdateSkin": "e*: zetaret.global.packages.clockwork.events.Event, d: Object",
+		"bg": "skin*: zetaret.global.packages.clockwork.ui.Shape, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
+		"checkBtn": "skin*: zetaret.global.packages.clockwork.ui.ButtonContainer, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin",
+		"txt": "skin*: zetaret.global.packages.clockwork.ui.TextField, target*: zetaret.global.packages.clockwork.ui.RadioButton, sdata*: Object, scomp*: zetaret.global.packages.clockwork.ui.SkinnableComponent; return zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"RadioButton_SilverSkin": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

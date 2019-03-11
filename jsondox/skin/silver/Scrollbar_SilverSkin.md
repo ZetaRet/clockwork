@@ -8,8 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.skin.silver::Scrollbar_SilverSkin  
-> Inherits:   
-> Interfaces:   
+>Activate per component or multi initiate  
 
 
 ##  
