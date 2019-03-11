@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.controllers::DragController  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 
