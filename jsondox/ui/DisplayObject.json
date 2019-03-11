@@ -1,458 +1,458 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"DisplayObject model",
-    "text":"display model used by the Stage2DController to manipulate Context2D rendering",
-    "requires":"ProtoSS, protoss.all.js",
-    "version":"1.11",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::DisplayObject",
-    "inherits":["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
-    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IDisplayObject"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{
-            "invertTransform":"tm*: Array; return Array",
-            "deltaTransformPoint":"p*: Array, tm*: Array, inverse: Boolean; return Array",
-            "getTransformArea":"rect*: Object, matrix*: Array; return Object",
-            "invalidateGlobal":"dobj*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
-            "getUnionBounds":"ch*: Array, tm*: Array, transformself: Boolean, target: Boolean; return Object"
-        },
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "name":"String: undefined",
-        "x":"Number: 0",
-        "y":"Number: 0",
-        "sx":"Number: 1",
-        "sy":"Number: 1",
-        "rx":"Number: 0",
-        "ry":"Number: 0",
-        "skx":"Number: 0",
-        "sky":"Number: 0",
-        "sw":"Number: 1",
-        "sh":"Number: 1",
-        "skw":"Number: 1",
-        "skh":"Number: 1",
-        "width":"Number: 0",
-        "height":"Number: 0",
-        "transform":"Array: [1,0,0,1,0,0]",
-        "visible":"Boolean: true",
-        "alpha":"Number: 1",
-        "colortransform":"Array: [1,1,1,1,0,0,0,0]",
-        "blend":"String: ''",
-        "opaqueBackground":"String: null",
-        "target":"zetaret.global.packages.clockwork.ui.DisplayObject: this",
-        "lists":"Array: null",
-        "invalidateTransform":"Boolean: false",
-        "forceSelfInvalidate":"Boolean: false",
-        "skipct":"Boolean: false",
-        "skipalpha":"Boolean: false",
-        "skipt":"Boolean: false",
-        "notransform":"Boolean: false",
-        "canrender":"Boolean: false",
-        "cacheLevel":"String: null",
-        "cacheLevelData":"Object: null",
-        "cacheRedraw":"Boolean: false",
-        "cacheBox":"Boolean: false",
-        "localTransform":"Boolean: false",
-        "layer":"Boolean: false",
-        "stage":"zetaret.global.packages.clockwork.controllers.Stage2DController: null",
-        "mask":"zetaret.global.packages.clockwork.ui.DisplayObject: null",
-        "cachetransforms":"Boolean: false",
-        "cachedtransform":"Array: null",
-        "cachedcolortransform":"Array: null",
-        "cachedbounds":"Array: null"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "DisplayObject":"at: Array, act: Array",
-        "addToList":"list*: zetaret.global.packages.clockwork.data.ChildContainer, id: String; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "removeList":"list*: zetaret.global.packages.clockwork.data.ChildContainer, id: String; return Boolean",
-        "setDisplayTarget":"target*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "syncDisplayTarget":"; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getRoot":"; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getParent":"; return zetaret.global.packages.clockwork.data::ChildContainer",
-        "setX":"x*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "setY":"y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getX":"; return Number",
-        "getY":"; return Number",
-        "setVisible":"val*: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getVisible":"; return Boolean",
-        "isVisible":"; return Boolean",
-        "getScaleX":"; return Number",
-        "setScaleX":"sx*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getScaleY":"; return Number",
-        "setScaleY":"sy*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getRotation":"; return Number",
-        "setRotation":"r*: Number, radians: Boolean; return Number",
-        "setSkew":"skewx*: Number, skewy*: Number, radians: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "moveTo":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "scale":"sx*: Number, sy*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "rotate":"r*: Number, radians: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "skew":"skewx*: Number, skewy*: Number, radians: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "translate":"x*: Number, y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "setTransform":"a*: Number, b*: Number, c*: Number, d*: Number, e*: Number, f*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getTransform":"; return Array",
-        "updateTransform":"; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "transformize":"a2*: Number, b2*: Number, c2*: Number, d2*: Number, e2*: Number, f2*: Number; return Array",
-        "transformizeParent":"a1*: Number, b1*: Number, c1*: Number, d1*: Number, e1*: Number, f1*: Number; return Array",
-        "setColorTransform":"r*: Number, g*: Number, b*: Number, a*: Number, ro*: Number, go*: Number, bo*: Number, ao*: Number; return Array",
-        "getColorTransform":"; return Array",
-        "colorTransformize":"r*: Number, g*: Number, b*: Number, a*: Number, ro*: Number, go*: Number, bo*: Number, ao*: Number; return Array",
-        "rotatePoint":"p*: Object, invertSigma: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "getSkewAngle":"; return Array",
-        "getStageTransform":"disableLocalTransform: Boolean; return Object",
-        "globalToLocal":"x*: Number, y*: Number; return Array",
-        "localToGlobal":"x*: Number, y*: Number; return Array",
-        "getBounds":"tm*: Array; return Object",
-        "setMask":"mask*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "setCache":"id*: String, box*: Boolean, local*: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "render":"stage*: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer*: zetaret.global.packages.clockwork.context.ContextRenderer, ctx*: CanvasRenderingContext2D, t*: Array, ct*: Array; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "invalidateStage":"; return zetaret.global.packages.clockwork.ui::DisplayObject",
-        "clone":"; return zetaret.global.packages.clockwork.ui::DisplayObject"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{
-        "invertTransform":{
-            "this":"",
-            "tm":"",
-            "return":""
-        },
-        "deltaTransformPoint":{
-            "this":"",
-            "p":"",
-            "tm":"",
-            "inverse":"",
-            "return":""
-        },
-        "getTransformArea":{
-            "this":"",
-            "rect":"",
-            "matrix":"",
-            "return":""
-        },
-        "invalidateGlobal":{
-            "this":"",
-            "dobj":"",
-            "return":""
-        },
-        "getUnionBounds":{
-            "this":"",
-            "ch":"",
-            "tm":"",
-            "transformself":"",
-            "target":"",
-            "return":""
-        }
-    },
-    "descriptions":{
-        "name":"name of display object",
-        "x":"",
-        "y":"",
-        "sx":"",
-        "sy":"",
-        "rx":"",
-        "ry":"",
-        "skx":"",
-        "sky":"",
-        "sw":"",
-        "sh":"",
-        "skw":"",
-        "skh":"",
-        "width":"",
-        "height":"",
-        "transform":"",
-        "visible":"",
-        "alpha":"",
-        "colortransform":"",
-        "blend":"",
-        "opaqueBackground":"",
-        "target":"",
-        "lists":"",
-        "invalidateTransform":"",
-        "forceSelfInvalidate":"",
-        "skipct":"",
-        "skipalpha":"",
-        "skipt":"",
-        "notransform":"",
-        "canrender":"",
-        "cacheLevel":"",
-        "cacheLevelData":"",
-        "cacheRedraw":"",
-        "cacheBox":"",
-        "localTransform":"",
-        "layer":"",
-        "stage":"",
-        "mask":"",
-        "cachetransforms":"",
-        "cachedtransform":"",
-        "cachedcolortransform":"",
-        "cachedbounds":"",
-        "DisplayObject":{
-            "this":"",
-            "at":"",
-            "act":"",
-            "return":""
-        },
-        "addToList":{
-            "this":"",
-            "list":"",
-            "id":"",
-            "return":""
-        },
-        "removeList":{
-            "this":"",
-            "list":"",
-            "id":"",
-            "return":""
-        },
-        "setDisplayTarget":{
-            "this":"",
-            "target":"",
-            "return":""
-        },
-        "syncDisplayTarget":{
-            "this":"",
-            "return":""
-        },
-        "getRoot":{
-            "this":"",
-            "return":""
-        },
-        "getParent":{
-            "this":"",
-            "return":""
-        },
-        "setX":{
-            "this":"",
-            "x":"",
-            "return":""
-        },
-        "setY":{
-            "this":"",
-            "y":"",
-            "return":""
-        },
-        "getX":{
-            "this":"",
-            "return":""
-        },
-        "getY":{
-            "this":"",
-            "return":""
-        },
-        "setVisible":{
-            "this":"",
-            "val":"",
-            "return":""
-        },
-        "getVisible":{
-            "this":"",
-            "return":""
-        },
-        "isVisible":{
-            "this":"",
-            "return":""
-        },
-        "getScaleX":{
-            "this":"",
-            "return":""
-        },
-        "setScaleX":{
-            "this":"",
-            "sx":"",
-            "return":""
-        },
-        "getScaleY":{
-            "this":"",
-            "return":""
-        },
-        "setScaleY":{
-            "this":"",
-            "sy":"",
-            "return":""
-        },
-        "getRotation":{
-            "this":"",
-            "return":""
-        },
-        "setRotation":{
-            "this":"",
-            "r":"",
-            "radians":"",
-            "return":""
-        },
-        "setSkew":{
-            "this":"",
-            "skewx":"",
-            "skewy":"",
-            "radians":"",
-            "return":""
-        },
-        "moveTo":{
-            "this":"",
-            "x":"",
-            "y":"",
-            "return":""
-        },
-        "scale":{
-            "this":"",
-            "sx":"",
-            "sy":"",
-            "return":""
-        },
-        "rotate":{
-            "this":"",
-            "r":"",
-            "radians":"",
-            "return":""
-        },
-        "skew":{
-            "this":"",
-            "skewx":"",
-            "skewy":"",
-            "radians":"",
-            "return":""
-        },
-        "translate":{
-            "this":"",
-            "x":"",
-            "y":"",
-            "return":""
-        },
-        "setTransform":{
-            "this":"",
-            "a":"",
-            "b":"",
-            "c":"",
-            "d":"",
-            "e":"",
-            "f":"",
-            "return":""
-        },
-        "getTransform":{
-            "this":"",
-            "return":""
-        },
-        "updateTransform":{
-            "this":"calculate Math.cos and Math.sin of x and y rotation, transform rotate matrix using scale x and y, calculate Math.tan of x and y skew, and cross transform by multiplication the product of rotation scale matrix, set translation properties without scale, transform[0-3] values are initially multiplied by scale width 'sw', skew width 'skw', skew height 'skh' and scale height 'sh'",
-            "return":"self, convert local transform properties in place of 'transform' Array, used properties: x, y, rx, ry, sx, sy, skx, sky, sw, sh, skw, skh"
-        },
-        "transformize":{
-            "this":"",
-            "a2":"",
-            "b2":"",
-            "c2":"",
-            "d2":"",
-            "e2":"",
-            "f2":"",
-            "return":""
-        },
-        "transformizeParent":{
-            "this":"",
-            "a1":"",
-            "b1":"",
-            "c1":"",
-            "d1":"",
-            "e1":"",
-            "f1":"",
-            "return":""
-        },
-        "setColorTransform":{
-            "this":"sets new color channels in place of current 'colortransform' property",
-            "r":"red multiplier in 'colortransform'[0]",
-            "g":"green multiplier in 'colortransform'[1]",
-            "b":"blue multiplier in 'colortransform'[2]",
-            "a":"alpha multiplier in 'colortransform'[3]",
-            "ro":"red offset in 'colortransform'[4]",
-            "go":"green offset in 'colortransform'[5]",
-            "bo":"blue offset in 'colortransform'[6]",
-            "ao":"alpha offset in 'colortransform'[7]",
-            "return":"current DisplayObject's 'colortransform' array"
-        },
-        "getColorTransform":{
-            "this":"method getter for 'colortransform'",
-            "return":"reference to 'colortransform' property"
-        },
-        "colorTransformize":{
-            "this":"compute result color transformation array, usually used by context renderer/mediator or self rendering methods",
-            "r":"red multiplies with 'colortransform'[0]",
-            "g":"green multiplies with 'colortransform'[1]",
-            "b":"blue multiplies with 'colortransform'[2]",
-            "a":"alpha multiplies with 'colortransform'[3] and 'alpha' property",
-            "ro":"red offsets 'colortransform'[4]",
-            "go":"green offsets 'colortransform'[5]",
-            "bo":"blue offsets 'colortransform'[6]",
-            "ao":"alpha offsets 'colortransform'[7]",
-            "return":"new Array definition of color transformation, usually used in vertical computation of parent-child structures"
-        },
-        "rotatePoint":{
-            "this":"",
-            "p":"",
-            "invertSigma":"",
-            "return":""
-        },
-        "getSkewAngle":{
-            "this":"",
-            "return":""
-        },
-        "getStageTransform":{
-            "this":"",
-            "disableLocalTransform":"",
-            "return":""
-        },
-        "globalToLocal":{
-            "this":"",
-            "x":"",
-            "y":"",
-            "return":""
-        },
-        "localToGlobal":{
-            "this":"",
-            "x":"",
-            "y":"",
-            "return":""
-        },
-        "getBounds":{
-            "this":"",
-            "tm":"",
-            "return":""
-        },
-        "setMask":{
-            "this":"",
-            "mask":"",
-            "return":""
-        },
-        "setCache":{
-            "this":"",
-            "id":"",
-            "box":"",
-            "local":"",
-            "return":""
-        },
-        "render":{
-            "this":"",
-            "stage":"",
-            "renderer":"",
-            "ctx":"",
-            "t":"",
-            "ct":"",
-            "return":""
-        },
-        "invalidateStage":{
-            "this":"",
-            "return":""
-        },
-        "clone":{
-            "this":"Clone this DisplayObject using direct copy/concat of properties. If 'cloneprops' is available to the constructor of this object then it will apply the new assignments.",
-            "return":"new instance of this 'constructor' DisplayObject, subclasses may extend method or define 'cloneprops' to subclass constructor"
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "DisplayObject model",
+	"text": "display model used by the Stage2DController to manipulate Context2D rendering",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.11",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::DisplayObject",
+	"inherits": ["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.ui.interfaces::IDisplayObject"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {
+			"invertTransform": "tm*: Array; return Array",
+			"deltaTransformPoint": "p*: Array, tm*: Array, inverse: Boolean; return Array",
+			"getTransformArea": "rect*: Object, matrix*: Array; return Object",
+			"invalidateGlobal": "dobj*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
+			"getUnionBounds": "ch*: Array, tm*: Array, transformself: Boolean, target: Boolean; return Object"
+		},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"name": "String: undefined",
+		"x": "Number: 0",
+		"y": "Number: 0",
+		"sx": "Number: 1",
+		"sy": "Number: 1",
+		"rx": "Number: 0",
+		"ry": "Number: 0",
+		"skx": "Number: 0",
+		"sky": "Number: 0",
+		"sw": "Number: 1",
+		"sh": "Number: 1",
+		"skw": "Number: 1",
+		"skh": "Number: 1",
+		"width": "Number: 0",
+		"height": "Number: 0",
+		"transform": "Array: [1,0,0,1,0,0]",
+		"visible": "Boolean: true",
+		"alpha": "Number: 1",
+		"colortransform": "Array: [1,1,1,1,0,0,0,0]",
+		"blend": "String: ''",
+		"opaqueBackground": "String: null",
+		"target": "zetaret.global.packages.clockwork.ui.DisplayObject: this",
+		"lists": "Array: null",
+		"invalidateTransform": "Boolean: false",
+		"forceSelfInvalidate": "Boolean: false",
+		"skipct": "Boolean: false",
+		"skipalpha": "Boolean: false",
+		"skipt": "Boolean: false",
+		"notransform": "Boolean: false",
+		"canrender": "Boolean: false",
+		"cacheLevel": "String: null",
+		"cacheLevelData": "Object: null",
+		"cacheRedraw": "Boolean: false",
+		"cacheBox": "Boolean: false",
+		"localTransform": "Boolean: false",
+		"layer": "Boolean: false",
+		"stage": "zetaret.global.packages.clockwork.controllers.Stage2DController: null",
+		"mask": "zetaret.global.packages.clockwork.ui.DisplayObject: null",
+		"cachetransforms": "Boolean: false",
+		"cachedtransform": "Array: null",
+		"cachedcolortransform": "Array: null",
+		"cachedbounds": "Array: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"DisplayObject": "at: Array, act: Array",
+		"addToList": "list*: zetaret.global.packages.clockwork.data.ChildContainer, id: String; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"removeList": "list*: zetaret.global.packages.clockwork.data.ChildContainer, id: String; return Boolean",
+		"setDisplayTarget": "target*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"syncDisplayTarget": "; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getRoot": "; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getParent": "; return zetaret.global.packages.clockwork.data::ChildContainer",
+		"setX": "x*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"setY": "y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getX": "; return Number",
+		"getY": "; return Number",
+		"setVisible": "val*: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getVisible": "; return Boolean",
+		"isVisible": "; return Boolean",
+		"getScaleX": "; return Number",
+		"setScaleX": "sx*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getScaleY": "; return Number",
+		"setScaleY": "sy*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getRotation": "; return Number",
+		"setRotation": "r*: Number, radians: Boolean; return Number",
+		"setSkew": "skewx*: Number, skewy*: Number, radians: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"moveTo": "x*: Number, y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"scale": "sx*: Number, sy*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"rotate": "r*: Number, radians: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"skew": "skewx*: Number, skewy*: Number, radians: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"translate": "x*: Number, y*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"setTransform": "a*: Number, b*: Number, c*: Number, d*: Number, e*: Number, f*: Number; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getTransform": "; return Array",
+		"updateTransform": "; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"transformize": "a2*: Number, b2*: Number, c2*: Number, d2*: Number, e2*: Number, f2*: Number; return Array",
+		"transformizeParent": "a1*: Number, b1*: Number, c1*: Number, d1*: Number, e1*: Number, f1*: Number; return Array",
+		"setColorTransform": "r*: Number, g*: Number, b*: Number, a*: Number, ro*: Number, go*: Number, bo*: Number, ao*: Number; return Array",
+		"getColorTransform": "; return Array",
+		"colorTransformize": "r*: Number, g*: Number, b*: Number, a*: Number, ro*: Number, go*: Number, bo*: Number, ao*: Number; return Array",
+		"rotatePoint": "p*: Object, invertSigma: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"getSkewAngle": "; return Array",
+		"getStageTransform": "disableLocalTransform: Boolean; return Object",
+		"globalToLocal": "x*: Number, y*: Number; return Array",
+		"localToGlobal": "x*: Number, y*: Number; return Array",
+		"getBounds": "tm*: Array; return Object",
+		"setMask": "mask*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"setCache": "id*: String, box*: Boolean, local*: Boolean; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"render": "stage*: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer*: zetaret.global.packages.clockwork.context.ContextRenderer, ctx*: CanvasRenderingContext2D, t*: Array, ct*: Array; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"invalidateStage": "; return zetaret.global.packages.clockwork.ui::DisplayObject",
+		"clone": "; return zetaret.global.packages.clockwork.ui::DisplayObject"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {
+		"invertTransform": {
+			"this": "",
+			"tm": "",
+			"return": ""
+		},
+		"deltaTransformPoint": {
+			"this": "",
+			"p": "",
+			"tm": "",
+			"inverse": "",
+			"return": ""
+		},
+		"getTransformArea": {
+			"this": "",
+			"rect": "",
+			"matrix": "",
+			"return": ""
+		},
+		"invalidateGlobal": {
+			"this": "",
+			"dobj": "",
+			"return": ""
+		},
+		"getUnionBounds": {
+			"this": "",
+			"ch": "",
+			"tm": "",
+			"transformself": "",
+			"target": "",
+			"return": ""
+		}
+	},
+	"descriptions": {
+		"name": "name of display object",
+		"x": "",
+		"y": "",
+		"sx": "",
+		"sy": "",
+		"rx": "",
+		"ry": "",
+		"skx": "",
+		"sky": "",
+		"sw": "",
+		"sh": "",
+		"skw": "",
+		"skh": "",
+		"width": "",
+		"height": "",
+		"transform": "",
+		"visible": "",
+		"alpha": "",
+		"colortransform": "",
+		"blend": "",
+		"opaqueBackground": "",
+		"target": "",
+		"lists": "",
+		"invalidateTransform": "",
+		"forceSelfInvalidate": "",
+		"skipct": "",
+		"skipalpha": "",
+		"skipt": "",
+		"notransform": "",
+		"canrender": "",
+		"cacheLevel": "",
+		"cacheLevelData": "",
+		"cacheRedraw": "",
+		"cacheBox": "",
+		"localTransform": "",
+		"layer": "",
+		"stage": "",
+		"mask": "",
+		"cachetransforms": "",
+		"cachedtransform": "",
+		"cachedcolortransform": "",
+		"cachedbounds": "",
+		"DisplayObject": {
+			"this": "",
+			"at": "",
+			"act": "",
+			"return": ""
+		},
+		"addToList": {
+			"this": "",
+			"list": "",
+			"id": "",
+			"return": ""
+		},
+		"removeList": {
+			"this": "",
+			"list": "",
+			"id": "",
+			"return": ""
+		},
+		"setDisplayTarget": {
+			"this": "",
+			"target": "",
+			"return": ""
+		},
+		"syncDisplayTarget": {
+			"this": "",
+			"return": ""
+		},
+		"getRoot": {
+			"this": "",
+			"return": ""
+		},
+		"getParent": {
+			"this": "",
+			"return": ""
+		},
+		"setX": {
+			"this": "",
+			"x": "",
+			"return": ""
+		},
+		"setY": {
+			"this": "",
+			"y": "",
+			"return": ""
+		},
+		"getX": {
+			"this": "",
+			"return": ""
+		},
+		"getY": {
+			"this": "",
+			"return": ""
+		},
+		"setVisible": {
+			"this": "",
+			"val": "",
+			"return": ""
+		},
+		"getVisible": {
+			"this": "",
+			"return": ""
+		},
+		"isVisible": {
+			"this": "",
+			"return": ""
+		},
+		"getScaleX": {
+			"this": "",
+			"return": ""
+		},
+		"setScaleX": {
+			"this": "",
+			"sx": "",
+			"return": ""
+		},
+		"getScaleY": {
+			"this": "",
+			"return": ""
+		},
+		"setScaleY": {
+			"this": "",
+			"sy": "",
+			"return": ""
+		},
+		"getRotation": {
+			"this": "",
+			"return": ""
+		},
+		"setRotation": {
+			"this": "",
+			"r": "",
+			"radians": "",
+			"return": ""
+		},
+		"setSkew": {
+			"this": "",
+			"skewx": "",
+			"skewy": "",
+			"radians": "",
+			"return": ""
+		},
+		"moveTo": {
+			"this": "",
+			"x": "",
+			"y": "",
+			"return": ""
+		},
+		"scale": {
+			"this": "",
+			"sx": "",
+			"sy": "",
+			"return": ""
+		},
+		"rotate": {
+			"this": "",
+			"r": "",
+			"radians": "",
+			"return": ""
+		},
+		"skew": {
+			"this": "",
+			"skewx": "",
+			"skewy": "",
+			"radians": "",
+			"return": ""
+		},
+		"translate": {
+			"this": "",
+			"x": "",
+			"y": "",
+			"return": ""
+		},
+		"setTransform": {
+			"this": "",
+			"a": "",
+			"b": "",
+			"c": "",
+			"d": "",
+			"e": "",
+			"f": "",
+			"return": ""
+		},
+		"getTransform": {
+			"this": "",
+			"return": ""
+		},
+		"updateTransform": {
+			"this": "calculate Math.cos and Math.sin of x and y rotation, transform rotate matrix using scale x and y, calculate Math.tan of x and y skew, and cross transform by multiplication the product of rotation scale matrix, set translation properties without scale, transform[0-3] values are initially multiplied by scale width 'sw', skew width 'skw', skew height 'skh' and scale height 'sh'",
+			"return": "self, convert local transform properties in place of 'transform' Array, used properties: x, y, rx, ry, sx, sy, skx, sky, sw, sh, skw, skh"
+		},
+		"transformize": {
+			"this": "",
+			"a2": "",
+			"b2": "",
+			"c2": "",
+			"d2": "",
+			"e2": "",
+			"f2": "",
+			"return": ""
+		},
+		"transformizeParent": {
+			"this": "",
+			"a1": "",
+			"b1": "",
+			"c1": "",
+			"d1": "",
+			"e1": "",
+			"f1": "",
+			"return": ""
+		},
+		"setColorTransform": {
+			"this": "sets new color channels in place of current 'colortransform' property",
+			"r": "red multiplier in 'colortransform'[0]",
+			"g": "green multiplier in 'colortransform'[1]",
+			"b": "blue multiplier in 'colortransform'[2]",
+			"a": "alpha multiplier in 'colortransform'[3]",
+			"ro": "red offset in 'colortransform'[4]",
+			"go": "green offset in 'colortransform'[5]",
+			"bo": "blue offset in 'colortransform'[6]",
+			"ao": "alpha offset in 'colortransform'[7]",
+			"return": "current DisplayObject's 'colortransform' array"
+		},
+		"getColorTransform": {
+			"this": "method getter for 'colortransform'",
+			"return": "reference to 'colortransform' property"
+		},
+		"colorTransformize": {
+			"this": "compute result color transformation array, usually used by context renderer/mediator or self rendering methods",
+			"r": "red multiplies with 'colortransform'[0]",
+			"g": "green multiplies with 'colortransform'[1]",
+			"b": "blue multiplies with 'colortransform'[2]",
+			"a": "alpha multiplies with 'colortransform'[3] and 'alpha' property",
+			"ro": "red offsets 'colortransform'[4]",
+			"go": "green offsets 'colortransform'[5]",
+			"bo": "blue offsets 'colortransform'[6]",
+			"ao": "alpha offsets 'colortransform'[7]",
+			"return": "new Array definition of color transformation, usually used in vertical computation of parent-child structures"
+		},
+		"rotatePoint": {
+			"this": "",
+			"p": "",
+			"invertSigma": "",
+			"return": ""
+		},
+		"getSkewAngle": {
+			"this": "",
+			"return": ""
+		},
+		"getStageTransform": {
+			"this": "",
+			"disableLocalTransform": "",
+			"return": ""
+		},
+		"globalToLocal": {
+			"this": "",
+			"x": "",
+			"y": "",
+			"return": ""
+		},
+		"localToGlobal": {
+			"this": "",
+			"x": "",
+			"y": "",
+			"return": ""
+		},
+		"getBounds": {
+			"this": "",
+			"tm": "",
+			"return": ""
+		},
+		"setMask": {
+			"this": "",
+			"mask": "",
+			"return": ""
+		},
+		"setCache": {
+			"this": "",
+			"id": "",
+			"box": "",
+			"local": "",
+			"return": ""
+		},
+		"render": {
+			"this": "",
+			"stage": "",
+			"renderer": "",
+			"ctx": "",
+			"t": "",
+			"ct": "",
+			"return": ""
+		},
+		"invalidateStage": {
+			"this": "",
+			"return": ""
+		},
+		"clone": {
+			"this": "Clone this DisplayObject using direct copy/concat of properties. If 'cloneprops' is available to the constructor of this object then it will apply the new assignments.",
+			"return": "new instance of this 'constructor' DisplayObject, subclasses may extend method or define 'cloneprops' to subclass constructor"
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

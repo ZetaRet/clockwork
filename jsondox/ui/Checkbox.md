@@ -47,37 +47,37 @@ default true,
 
 ##  
 __Checkbox() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __initBox(*Boolean* check, *Boolean* label) : *zetaret.global.packages.clockwork.ui::Checkbox*__  
-  
+
 - check - __*Boolean*__,   
 - label - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.ui::Checkbox__*  
 
 ##  
 __onCheckClick(*zetaret.global.packages.clockwork.events.Event* e, *zetaret.global.packages.clockwork.controllers.Stage2DController* d) : *void*__  
-  
+
 - e - __*zetaret.global.packages.clockwork.events.Event*__,   
 - d - __*zetaret.global.packages.clockwork.controllers.Stage2DController*__,   
 > *return __void__*  
 
 ##  
 __check(*Boolean* val) : *Boolean*__  
-  
+
 - val - __*Boolean*__,   
 > *return __Boolean__*  
 
 ##  
 __change() : *zetaret.global.packages.clockwork.ui::Checkbox*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Checkbox__*  
 
 ##  
 __destruct() : *void*__  
-  
+
 > *return __void__*  
 
 ---  

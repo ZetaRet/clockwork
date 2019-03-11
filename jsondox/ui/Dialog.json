@@ -1,45 +1,45 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"dialog model",
-    "text":"display object container with button capabilities and show/hide methods",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::Dialog",
-    "inherits":["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
-    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IDialog"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "autoShow":"Boolean: true",
-        "autoArrange":"Boolean: true",
-        "autoInvalidateStage":"Boolean: true",
-        "visible":"Boolean: false"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Dialog":"",
-        "arrangeBox":"; return zetaret.global.packages.clockwork.ui::Dialog",
-        "show":"; return zetaret.global.packages.clockwork.ui::Dialog",
-        "hide":"; return zetaret.global.packages.clockwork.ui::Dialog"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "autoShow":"",
-        "Dialog":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "dialog model",
+	"text": "display object container with button capabilities and show/hide methods",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::Dialog",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.ui.interfaces::IDialog"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"autoShow": "Boolean: true",
+		"autoArrange": "Boolean: true",
+		"autoInvalidateStage": "Boolean: true",
+		"visible": "Boolean: false"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Dialog": "",
+		"arrangeBox": "; return zetaret.global.packages.clockwork.ui::Dialog",
+		"show": "; return zetaret.global.packages.clockwork.ui::Dialog",
+		"hide": "; return zetaret.global.packages.clockwork.ui::Dialog"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"autoShow": "",
+		"Dialog": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

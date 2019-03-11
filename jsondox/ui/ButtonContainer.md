@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::ButtonContainer  
 > Inherits: [zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md), [zetaret.global.packages.clockwork.ui::Button](Button.md)  
-> Interfaces:   
 
 ### *Properties*  
 

@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::AlertBox  
 > Inherits: [zetaret.global.packages.clockwork.ui::Dialog](Dialog.md)  
-> Interfaces:   
 
 ### *Properties*  
 

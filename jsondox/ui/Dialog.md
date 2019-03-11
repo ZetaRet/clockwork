@@ -35,22 +35,22 @@ default false,
 
 ##  
 __Dialog() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __arrangeBox() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
 ##  
 __show() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
 ##  
 __hide() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
 ---  

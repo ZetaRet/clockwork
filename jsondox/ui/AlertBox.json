@@ -1,50 +1,50 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"alert box model",
-    "text":"dialog with yes/no/close buttons, background and icon label",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::AlertBox",
-    "inherits":["[zetaret.global.packages.clockwork.ui::Dialog](Dialog.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "yesBtn":"zetaret.global.packages.clockwork.ui.LabelButton: new",
-        "noBtn":"zetaret.global.packages.clockwork.ui.LabelButton: new",
-        "closeBtn":"zetaret.global.packages.clockwork.ui.ButtonContainer: new",
-        "txt":"zetaret.global.packages.clockwork.ui.TextField: new",
-        "icon":"zetaret.global.packages.clockwork.ui.Image: new"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "AlertBox":"",
-        "alert":"message*: String; return zetaret.global.packages.clockwork.ui::AlertBox",
-        "initBox":"yes: Boolean, no: Boolean, close: Boolean, label: Boolean, icon: Boolean; return zetaret.global.packages.clockwork.ui::AlertBox",
-        "defaultButtons":"; return zetaret.global.packages.clockwork.ui::AlertBox",
-        "onCancel":"e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "onOk":"e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "bg":"",
-        "AlertBox":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "alert box model",
+	"text": "dialog with yes/no/close buttons, background and icon label",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::AlertBox",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::Dialog](Dialog.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"bg": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"yesBtn": "zetaret.global.packages.clockwork.ui.LabelButton: new",
+		"noBtn": "zetaret.global.packages.clockwork.ui.LabelButton: new",
+		"closeBtn": "zetaret.global.packages.clockwork.ui.ButtonContainer: new",
+		"txt": "zetaret.global.packages.clockwork.ui.TextField: new",
+		"icon": "zetaret.global.packages.clockwork.ui.Image: new"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"AlertBox": "",
+		"alert": "message*: String; return zetaret.global.packages.clockwork.ui::AlertBox",
+		"initBox": "yes: Boolean, no: Boolean, close: Boolean, label: Boolean, icon: Boolean; return zetaret.global.packages.clockwork.ui::AlertBox",
+		"defaultButtons": "; return zetaret.global.packages.clockwork.ui::AlertBox",
+		"onCancel": "e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"onOk": "e: zetaret.global.packages.clockwork.events.Event, d: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"bg": "",
+		"AlertBox": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

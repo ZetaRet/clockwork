@@ -1,45 +1,45 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"DisplayObject container model",
-    "text":"display container model used by the Stage2DController to manipulate Context2D rendering",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::DisplayObjectContainer",
-    "inherits":["[zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md)","[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "containerGroup":"String: ''"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "DisplayObjectContainer":"",
-        "getBounds":"tm*: Array; return Object"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "containerGroup":"name of this container group",
-        "DisplayObjectContainer":{
-            "this":"ProtoSS model extending both ChildContainer and DisplayObject, works with ChildController super types",
-            "return":""
-        },
-        "getBounds":{
-            "this":"obtain all rectangular bounds of children using static zetaret.global.packages.clockwork.ui.DisplayObject.getUnionBounds",
-            "tm":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "DisplayObject container model",
+	"text": "display container model used by the Stage2DController to manipulate Context2D rendering",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::DisplayObjectContainer",
+	"inherits": ["[zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md)", "[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"containerGroup": "String: ''"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"DisplayObjectContainer": "",
+		"getBounds": "tm*: Array; return Object"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"containerGroup": "name of this container group",
+		"DisplayObjectContainer": {
+			"this": "ProtoSS model extending both ChildContainer and DisplayObject, works with ChildController super types",
+			"return": ""
+		},
+		"getBounds": {
+			"this": "obtain all rectangular bounds of children using static zetaret.global.packages.clockwork.ui.DisplayObject.getUnionBounds",
+			"tm": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }
