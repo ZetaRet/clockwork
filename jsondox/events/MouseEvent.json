@@ -1,56 +1,56 @@
 {
-    "author": "Zeta Ret, Ivo Yankulovski",
-    "description": "mouse event model used in mouse controller",
-    "text": "x/y, local x/y, offset x/y properties and methods, overrides setNativeEvent to use DOM MouseEvent",
-    "requires": "protoss.all.js",
-    "version": "1.03",
-    "date": "2017 - Today",
-    "supername": "zetaret.global.packages.clockwork.events::MouseEvent",
-    "inherits": ["[zetaret.global.packages.clockwork.events::Event](Event.md)"],
-    "interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IMouseEvent"],
-    "static": {
-        "public_properties": {},
-        "protected_properties": {},
-        "private_properties": {},
-        "public_methods": {},
-        "protected_methods": {},
-        "private_methods": {}
-    },
-    "public_properties": {
-        "x":"Number: 0",
-        "y":"Number: 0",
-        "ox":"Number: 0",
-        "oy":"Number: 0",
-        "lx":"Number: 0",
-        "ly":"Number: 0",
-        "keys":"Object: null"
-    },
-    "protected_properties": {},
-    "private_properties": {},
-    "public_methods": {
-        "MouseEvent":"type*: String, target: /interfaces.IEventTarget",
-        "getX":"; return Number",
-        "getY":"; return Number",
-        "getLocalX":"; return Number",
-        "getLocalY":"; return Number",
-        "getOffsetX":"; return Number",
-        "getOffsetY":"; return Number",
-        "getKeys":"; return Object",
-        "getMouseIn":"el*: HTMLElement; return Object",
-        "updateTargetOffset":"; return zetaret.global.packages.clockwork.events::MouseEvent",
-        "getXY":"; return Array",
-        "setNativeEvent":"e*: MouseEvent; return zetaret.global.packages.clockwork.events::MouseEvent"
-    },
-    "protected_methods": {},
-    "private_methods": {},
-    "static_descriptions": {},
-    "descriptions": {
-        "x":"",
-        "MouseEvent":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples": {},
-    "examples": {}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "mouse event model used in mouse controller",
+	"text": "x/y, local x/y, offset x/y properties and methods, overrides setNativeEvent to use DOM MouseEvent",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.events::MouseEvent",
+	"inherits": ["[zetaret.global.packages.clockwork.events::Event](Event.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IMouseEvent"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"x": "Number: 0",
+		"y": "Number: 0",
+		"ox": "Number: 0",
+		"oy": "Number: 0",
+		"lx": "Number: 0",
+		"ly": "Number: 0",
+		"keys": "Object: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"MouseEvent": "type*: String, target: /interfaces.IEventTarget",
+		"getX": "; return Number",
+		"getY": "; return Number",
+		"getLocalX": "; return Number",
+		"getLocalY": "; return Number",
+		"getOffsetX": "; return Number",
+		"getOffsetY": "; return Number",
+		"getKeys": "; return Object",
+		"getMouseIn": "el*: HTMLElement; return Object",
+		"updateTargetOffset": "; return zetaret.global.packages.clockwork.events::MouseEvent",
+		"getXY": "; return Array",
+		"setNativeEvent": "e*: MouseEvent; return zetaret.global.packages.clockwork.events::MouseEvent"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"x": "",
+		"MouseEvent": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }
