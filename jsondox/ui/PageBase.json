@@ -1,55 +1,55 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"page container model",
-    "text":"display object container with constructors/destructors and adjacent events/methods",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::PageBase",
-    "inherits":["[zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md)","[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "destroyed":"Boolean: false",
-        "autoDestroy":"Boolean: true",
-        "pageInited":"Boolean: false",
-        "Data":"Object: null"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "PageBase":"",
-        "onPageInit":"event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
-        "initPage":"",
-        "onInit":"event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
-        "onDestroy":"event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
-        "resizeStage":"width*: Number, height*: Number",
-        "onStageResize":"event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
-        "Init":"data: Object",
-        "Build":"",
-        "UpdateSize":"; return zetaret.global.packages.clockwork.ui::PageBase",
-        "BeforeDestroy":"",
-        "Destroy":"",
-        "_constructor":"",
-        "_destructor":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "destroyed":"",
-        "PageBase":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "page container model",
+	"text": "display object container with constructors/destructors and adjacent events/methods",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::PageBase",
+	"inherits": ["[zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md)", "[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"destroyed": "Boolean: false",
+		"autoDestroy": "Boolean: true",
+		"pageInited": "Boolean: false",
+		"Data": "Object: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"PageBase": "",
+		"onPageInit": "event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
+		"initPage": "",
+		"onInit": "event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
+		"onDestroy": "event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
+		"resizeStage": "width*: Number, height*: Number",
+		"onStageResize": "event: zetaret.global.packages.clockwork.events.interfaces.IEvent",
+		"Init": "data: Object",
+		"Build": "",
+		"UpdateSize": "; return zetaret.global.packages.clockwork.ui::PageBase",
+		"BeforeDestroy": "",
+		"Destroy": "",
+		"_constructor": "",
+		"_destructor": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"destroyed": "",
+		"PageBase": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

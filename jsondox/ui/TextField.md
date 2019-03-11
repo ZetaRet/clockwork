@@ -115,64 +115,64 @@ default null,
 
 ##  
 __TextField() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __setText(*String* v) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __v*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __setHtmlText(*String* v) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __v*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __setStyleList(*Array* list) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __list*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __addStyle(*Object* style) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __style*__ - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __removeStyle(*Object* style) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __style*__ - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __applyStyles() : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __setStyle(*Object* s, *Boolean* ignore) : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 - __s*__ - __*Object*__,   
 - ignore - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __resetStyle() : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __renderText() : *zetaret.global.packages.clockwork.ui::TextField*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::TextField__*  
 
 ##  
 __destruct() : *void*__  
-  
+
 > *return __void__*  
 
 ##  

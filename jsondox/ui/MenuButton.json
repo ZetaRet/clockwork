@@ -1,41 +1,41 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"menu button model",
-    "text":"button container expecting additional visual decoration of graphics assets",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::MenuButton",
-    "inherits":["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "tf":"zetaret.global.packages.clockwork.ui.TextField: new"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "MenuButton":"",
-        "setText":"txt*: String; return zetaret.global.packages.clockwork.ui::MenuButton",
-        "initMenuButton":"; return zetaret.global.packages.clockwork.ui::MenuButton"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "tf":"instance of TextField",
-        "MenuButton":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "menu button model",
+	"text": "button container expecting additional visual decoration of graphics assets",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::MenuButton",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"tf": "zetaret.global.packages.clockwork.ui.TextField: new"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"MenuButton": "",
+		"setText": "txt*: String; return zetaret.global.packages.clockwork.ui::MenuButton",
+		"initMenuButton": "; return zetaret.global.packages.clockwork.ui::MenuButton"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"tf": "instance of TextField",
+		"MenuButton": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

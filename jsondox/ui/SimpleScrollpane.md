@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::SimpleScrollpane  
 > Inherits: [zetaret.global.packages.clockwork.ui::Scrollpane](Scrollpane.md)  
-> Interfaces:   
 
 ### *Properties*  
 

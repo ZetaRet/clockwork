@@ -1,58 +1,58 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"scrollbar model",
-    "text":"draggable display object container with background and button shapes, supports horizontal/vertical view",
-    "requires":"protoss.all.js",
-    "version":"1.05",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::Scrollbar",
-    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
-    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IScrollbar"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "horizontal":"Boolean: false",
-        "size":"Number: 0",
-        "position":"Number: 0",
-        "barsize":"Number: 0",
-        "wheelsize":"Number: 25",
-        "percentage":"Number: 0",
-        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "bar":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "xyRound":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Scrollbar":"",
-        "initBar":"barsize*: Number, size*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
-        "buttonDefaultPrevent":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "buttonDefaultStop":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "onBgClick":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "onWheel":"e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
-        "onBarDrag":"ix*: Number, iy*: Number, ddx*: Number, ddy*: Number, ds*: zetaret.global.packages.clockwork.controllers.DragController",
-        "getSize":"; return Number",
-        "setScrollP":"p*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
-        "setScroll":"scroll*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
-        "updateScroll":"; return zetaret.global.packages.clockwork.ui::Scrollbar",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "horizontal":"",
-        "Scrollbar":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "scrollbar model",
+	"text": "draggable display object container with background and button shapes, supports horizontal/vertical view",
+	"requires": "protoss.all.js",
+	"version": "1.05",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::Scrollbar",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.ui.interfaces::IScrollbar"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"horizontal": "Boolean: false",
+		"size": "Number: 0",
+		"position": "Number: 0",
+		"barsize": "Number: 0",
+		"wheelsize": "Number: 25",
+		"percentage": "Number: 0",
+		"bg": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"bar": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"xyRound": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Scrollbar": "",
+		"initBar": "barsize*: Number, size*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
+		"buttonDefaultPrevent": "e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"buttonDefaultStop": "e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"onBgClick": "e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"onWheel": "e*: zetaret.global.packages.clockwork.events.Event, s*: zetaret.global.packages.clockwork.controllers.Stage2DController",
+		"onBarDrag": "ix*: Number, iy*: Number, ddx*: Number, ddy*: Number, ds*: zetaret.global.packages.clockwork.controllers.DragController",
+		"getSize": "; return Number",
+		"setScrollP": "p*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
+		"setScroll": "scroll*: Number; return zetaret.global.packages.clockwork.ui::Scrollbar",
+		"updateScroll": "; return zetaret.global.packages.clockwork.ui::Scrollbar",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"horizontal": "",
+		"Scrollbar": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

@@ -1,48 +1,48 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"menu model",
-    "text":"button container of MenuButton instances, label cache and background",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::Menu",
-    "inherits":["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "menulist":"zetaret.global.packages.clockwork.ui.List: new",
-        "menubg":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "menulabels":"Object: {}",
-        "autoInvalidate":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Menu":"",
-        "setBackground":"; return zetaret.global.packages.clockwork.ui::Shape",
-        "addbtn":"id*: String, handler: Function; return zetaret.global.packages.clockwork.ui::MenuButton",
-        "addMenuButton":"mb*: zetaret.global.packages.clockwork.ui.MenuButton; return zetaret.global.packages.clockwork.ui::Menu",
-        "initMenu":"; return zetaret.global.packages.clockwork.ui::Menu",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "menulist":"instance of List containing [MenuButton](MenuButton.md)",
-        "menubg":"instance of background Shape",
-        "Menu":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "menu model",
+	"text": "button container of MenuButton instances, label cache and background",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::Menu",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"menulist": "zetaret.global.packages.clockwork.ui.List: new",
+		"menubg": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"menulabels": "Object: {}",
+		"autoInvalidate": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Menu": "",
+		"setBackground": "; return zetaret.global.packages.clockwork.ui::Shape",
+		"addbtn": "id*: String, handler: Function; return zetaret.global.packages.clockwork.ui::MenuButton",
+		"addMenuButton": "mb*: zetaret.global.packages.clockwork.ui.MenuButton; return zetaret.global.packages.clockwork.ui::Menu",
+		"initMenu": "; return zetaret.global.packages.clockwork.ui::Menu",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"menulist": "instance of List containing [MenuButton](MenuButton.md)",
+		"menubg": "instance of background Shape",
+		"Menu": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::PageBase  
 > Inherits: [zetaret.global.packages.clockwork.data::ChildContainer](../data/ChildContainer.md), [zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)  
-> Interfaces:   
 
 ### *Properties*  
 

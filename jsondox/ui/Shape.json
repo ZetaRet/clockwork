@@ -1,119 +1,119 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"shape model",
-    "text":"basic overrides of DisplayObject methods and Graphics properties availability",
-    "requires":"ProtoSS, protoss.all.js",
-    "version":"1.11",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::Shape",
-    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
-    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IShape"],
-    "static":{
-        "public_properties":{
-            "statis":"Object: {drag=true, graphics=true, interaction=true}"
-        },
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{
-            "ShapeStatis":"s*: Object, c*: zetaret.global.packages.clockwork.ui.Shape"
-        },
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "stroke":"Number|String|CanvasGradient|CanvasPattern: null",
-        "color":"Number|String|CanvasGradient|CanvasPattern: null",
-        "graphics":"zetaret.global.packages.clockwork.graphics.Graphics: null",
-        "clonegraphics":"Boolean: false",
-        "autoBoundGraphics":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Shape":"at: Array, act: Array",
-        "render":"stage*: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer*: zetaret.global.packages.clockwork.context.ContextRenderer, ctx*: CanvasRenderingContext2D, t*: Array, ct*: Array; return zetaret.global.packages.clockwork.ui::Shape",
-        "getBounds":"tm*: Array; return Object",
-        "clone":"; return zetaret.global.packages.clockwork.ui::Shape"
-    },
-    "protected_methods":{
-        "ShapeStatis":"s*: Object, c*: zetaret.global.packages.clockwork.ui.Shape",
-        "resetGraphics":"; return zetaret.global.packages.clockwork.ui::Shape",
-        "setGraphics":"graphics*: zetaret.global.packages.clockwork.graphics.Graphics; return zetaret.global.packages.clockwork.ui::Shape",
-        "getGraphics":"; return zetaret.global.packages.clockwork.graphics::Graphics",
-        "drag":"target: zetaret.global.packages.clockwork.ui.DisplayObject, dx: Boolean, dtarget: zetaret.global.packages.clockwork.ui.DisplayObject, handler: Function, hscope: Object; return zetaret.global.packages.clockwork.controllers::DragController",
-        "setupInteraction":"mouse: Boolean, keyboard: Boolean; return Object"
-    },
-    "private_methods":{},
-    "static_descriptions":{
-        "statis":"",
-        "ShapeStatis":{
-            "this":"statis invoker of the Shape constructor",
-            "s":"statis map",
-            "c":"invoked constructor",
-            "return":""
-        }
-    },
-    "descriptions":{
-        "stroke":"",
-        "Shape":{
-            "this":"constructor",
-            "at":"",
-            "act":"",
-            "return":""
-        },
-        "render":{
-            "this":"",
-            "stage":"",
-            "renderer":"",
-            "ctx":"",
-            "t":"",
-            "ct":"",
-            "return":""
-        },
-        "getBounds":{
-            "this":"",
-            "tm":"",
-            "return":""
-        },
-        "clone":{
-            "this":"",
-            "return":""
-        },
-        "ShapeStatis":{
-            "this":"statis invoker, called once by protoss superize mechanics, static flags of the statis embed only allowed methods in the final compilation",
-            "s":"statis map",
-            "c":"invoked constructor",
-            "return":""
-        },
-        "resetGraphics":{
-            "this":"uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
-            "return":""
-        },
-        "setGraphics":{
-            "this":"uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
-            "graphics":"",
-            "return":""
-        },
-        "getGraphics":{
-            "this":"uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
-            "return":""
-        },
-        "drag":{
-            "this":"uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.drag flag and zetaret.global.packages.clockwork.utils.ControlUtils.configDrag method reference",
-            "target":"",
-            "dx":"",
-            "dtarget":"",
-            "handler":"",
-            "hscope":"",
-            "return":""
-        },
-        "setupInteraction":{
-            "this":"uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.interaction flag",
-            "mouse":"",
-            "keyboard":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "shape model",
+	"text": "basic overrides of DisplayObject methods and Graphics properties availability",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.11",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::Shape",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.ui.interfaces::IShape"],
+	"static": {
+		"public_properties": {
+			"statis": "Object: {drag=true, graphics=true, interaction=true}"
+		},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {
+			"ShapeStatis": "s*: Object, c*: zetaret.global.packages.clockwork.ui.Shape"
+		},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"stroke": "Number|String|CanvasGradient|CanvasPattern: null",
+		"color": "Number|String|CanvasGradient|CanvasPattern: null",
+		"graphics": "zetaret.global.packages.clockwork.graphics.Graphics: null",
+		"clonegraphics": "Boolean: false",
+		"autoBoundGraphics": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Shape": "at: Array, act: Array",
+		"render": "stage*: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer*: zetaret.global.packages.clockwork.context.ContextRenderer, ctx*: CanvasRenderingContext2D, t*: Array, ct*: Array; return zetaret.global.packages.clockwork.ui::Shape",
+		"getBounds": "tm*: Array; return Object",
+		"clone": "; return zetaret.global.packages.clockwork.ui::Shape"
+	},
+	"protected_methods": {
+		"ShapeStatis": "s*: Object, c*: zetaret.global.packages.clockwork.ui.Shape",
+		"resetGraphics": "; return zetaret.global.packages.clockwork.ui::Shape",
+		"setGraphics": "graphics*: zetaret.global.packages.clockwork.graphics.Graphics; return zetaret.global.packages.clockwork.ui::Shape",
+		"getGraphics": "; return zetaret.global.packages.clockwork.graphics::Graphics",
+		"drag": "target: zetaret.global.packages.clockwork.ui.DisplayObject, dx: Boolean, dtarget: zetaret.global.packages.clockwork.ui.DisplayObject, handler: Function, hscope: Object; return zetaret.global.packages.clockwork.controllers::DragController",
+		"setupInteraction": "mouse: Boolean, keyboard: Boolean; return Object"
+	},
+	"private_methods": {},
+	"static_descriptions": {
+		"statis": "",
+		"ShapeStatis": {
+			"this": "statis invoker of the Shape constructor",
+			"s": "statis map",
+			"c": "invoked constructor",
+			"return": ""
+		}
+	},
+	"descriptions": {
+		"stroke": "",
+		"Shape": {
+			"this": "constructor",
+			"at": "",
+			"act": "",
+			"return": ""
+		},
+		"render": {
+			"this": "",
+			"stage": "",
+			"renderer": "",
+			"ctx": "",
+			"t": "",
+			"ct": "",
+			"return": ""
+		},
+		"getBounds": {
+			"this": "",
+			"tm": "",
+			"return": ""
+		},
+		"clone": {
+			"this": "",
+			"return": ""
+		},
+		"ShapeStatis": {
+			"this": "statis invoker, called once by protoss superize mechanics, static flags of the statis embed only allowed methods in the final compilation",
+			"s": "statis map",
+			"c": "invoked constructor",
+			"return": ""
+		},
+		"resetGraphics": {
+			"this": "uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
+			"return": ""
+		},
+		"setGraphics": {
+			"this": "uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
+			"graphics": "",
+			"return": ""
+		},
+		"getGraphics": {
+			"this": "uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.graphics flag",
+			"return": ""
+		},
+		"drag": {
+			"this": "uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.drag flag and zetaret.global.packages.clockwork.utils.ControlUtils.configDrag method reference",
+			"target": "",
+			"dx": "",
+			"dtarget": "",
+			"handler": "",
+			"hscope": "",
+			"return": ""
+		},
+		"setupInteraction": {
+			"this": "uses zetaret.global.packages.clockwork.ui.ShapeStatis.statis.interaction flag",
+			"mouse": "",
+			"keyboard": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

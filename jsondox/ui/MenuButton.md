@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::MenuButton  
 > Inherits: [zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)  
-> Interfaces:   
 
 ### *Properties*  
 

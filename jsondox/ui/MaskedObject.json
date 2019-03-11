@@ -1,45 +1,45 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"masked container model",
-    "text":"display object container with mask shape",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::MaskedObject",
-    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "container":"zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
-        "maskobj":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "maskcontainer":"zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
-        "autoInvalidate":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "MaskedObject":"",
-        "initMask":"; return zetaret.global.packages.clockwork.ui::MaskedObject",
-        "addContent":"dobj*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::MaskedObject",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "container":"",
-        "MaskedObject":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "masked container model",
+	"text": "display object container with mask shape",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::MaskedObject",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"container": "zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
+		"maskobj": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"maskcontainer": "zetaret.global.packages.clockwork.ui.DisplayObjectContainer: new",
+		"autoInvalidate": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"MaskedObject": "",
+		"initMask": "; return zetaret.global.packages.clockwork.ui::MaskedObject",
+		"addContent": "dobj*: zetaret.global.packages.clockwork.ui.DisplayObject; return zetaret.global.packages.clockwork.ui::MaskedObject",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"container": "",
+		"MaskedObject": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

@@ -46,7 +46,7 @@ constructor
 
 ##  
 __render(*zetaret.global.packages.clockwork.controllers.Stage2DController* stage, *zetaret.global.packages.clockwork.context.ContextRenderer* renderer, *CanvasRenderingContext2D* ctx, *Array* t, *Array* ct) : *zetaret.global.packages.clockwork.ui::Shape*__  
-  
+
 - __stage*__ - __*zetaret.global.packages.clockwork.controllers.Stage2DController*__,   
 - __renderer*__ - __*zetaret.global.packages.clockwork.context.ContextRenderer*__,   
 - __ctx*__ - __*CanvasRenderingContext2D*__,   
@@ -56,13 +56,13 @@ __render(*zetaret.global.packages.clockwork.controllers.Stage2DController* stage
 
 ##  
 __getBounds(*Array* tm) : *Object*__  
-  
+
 - __tm*__ - __*Array*__,   
 > *return __Object__*  
 
 ##  
 __clone() : *zetaret.global.packages.clockwork.ui::Shape*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Shape__*  
 
 ##  

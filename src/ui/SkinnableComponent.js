@@ -1,37 +1,42 @@
 window.package("zetaret.global.packages.clockwork.ui").internal(
 function SkinnableComponent() {
-	var o = this,a=arguments;
-	o.skinId="";
-	o.skin=null;
-	o.toskin=[];
-	o.skintarget=this;
-	o.skindata={};
+	var o = this,
+		a = arguments;
+	o.skinId = "";
+	o.skin = null;
+	o.toskin = [];
+	o.skintarget = this;
+	o.skindata = {};
 	o.super(a, null);
 	var m = {};
-	m.setSkin=function(skinid, skin, toskin, skindata){
-		o.skinId=skinid;
-		o.skin=skin;
-		o.skindata=skindata;
-		if(toskin)o.toskin=toskin;
+	m.setSkin = function(skinid, skin, toskin, skindata) {
+		o.skinId = skinid;
+		o.skin = skin;
+		o.skindata = skindata;
+		if (toskin) o.toskin = toskin;
 		return o;
 	};
-	m.setSkinTarget=function(target){
-		o.skintarget=target;
-		target.addEventListener("updateSkin",o.onUpdateSkin);
+	m.setSkinTarget = function(target) {
+		o.skintarget = target;
+		target.addEventListener("updateSkin", o.onUpdateSkin);
 		return o;
 	};
-	m.onUpdateSkin=function(e,d){
+	m.onUpdateSkin = function(e, d) {
 		o.skinme();
 	};
-	m.onUpdateSkin._p=1;
-	m.skinme=function(){
-		var ts=o.toskin,i,l=ts.length,s,st=o.skintarget,sd=o.skindata,sts;
-		if(o.skin){
-			for(i=0;i<l;i++){
-				s=ts[i];
-				sts=st[s];
+	m.onUpdateSkin._p = 1;
+	m.skinme = function() {
+		var ts = o.toskin,
+			i, l = ts.length,
+			s, st = o.skintarget,
+			sd = o.skindata,
+			sts;
+		if (o.skin) {
+			for (i = 0; i < l; i++) {
+				s = ts[i];
+				sts = st[s];
 				o.skin[s](sts, st, sd, o);
-				if(sts)sts.dispatchEvent(new zetaret.global.packages.clockwork.events.Event("updateSkin"));
+				if (sts) sts.dispatchEvent(new zetaret.global.packages.clockwork.events.Event("updateSkin"));
 			}
 		}
 		return o;

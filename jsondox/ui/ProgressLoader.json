@@ -1,47 +1,47 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"progress loader model",
-    "text":"display object container with background and slider, support of horizontal/vertical view",
-    "requires":"protoss.all.js",
-    "version":"1.02",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::ProgressLoader",
-    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "progress":"Number: 0",
-        "size":"Number: 0",
-        "horizontal":"Boolean: true",
-        "bg":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "slide":"zetaret.global.packages.clockwork.ui.Shape: new",
-        "autoInvalidate":"Boolean: true"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "ProgressLoader":"",
-        "setProgress":"v*: Number; return zetaret.global.packages.clockwork.ui::ProgressLoader",
-        "initProgress":"size*: Number; return zetaret.global.packages.clockwork.ui::ProgressLoader",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "progress":"",
-        "ProgressLoader":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "progress loader model",
+	"text": "display object container with background and slider, support of horizontal/vertical view",
+	"requires": "protoss.all.js",
+	"version": "1.02",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::ProgressLoader",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"progress": "Number: 0",
+		"size": "Number: 0",
+		"horizontal": "Boolean: true",
+		"bg": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"slide": "zetaret.global.packages.clockwork.ui.Shape: new",
+		"autoInvalidate": "Boolean: true"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"ProgressLoader": "",
+		"setProgress": "v*: Number; return zetaret.global.packages.clockwork.ui::ProgressLoader",
+		"initProgress": "size*: Number; return zetaret.global.packages.clockwork.ui::ProgressLoader",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"progress": "",
+		"ProgressLoader": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }
