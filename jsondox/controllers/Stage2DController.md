@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.controllers::Stage2DController  
 > Inherits: [zetaret.global.packages.clockwork.controllers::ChildController](ChildController.md)  
-> Interfaces:   
 
 ### *Properties*  
 
