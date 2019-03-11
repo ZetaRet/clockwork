@@ -8,8 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.utils::ControlUtils  
-> Inherits:   
-> Interfaces:   
+>Static Package Object  
 
 
 ##  
