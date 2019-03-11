@@ -47,65 +47,65 @@ default null,
 
 ##  
 __MouseEvent(*String* type, */interfaces.IEventTarget* target) : *void*__  
-  
+
 - __type*__ - __*String*__,   
 - target - __*/interfaces.IEventTarget*__,   
 > *return __void__*  
 
 ##  
 __getX() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getY() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getLocalX() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getLocalY() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getOffsetX() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getOffsetY() : *Number*__  
-  
+
 > *return __Number__*  
 
 ##  
 __getKeys() : *Object*__  
-  
+
 > *return __Object__*  
 
 ##  
 __getMouseIn(*HTMLElement* el) : *Object*__  
-  
+
 - __el*__ - __*HTMLElement*__,   
 > *return __Object__*  
 
 ##  
 __updateTargetOffset() : *zetaret.global.packages.clockwork.events::MouseEvent*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::MouseEvent__*  
 
 ##  
 __getXY() : *Array*__  
-  
+
 > *return __Array__*  
 
 ##  
 __setNativeEvent(*MouseEvent* e) : *zetaret.global.packages.clockwork.events::MouseEvent*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.events::MouseEvent__*  
 

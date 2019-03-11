@@ -197,12 +197,12 @@ default '_systemY',
 
 ##  
 __MouseController() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __init(*[/Stage2DController](Stage2DController.md)* stage, *[/InteractionController](InteractionController.md)* interaction, *HTMLCanvasElement* target) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __stage*__ - __*[/Stage2DController](Stage2DController.md)*__,   
 - __interaction*__ - __*[/InteractionController](InteractionController.md)*__,   
 - __target*__ - __*HTMLCanvasElement*__,   
@@ -210,41 +210,41 @@ __init(*[/Stage2DController](Stage2DController.md)* stage, *[/InteractionControl
 
 ##  
 __initCapabilities() : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __initDefaultEvents() : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __preventCaptureTypes(*Array* types) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __types*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __getInteractionData(*Object* id) : *Object*__  
-  
+
 - __id*__ - __*Object*__,   
 > *return __Object__*  
 
 ##  
 __addInteractionData(*Object* dobj) : *Object*__  
-  
+
 - __dobj*__ - __*Object*__,   
 > *return __Object__*  
 
 ##  
 __addMouseEvent(*String* type) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __type*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __bubbleEventHandler(*Object* child, *Object* parent, *zetaret.global.packages.clockwork.events.MouseEvent* customEvent) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __child*__ - __*Object*__,   
 - __parent*__ - __*Object*__,   
 - __customEvent*__ - __*zetaret.global.packages.clockwork.events.MouseEvent*__,   
@@ -252,7 +252,7 @@ __bubbleEventHandler(*Object* child, *Object* parent, *zetaret.global.packages.c
 
 ##  
 __maskVerify(*Object* child, *Number* x, *Number* y) : *Boolean*__  
-  
+
 - __child*__ - __*Object*__,   
 - __x*__ - __*Number*__,   
 - __y*__ - __*Number*__,   
@@ -260,12 +260,12 @@ __maskVerify(*Object* child, *Number* x, *Number* y) : *Boolean*__
 
 ##  
 __restoreInteraction() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __stageIterator(*Object* child, *Function* f, *zetaret.global.packages.clockwork.events.MouseEvent* customEvent, *Object* parent, *Array* list, *String* type, *Object* childo) : *Boolean*__  
-  
+
 - __child*__ - __*Object*__,   
 - __f*__ - __*Function*__,   
 - __customEvent*__ - __*zetaret.global.packages.clockwork.events.MouseEvent*__,   
@@ -277,43 +277,43 @@ __stageIterator(*Object* child, *Function* f, *zetaret.global.packages.clockwork
 
 ##  
 __mouseEventHandler_touchstart(*MouseEvent* e) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __mouseEventHandler_touchend(*MouseEvent* e) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __mouseEventHandler_touchmove(*MouseEvent* e) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __mouseEventHandler_touchcancel(*MouseEvent* e) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __removeMouseId(*Object* id) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __id*__ - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __computeSystemXY(*Object* event) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __event*__ - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 
 ##  
 __mouseEventHandler(*MouseEvent* e, *Object* data, *String* id, *zetaret.global.packages.clockwork.events.MouseEvent* customEvent, *zetaret.global.packages.clockwork.events.MouseEvent* overEvent, *zetaret.global.packages.clockwork.events.MouseEvent* outEvent) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __e*__ - __*MouseEvent*__,   
 - data - __*Object*__,   
 - id - __*String*__,   
@@ -324,23 +324,23 @@ __mouseEventHandler(*MouseEvent* e, *Object* data, *String* id, *zetaret.global.
 
 ##  
 __setMouseCursor(*String* id) : *Boolean*__  
-  
+
 - __id*__ - __*String*__,   
 > *return __Boolean__*  
 
 ##  
 __any() : *Boolean*__  
-  
+
 > *return __Boolean__*  
 
 ##  
 __hasMouse() : *Boolean*__  
-  
+
 > *return __Boolean__*  
 
 ##  
 __remouse(*zetaret.global.packages.clockwork.events.MouseEvent* customEvent) : *zetaret.global.packages.clockwork.controllers::MouseController*__  
-  
+
 - __customEvent*__ - __*zetaret.global.packages.clockwork.events.MouseEvent*__,   
 > *return __zetaret.global.packages.clockwork.controllers::MouseController__*  
 

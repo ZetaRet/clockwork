@@ -34,23 +34,23 @@ default '2d',
 
 ##  
 __Canvas2DRenderer() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __clear() : *zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer*__  
-  
+
 > *return __zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer__*  
 
 ##  
 __renderGraphics(*zetaret.global.packages.clockwork.graphics.Graphics* graphics) : *zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer*__  
-  
+
 - __graphics*__ - __*zetaret.global.packages.clockwork.graphics.Graphics*__,   
 > *return __zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer__*  
 
 ##  
 __renderGraphicData(*Array* gdata) : *zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer*__  
-  
+
 - __gdata*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer__*  
 

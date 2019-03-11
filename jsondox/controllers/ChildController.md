@@ -54,30 +54,30 @@ default false,
 
 ##  
 __ChildController() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __setRoot(*zetaret.global.packages.clockwork.data.ChildContainer* root) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __root*__ - __*zetaret.global.packages.clockwork.data.ChildContainer*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
 ##  
 __setBubblePhase(*String* bphase) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __bphase*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
 ##  
 __setBubbleMechanics(*String* bmech) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __bmech*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.controllers::ChildController__*  
 
 ##  
 __childToRoot(*Object* child, *Function* f, *Object* d, *Object* scope) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __child*__ - __*Object*__,   
 - __f*__ - __*Function*__,   
 - d - __*Object*__,   
@@ -86,7 +86,7 @@ __childToRoot(*Object* child, *Function* f, *Object* d, *Object* scope) : *zetar
 
 ##  
 __iterate(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clockwork.data.ChildContainer* parent, *Array* list, *Object* scope, *String* mode, *Boolean* skip) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __child*__ - __*Object*__,   
 - __f*__ - __*Function*__,   
 - d - __*Object*__,   
@@ -99,7 +99,7 @@ __iterate(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clo
 
 ##  
 __iterateInversed(*Object* child, *Function* f, *Object* d, *zetaret.global.packages.clockwork.data.ChildContainer* parent, *Array* list, *Object* scope, *String* mode, *Boolean* skip) : *zetaret.global.packages.clockwork.controllers::ChildController*__  
-  
+
 - __child*__ - __*Object*__,   
 - __f*__ - __*Function*__,   
 - d - __*Object*__,   

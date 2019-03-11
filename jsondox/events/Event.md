@@ -75,69 +75,69 @@ default null,
 
 ##  
 __Event(*String* type, */interfaces.IEventTarget* target) : *void*__  
-  
+
 - __type*__ - __*String*__,   
 - target - __*/interfaces.IEventTarget*__,   
 > *return __void__*  
 
 ##  
 __preventBubble() : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __preventDefault() : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __preventCapture() : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __stopPropagation() : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __stopImmediatePropagation() : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __setEventPhase(*String* phase) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __phase*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __setEventType(*String* type) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __type*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __setEventTarget(*/interfaces.IEventTarget* target) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __target*__ - __*/interfaces.IEventTarget*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __setEventCurrentTarget(*/interfaces.IEventTarget* target) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __target*__ - __*/interfaces.IEventTarget*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __addToTargetMap(*/interfaces.IEventTarget* target) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __target*__ - __*/interfaces.IEventTarget*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
 ##  
 __setNativeEvent(*Object|Event* e) : *zetaret.global.packages.clockwork.events::Event*__  
-  
+
 - __e*__ - __*Object|Event*__,   
 > *return __zetaret.global.packages.clockwork.events::Event__*  
 
