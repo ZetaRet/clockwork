@@ -1,7 +1,7 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __mouse event model used in mouse controller__  
 # x/y, local x/y, offset x/y properties and methods, overrides setNativeEvent to use DOM MouseEvent  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
