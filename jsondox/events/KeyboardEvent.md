@@ -1,7 +1,7 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __keyboard event model used in keyboard controller__  
 # key, code, and numeric keyCode properties and methods, overrides setNativeEvent to use DOM KeyboardEvent  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
