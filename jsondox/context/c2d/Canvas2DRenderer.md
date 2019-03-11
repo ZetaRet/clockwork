@@ -1,7 +1,7 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __context 2d renderer wrapper__  
 # override methods and clear properties  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer  
 > Inherits: [zetaret.global.packages.clockwork.context::ContextRenderer](../ContextRenderer.md)  
-> Interfaces:   
 
 ### *Properties*  
 
@@ -54,6 +53,13 @@ __renderGraphicData(*Array* gdata) : *zetaret.global.packages.clockwork.context.
   
 - __gdata*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.context.c2d::Canvas2DRenderer__*  
+
+##  
+### *Static Properties*  
+
+#  
+__TYPES__ Object  
+default init,   
 
 ---  
 ### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
