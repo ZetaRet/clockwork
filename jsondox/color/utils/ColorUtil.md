@@ -8,8 +8,7 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.colors.utils::ColorUtil  
-> Inherits:   
-> Interfaces:   
+>Static Package Object  
 
 
 ##  

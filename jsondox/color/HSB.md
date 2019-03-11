@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.color::HSB  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 

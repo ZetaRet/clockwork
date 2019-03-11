@@ -1,43 +1,43 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"ARGB color model",
-    "text":"color object based on alpha, red, green, blue channel, converters and formatters",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.color::ARGB",
-    "inherits":["[zetaret.global.packages.clockwork.color::RGB](RGB.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "Alpha":"Number: alpha||0"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "ARGB":"red: Number, green: Number, blue: Number, alpha: Number",
-        "Normalize":"; return zetaret.global.packages.clockwork.color::ARGB",
-        "FromColor":"color*: Number; return zetaret.global.packages.clockwork.color::ARGB",
-        "ToColor":"; return Number",
-        "toString":"; return String"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "Alpha":"",
-        "ARGB":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "ARGB color model",
+	"text": "color object based on alpha, red, green, blue channel, converters and formatters",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.color::ARGB",
+	"inherits": ["[zetaret.global.packages.clockwork.color::RGB](RGB.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"Alpha": "Number: alpha||0"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"ARGB": "red: Number, green: Number, blue: Number, alpha: Number",
+		"Normalize": "; return zetaret.global.packages.clockwork.color::ARGB",
+		"FromColor": "color*: Number; return zetaret.global.packages.clockwork.color::ARGB",
+		"ToColor": "; return Number",
+		"toString": "; return String"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"Alpha": "",
+		"ARGB": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

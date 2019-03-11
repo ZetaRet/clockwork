@@ -1,52 +1,52 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"RGB color model",
-    "text":"color object based on red, green, blue channel, converters and formatters",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.color::RGB",
-    "inherits":[],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "Red":"Number: red||0",
-        "Green":"Number: green||0",
-        "Blue":"Number: blue||0",
-        "ColorUtil":"Object: zetaret.global.packages.clockwork.color.utils.ColorUtil"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "RGB":"red: Number, green: Number, blue: Number",
-        "Normalize":"; return zetaret.global.packages.clockwork.color::RGB",
-        "FromRGB":"rgb*: zetaret.global.packages.clockwork.color.RGB; return zetaret.global.packages.clockwork.color::RGB",
-        "FromHSL":"hsl*: zetaret.global.packages.clockwork.color.HSL; return zetaret.global.packages.clockwork.color::RGB",
-        "FromHSB":"hsb*: zetaret.global.packages.clockwork.color.HSB; return zetaret.global.packages.clockwork.color::RGB",
-        "FromColor":"color*: Number; return zetaret.global.packages.clockwork.color::RGB",
-        "ToColor":"; return Number",
-        "ToHSB":"; return zetaret.global.packages.clockwork.color::HSB",
-        "ToHSL":"; return zetaret.global.packages.clockwork.color::HSL",
-        "ToRGB":"; return zetaret.global.packages.clockwork.color::RGB",
-        "toString":"; return String"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "Red":"",
-        "RGB":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "RGB color model",
+	"text": "color object based on red, green, blue channel, converters and formatters",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.color::RGB",
+	"inherits": null,
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"Red": "Number: red||0",
+		"Green": "Number: green||0",
+		"Blue": "Number: blue||0",
+		"ColorUtil": "Object: zetaret.global.packages.clockwork.color.utils.ColorUtil"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"RGB": "red: Number, green: Number, blue: Number",
+		"Normalize": "; return zetaret.global.packages.clockwork.color::RGB",
+		"FromRGB": "rgb*: zetaret.global.packages.clockwork.color.RGB; return zetaret.global.packages.clockwork.color::RGB",
+		"FromHSL": "hsl*: zetaret.global.packages.clockwork.color.HSL; return zetaret.global.packages.clockwork.color::RGB",
+		"FromHSB": "hsb*: zetaret.global.packages.clockwork.color.HSB; return zetaret.global.packages.clockwork.color::RGB",
+		"FromColor": "color*: Number; return zetaret.global.packages.clockwork.color::RGB",
+		"ToColor": "; return Number",
+		"ToHSB": "; return zetaret.global.packages.clockwork.color::HSB",
+		"ToHSL": "; return zetaret.global.packages.clockwork.color::HSL",
+		"ToRGB": "; return zetaret.global.packages.clockwork.color::RGB",
+		"toString": "; return String"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"Red": "",
+		"RGB": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

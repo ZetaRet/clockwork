@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.color::ARGB  
 > Inherits: [zetaret.global.packages.clockwork.color::RGB](RGB.md)  
-> Interfaces:   
 
 ### *Properties*  
 
