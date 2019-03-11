@@ -1,74 +1,74 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"event model used in event dispatchers",
-    "text":"bubbles, phase, target and native capabilities support",
-    "requires":"ProtoSS, protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.events::Event",
-    "inherits":["ZetaRet_Event"],
-    "interfaces":["zetaret.global.packages.clockwork.events.interfaces::IEvent"],
-    "static":{
-        "public_properties":{
-            "BUBBLE_PHASE":"String: 'bubblePhase'",
-            "CAPTURE_PHASE":"String: 'capturePhase'",
-            "NO_PHASE":"String: 'noPhase'",
-            "NULL_PHASE":"String: 'nullPhase'"
-        },
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "type":"String: null",
-        "bubbles":"Boolean: false",
-        "cancelBubble":"Boolean: false",
-        "cancelable":"Boolean: false",
-        "currentTarget":"/interfaces.IEventTarget: null",
-        "target":"/interfaces.IEventTarget: null",
-        "defaultPrevented":"Boolean: false",
-        "targetMap":"Object: null",
-        "eventPhase":"String: null",
-        "time":"Number: 0",
-        "creator":"Object: null",
-        "nativeEvent":"Object|Event: null",
-        "identifier":"String: null",
-        "_capabilities":"Object: null"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Event":"type*: String, target: /interfaces.IEventTarget",
-        "preventBubble":"; return zetaret.global.packages.clockwork.events::Event",
-        "preventDefault":"; return zetaret.global.packages.clockwork.events::Event",
-        "preventCapture":"; return zetaret.global.packages.clockwork.events::Event",
-        "stopPropagation":"; return zetaret.global.packages.clockwork.events::Event",
-        "stopImmediatePropagation":"; return zetaret.global.packages.clockwork.events::Event",
-        "setEventPhase":"phase*: String; return zetaret.global.packages.clockwork.events::Event",
-        "setEventType":"type*: String; return zetaret.global.packages.clockwork.events::Event",
-        "setEventTarget":"target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
-        "setEventCurrentTarget":"target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
-        "addToTargetMap":"target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
-        "setNativeEvent":"e*: Object|Event; return zetaret.global.packages.clockwork.events::Event",
-        "clone":"; return zetaret.global.packages.clockwork.events::Event"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "type":"",
-        "nativeEvent":"native browser dom event or custom object",
-        "Event":{
-            "this":"",
-            "return":""
-        },
-        "clone":{
-            "this":"executes cloning and returns new instance of the same constructor, checks constructor.eventprops for additional cloning instructions",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "event model used in event dispatchers",
+	"text": "bubbles, phase, target and native capabilities support",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.events::Event",
+	"inherits": ["ZetaRet_Event"],
+	"interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IEvent"],
+	"static": {
+		"public_properties": {
+			"BUBBLE_PHASE": "String: 'bubblePhase'",
+			"CAPTURE_PHASE": "String: 'capturePhase'",
+			"NO_PHASE": "String: 'noPhase'",
+			"NULL_PHASE": "String: 'nullPhase'"
+		},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"type": "String: null",
+		"bubbles": "Boolean: false",
+		"cancelBubble": "Boolean: false",
+		"cancelable": "Boolean: false",
+		"currentTarget": "/interfaces.IEventTarget: null",
+		"target": "/interfaces.IEventTarget: null",
+		"defaultPrevented": "Boolean: false",
+		"targetMap": "Object: null",
+		"eventPhase": "String: null",
+		"time": "Number: 0",
+		"creator": "Object: null",
+		"nativeEvent": "Object|Event: null",
+		"identifier": "String: null",
+		"_capabilities": "Object: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Event": "type*: String, target: /interfaces.IEventTarget",
+		"preventBubble": "; return zetaret.global.packages.clockwork.events::Event",
+		"preventDefault": "; return zetaret.global.packages.clockwork.events::Event",
+		"preventCapture": "; return zetaret.global.packages.clockwork.events::Event",
+		"stopPropagation": "; return zetaret.global.packages.clockwork.events::Event",
+		"stopImmediatePropagation": "; return zetaret.global.packages.clockwork.events::Event",
+		"setEventPhase": "phase*: String; return zetaret.global.packages.clockwork.events::Event",
+		"setEventType": "type*: String; return zetaret.global.packages.clockwork.events::Event",
+		"setEventTarget": "target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
+		"setEventCurrentTarget": "target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
+		"addToTargetMap": "target*:/interfaces.IEventTarget; return zetaret.global.packages.clockwork.events::Event",
+		"setNativeEvent": "e*: Object|Event; return zetaret.global.packages.clockwork.events::Event",
+		"clone": "; return zetaret.global.packages.clockwork.events::Event"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"type": "",
+		"nativeEvent": "native browser dom event or custom object",
+		"Event": {
+			"this": "",
+			"return": ""
+		},
+		"clone": {
+			"this": "executes cloning and returns new instance of the same constructor, checks constructor.eventprops for additional cloning instructions",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }
