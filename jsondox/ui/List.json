@@ -1,57 +1,57 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"list model",
-    "text":"horizontal/vertical list display object container with auto arrange based on properties and configuration",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::List",
-    "inherits":["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](List.md)"],
-    "interfaces":["zetaret.global.packages.clockwork.ui.interfaces::IList"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "listItems":"Array: []",
-        "xmargin":"Number: 0",
-        "ymargin":"Number: 0",
-        "xspace":"Number: 0",
-        "yspace":"Number: 0",
-        "xoffset":"Number: 0",
-        "yoffset":"Number: 0",
-        "listItemWidth":"Number: 0",
-        "listItemHeight":"Number: 0",
-        "xarrange":"Boolean: false",
-        "yarrange":"Boolean: false",
-        "xsize":"Number: 0",
-        "ysize":"Number: 0"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "List":"",
-        "addListItem":"li*: Object; return zetaret.global.packages.clockwork.ui::List",
-        "removeListItem":"li*: Object; return Boolean",
-        "setConfig":"cfg*: Object; return zetaret.global.packages.clockwork.ui::List",
-        "readdListItems":"; return zetaret.global.packages.clockwork.ui::List",
-        "arrangeList":"; return zetaret.global.packages.clockwork.ui::List",
-        "invalidateList":"; return zetaret.global.packages.clockwork.ui::List"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "listItems":"",
-        "List":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "list model",
+	"text": "horizontal/vertical list display object container with auto arrange based on properties and configuration",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::List",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::DisplayObjectContainer](List.md)"],
+	"interfaces": ["zetaret.global.packages.clockwork.ui.interfaces::IList"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"listItems": "Array: []",
+		"xmargin": "Number: 0",
+		"ymargin": "Number: 0",
+		"xspace": "Number: 0",
+		"yspace": "Number: 0",
+		"xoffset": "Number: 0",
+		"yoffset": "Number: 0",
+		"listItemWidth": "Number: 0",
+		"listItemHeight": "Number: 0",
+		"xarrange": "Boolean: false",
+		"yarrange": "Boolean: false",
+		"xsize": "Number: 0",
+		"ysize": "Number: 0"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"List": "",
+		"addListItem": "li*: Object; return zetaret.global.packages.clockwork.ui::List",
+		"removeListItem": "li*: Object; return Boolean",
+		"setConfig": "cfg*: Object; return zetaret.global.packages.clockwork.ui::List",
+		"readdListItems": "; return zetaret.global.packages.clockwork.ui::List",
+		"arrangeList": "; return zetaret.global.packages.clockwork.ui::List",
+		"invalidateList": "; return zetaret.global.packages.clockwork.ui::List"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"listItems": "",
+		"List": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

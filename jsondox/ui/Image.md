@@ -95,12 +95,12 @@ default null,
 
 ##  
 __Image() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __setImageId(*String* id, *Number* width, *Number* height) : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 - __id*__ - __*String*__,   
 - __width*__ - __*Number*__,   
 - __height*__ - __*Number*__,   
@@ -108,64 +108,64 @@ __setImageId(*String* id, *Number* width, *Number* height) : *zetaret.global.pac
 
 ##  
 __setImageUrl(*String* url, *String* id) : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 - __url*__ - __*String*__,   
 - __id*__ - __*String*__,   
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __onImageLoaded(*Event* e) : *void*__  
-  
+
 - __e*__ - __*Event*__,   
 > *return __void__*  
 
 ##  
 __onImageError(*Event* e) : *void*__  
-  
+
 - __e*__ - __*Event*__,   
 > *return __void__*  
 
 ##  
 __loadImageFromUrl() : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __setImageData(*CanvasImageSource* idata) : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 - __idata*__ - __*CanvasImageSource*__,   
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __setDefaults() : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __clearDefaults() : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __clearImage(*Boolean* keepurl, *Boolean* keepid) : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 - keepurl - __*Boolean*__,   
 - keepid - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __buildImage() : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __drawImage() : *zetaret.global.packages.clockwork.ui::Image*__  
-  
+
 > *return __zetaret.global.packages.clockwork.ui::Image__*  
 
 ##  
 __destruct() : *void*__  
-  
+
 > *return __void__*  
 
 ---  

@@ -1,41 +1,41 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"label button model",
-    "text":"button container with TextField and background initialization",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.ui::LabelButton",
-    "inherits":["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "label":"zetaret.global.packages.clockwork.ui.TextField: null"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "LabelButton":"",
-        "initLabelButton":"name*: String; return zetaret.global.packages.clockwork.ui::LabelButton",
-        "destruct":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "label":"",
-        "LabelButton":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "label button model",
+	"text": "button container with TextField and background initialization",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.ui::LabelButton",
+	"inherits": ["[zetaret.global.packages.clockwork.ui::ButtonContainer](ButtonContainer.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"label": "zetaret.global.packages.clockwork.ui.TextField: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"LabelButton": "",
+		"initLabelButton": "name*: String; return zetaret.global.packages.clockwork.ui::LabelButton",
+		"destruct": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"label": "",
+		"LabelButton": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

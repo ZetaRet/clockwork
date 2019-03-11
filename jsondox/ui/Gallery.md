@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::Gallery  
 > Inherits: [zetaret.global.packages.clockwork.ui::DisplayObjectContainer](DisplayObjectContainer.md)  
-> Interfaces:   
 
 ### *Properties*  
 

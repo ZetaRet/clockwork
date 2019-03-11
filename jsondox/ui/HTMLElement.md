@@ -9,7 +9,6 @@ __required*__
 
 ## zetaret.global.packages.clockwork.ui::HTMLElement  
 > Inherits: [zetaret.global.packages.clockwork.ui::DisplayObject](DisplayObject.md)  
-> Interfaces:   
 
 ### *Properties*  
 
