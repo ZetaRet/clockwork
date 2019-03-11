@@ -1,9 +1,8 @@
-window.package("zetaret.global.packages.clockwork.stacks").internal(
-{
-	name:"ClockworkTier0",
-	version:"1.00",
-	getList:function(){
-		var xcls=[
+window.package("zetaret.global.packages.clockwork.stacks").internal({
+	name: "ClockworkTier0",
+	version: "1.00",
+	getList: function() {
+		var xcls = [
 			ZetaRet_EventDispatcher,
 			ZetaRet_Event,
 			zetaret.global.packages.clockwork.events.EventDispatcher,
