@@ -1,133 +1,133 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"base context renderer wrapper",
-    "text":"mapping, clear, invalidation and rendering capabilities",
-    "requires":"protoss.all.js",
-    "version":"1.06",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.context::ContextRenderer",
-    "inherits":["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "context":"CanvasRenderingContext2D: null",
-        "defaultContext":"CanvasRenderingContext2D: null",
-        "intlookup":"Object: null",
-        "invalid":"Boolean: false",
-        "invalidArea":"Array: []",
-        "setters":"Object: {}",
-        "externalRenderer":"zetaret.global.packages.clockwork.context.ContextRenderer: null",
-        "externalEnabled":"Boolean: false",
-        "type":"String: ''"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "ContextRenderer":"",
-        "setExternalRenderer":"renderer*: zetaret.global.packages.clockwork.context.ContextRenderer; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "setSetters":"settersar*: Array, v*: Object; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "setContext":"context*: CanvasRenderingContext2D; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "setDefaultContext":"; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "getContext":"; return CanvasRenderingContext2D",
-        "clear":"; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "invalidate":"; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "invalidateRect":"x*: Number, y*: Number, width*: Number, height*: Number; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "clearInvalid":"; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "generateIntLookup":"ctxtypes*: Object, graphictypes*: Object; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "directRender":"data*: Array; return zetaret.global.packages.clockwork.context::ContextRenderer",
-        "intArrayToDirect":"data*: Array; return Array",
-        "intArrayRender":"data*: Array; return zetaret.global.packages.clockwork.context::ContextRenderer"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "context":"",
-        "defaultContext":"",
-        "intlookup":"",
-        "invalid":"",
-        "invalidArea":"",
-        "setters":"",
-        "externalRenderer":"",
-        "externalEnabled":"",
-        "type":"",
-        "ContextRenderer":{
-            "this":"",
-            "return":""
-        },
-        "setExternalRenderer":{
-            "this":"",
-            "renderer":"",
-            "return":""
-        },
-        "setSetters":{
-            "this":"",
-            "settersar":"",
-            "v":"",
-            "return":""
-        },
-        "setContext":{
-            "this":"",
-            "context":"",
-            "return":""
-        },
-        "setDefaultContext":{
-            "this":"",
-            "return":""
-        },
-        "getContext":{
-            "this":"",
-            "return":""
-        },
-        "clear":{
-            "this":"",
-            "return":""
-        },
-        "invalidate":{
-            "this":"",
-            "return":""
-        },
-        "invalidateRect":{
-            "this":"",
-            "x":"",
-            "y":"",
-            "width":"",
-            "height":"",
-            "return":""
-        },
-        "clearInvalid":{
-            "this":"",
-            "return":""
-        },
-        "generateIntLookup":{
-            "this":"",
-            "ctxtypes":"",
-            "graphictypes":"",
-            "return":""
-        },
-        "directRender":{
-            "this":"",
-            "data":"",
-            "return":""
-        },
-        "intArrayToDirect":{
-            "this":"",
-            "data":"",
-            "return":""
-        },
-        "intArrayRender":{
-            "this":"",
-            "data":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "base context renderer wrapper",
+	"text": "mapping, clear, invalidation and rendering capabilities",
+	"requires": "protoss.all.js",
+	"version": "1.06",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.context::ContextRenderer",
+	"inherits": ["[zetaret.global.packages.clockwork.events::EventDispatcher](../events/EventDispatcher.md)"],
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"context": "CanvasRenderingContext2D: null",
+		"defaultContext": "CanvasRenderingContext2D: null",
+		"intlookup": "Object: null",
+		"invalid": "Boolean: false",
+		"invalidArea": "Array: []",
+		"setters": "Object: {}",
+		"externalRenderer": "zetaret.global.packages.clockwork.context.ContextRenderer: null",
+		"externalEnabled": "Boolean: false",
+		"type": "String: ''"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"ContextRenderer": "",
+		"setExternalRenderer": "renderer*: zetaret.global.packages.clockwork.context.ContextRenderer; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"setSetters": "settersar*: Array, v*: Object; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"setContext": "context*: CanvasRenderingContext2D; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"setDefaultContext": "; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"getContext": "; return CanvasRenderingContext2D",
+		"clear": "; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"invalidate": "; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"invalidateRect": "x*: Number, y*: Number, width*: Number, height*: Number; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"clearInvalid": "; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"generateIntLookup": "ctxtypes*: Object, graphictypes*: Object; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"directRender": "data*: Array; return zetaret.global.packages.clockwork.context::ContextRenderer",
+		"intArrayToDirect": "data*: Array; return Array",
+		"intArrayRender": "data*: Array; return zetaret.global.packages.clockwork.context::ContextRenderer"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"context": "",
+		"defaultContext": "",
+		"intlookup": "",
+		"invalid": "",
+		"invalidArea": "",
+		"setters": "",
+		"externalRenderer": "",
+		"externalEnabled": "",
+		"type": "",
+		"ContextRenderer": {
+			"this": "",
+			"return": ""
+		},
+		"setExternalRenderer": {
+			"this": "",
+			"renderer": "",
+			"return": ""
+		},
+		"setSetters": {
+			"this": "",
+			"settersar": "",
+			"v": "",
+			"return": ""
+		},
+		"setContext": {
+			"this": "",
+			"context": "",
+			"return": ""
+		},
+		"setDefaultContext": {
+			"this": "",
+			"return": ""
+		},
+		"getContext": {
+			"this": "",
+			"return": ""
+		},
+		"clear": {
+			"this": "",
+			"return": ""
+		},
+		"invalidate": {
+			"this": "",
+			"return": ""
+		},
+		"invalidateRect": {
+			"this": "",
+			"x": "",
+			"y": "",
+			"width": "",
+			"height": "",
+			"return": ""
+		},
+		"clearInvalid": {
+			"this": "",
+			"return": ""
+		},
+		"generateIntLookup": {
+			"this": "",
+			"ctxtypes": "",
+			"graphictypes": "",
+			"return": ""
+		},
+		"directRender": {
+			"this": "",
+			"data": "",
+			"return": ""
+		},
+		"intArrayToDirect": {
+			"this": "",
+			"data": "",
+			"return": ""
+		},
+		"intArrayRender": {
+			"this": "",
+			"data": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }
