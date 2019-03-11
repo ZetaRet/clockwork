@@ -1,53 +1,53 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"pseudo-random generator",
-    "text":"RNG with time/int/number/range getters and cloning capability",
-    "requires":"protoss.all.js",
-    "version":"1.04",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.data::Randomizer",
-    "inherits":[],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "Seed":"Number: seed||0",
-        "Count":"Number: count||0",
-        "SEED_CONST":"Number: 2147483647",
-        "TIME_CONST":"Number: 1034.256",
-        "NUMBER_SEED_CONST":"Number: 16807",
-        "OVERFLOW_CONST":"Number: 0",
-        "randomSeedCount":"Number: 0"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "Randomizer":"seed: Number, count: Number",
-        "setRandomSeed":"; return zetaret.global.packages.clockwork.data::Randomizer",
-        "GetTime":"; return Number",
-        "GenerateSeed":"; return Number",
-        "GetInt":"; return Number",
-        "GetNumber":"; return Number",
-        "GetRange":"min*: Number, max*: Number; return Number",
-        "GetRangeMethod":"min*: Number, max*: Number, method*: Function; return Number",
-        "Clone":"; return zetaret.global.packages.clockwork.data::Randomizer"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "Seed":"",
-        "Randomizer":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "pseudo-random generator",
+	"text": "RNG with time/int/number/range getters and cloning capability",
+	"requires": "protoss.all.js",
+	"version": "1.04",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.data::Randomizer",
+	"inherits": null,
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"Seed": "Number: seed||0",
+		"Count": "Number: count||0",
+		"SEED_CONST": "Number: 2147483647",
+		"TIME_CONST": "Number: 1034.256",
+		"NUMBER_SEED_CONST": "Number: 16807",
+		"OVERFLOW_CONST": "Number: 0",
+		"randomSeedCount": "Number: 0"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"Randomizer": "seed: Number, count: Number",
+		"setRandomSeed": "; return zetaret.global.packages.clockwork.data::Randomizer",
+		"GetTime": "; return Number",
+		"GenerateSeed": "; return Number",
+		"GetInt": "; return Number",
+		"GetNumber": "; return Number",
+		"GetRange": "min*: Number, max*: Number; return Number",
+		"GetRangeMethod": "min*: Number, max*: Number, method*: Function; return Number",
+		"Clone": "; return zetaret.global.packages.clockwork.data::Randomizer"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"Seed": "",
+		"Randomizer": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

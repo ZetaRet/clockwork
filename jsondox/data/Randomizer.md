@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.data::Randomizer  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 

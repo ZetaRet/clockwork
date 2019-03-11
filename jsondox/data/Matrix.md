@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.data::Matrix  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 

@@ -1,47 +1,47 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"RSI data model",
-    "text":"residual self image data with transfer/clear methods, may replicate properties by keys to self object",
-    "requires":"protoss.all.js",
-    "version":"1.01",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.data::RSI",
-    "inherits":[],
-    "interfaces":[],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "residualImage":"Object|Function: null",
-        "residualMod":"Boolean: false",
-        "residualImagex":"String: ''",
-        "rsiself":"Object: null",
-        "rsikeys":"Array: null",
-        "timestamp":"Number: 0",
-        "autoTimestamp":"Boolean: false"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "RSI":"",
-        "transferResidualImage":"obj*: Object, keys: Array, scope: Object, timestamp: Boolean|Number; return zetaret.global.packages.clockwork.data::RSI",
-        "clearRSI":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "residualImage":"",
-        "RSI":{
-            "this":"Create a subjective appearance of another object",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "RSI data model",
+	"text": "residual self image data with transfer/clear methods, may replicate properties by keys to self object",
+	"requires": "protoss.all.js",
+	"version": "1.01",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.data::RSI",
+	"inherits": null,
+	"interfaces": null,
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"residualImage": "Object|Function: null",
+		"residualMod": "Boolean: false",
+		"residualImagex": "String: ''",
+		"rsiself": "Object: null",
+		"rsikeys": "Array: null",
+		"timestamp": "Number: 0",
+		"autoTimestamp": "Boolean: false"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"RSI": "",
+		"transferResidualImage": "obj*: Object, keys: Array, scope: Object, timestamp: Boolean|Number; return zetaret.global.packages.clockwork.data::RSI",
+		"clearRSI": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"residualImage": "",
+		"RSI": {
+			"this": "Create a subjective appearance of another object",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

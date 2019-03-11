@@ -8,8 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.data::ChildContainer  
-> Inherits:   
-> Interfaces:   
 
 ### *Properties*  
 
