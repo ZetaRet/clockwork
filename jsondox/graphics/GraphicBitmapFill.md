@@ -1,14 +1,13 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __graphic bitmap fill command object__  
 # created by beginBitmapFill/lineBitmapStyle of Graphics model, described by flags, alpha, image data and command id  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicBitmapFill  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicBitmapFill  
 
 ### *Properties*  

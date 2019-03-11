@@ -1,58 +1,58 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"graphic stroke command object",
-    "text":"created by lineStyle of Graphics model, described by line settings",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicStroke",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicStroke"],
-    "static":{
-        "public_properties":{
-            "NONE":"String: 'none'",
-            "ROUND":"String: 'round'",
-            "SQUARE":"String: 'square'",
-            "MITER":"String: 'miter'",
-            "BEVEL":"String: 'bevel'",
-            "HORIZONTAL":"String: 'horizontal'",
-            "VERTICAL":"String: 'vertical'"
-        },
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "color":"Number|String|CanvasGradient|CanvasPattern: 0",
-        "alpha":"Number: 1",
-        "caps":"String: ''",
-        "fill":"Number|String|CanvasGradient|CanvasPattern: null",
-        "joints":"String: ''",
-        "miterLimit":"Number: 0",
-        "pixelHinting":"Boolean: false",
-        "scaleMode":"String: ''",
-        "thickness":"Number: 0",
-        "offset":"Number: 0",
-        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.LINE"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicStroke":"",
-        "toCommandData":"; return Array"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "color":"",
-        "GraphicStroke":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "graphic stroke command object",
+	"text": "created by lineStyle of Graphics model, described by line settings",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicStroke",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicStroke"],
+	"static": {
+		"public_properties": {
+			"NONE": "String: 'none'",
+			"ROUND": "String: 'round'",
+			"SQUARE": "String: 'square'",
+			"MITER": "String: 'miter'",
+			"BEVEL": "String: 'bevel'",
+			"HORIZONTAL": "String: 'horizontal'",
+			"VERTICAL": "String: 'vertical'"
+		},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"color": "Number|String|CanvasGradient|CanvasPattern: 0",
+		"alpha": "Number: 1",
+		"caps": "String: ''",
+		"fill": "Number|String|CanvasGradient|CanvasPattern: null",
+		"joints": "String: ''",
+		"miterLimit": "Number: 0",
+		"pixelHinting": "Boolean: false",
+		"scaleMode": "String: ''",
+		"thickness": "Number: 0",
+		"offset": "Number: 0",
+		"command": "Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.LINE"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicStroke": "",
+		"toCommandData": "; return Array"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"color": "",
+		"GraphicStroke": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

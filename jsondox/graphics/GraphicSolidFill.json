@@ -1,41 +1,41 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"graphic solid fill command object",
-    "text":"manually create and add this command, usually acts as GraphicEndFill with a single color value",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicSolidFill",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicSolidFill"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "color":"Number|String|CanvasGradient|CanvasPattern: 0",
-        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SOLID_FILL"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicSolidFill":"",
-        "toCommandData":"; return Array"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "color":"",
-        "GraphicSolidFill":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "graphic solid fill command object",
+	"text": "manually create and add this command, usually acts as GraphicEndFill with a single color value",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicSolidFill",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicSolidFill"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"color": "Number|String|CanvasGradient|CanvasPattern: 0",
+		"command": "Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SOLID_FILL"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicSolidFill": "",
+		"toCommandData": "; return Array"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"color": "",
+		"GraphicSolidFill": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

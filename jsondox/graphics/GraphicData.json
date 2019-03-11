@@ -1,41 +1,41 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"base graphic data",
-    "text":"graphic data object describing input command data, id and type",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicData",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicData"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "data":"Object: null",
-        "command":"Number: 0",
-        "type":"String: ''"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicData":""
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "data":"",
-        "GraphicData":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "base graphic data",
+	"text": "graphic data object describing input command data, id and type",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicData",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicData"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"data": "Object: null",
+		"command": "Number: 0",
+		"type": "String: ''"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicData": ""
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"data": "",
+		"GraphicData": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

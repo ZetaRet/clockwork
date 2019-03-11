@@ -1,44 +1,44 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"base graphic command",
-    "text":"graphic command object describing input command id and output command data",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicCommand",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicCommand"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "command":"Number: 0"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicCommand":"",
-        "toCommandData":"; return Array"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "command":"",
-        "GraphicCommand":{
-            "this":"",
-            "return":""
-        },
-        "toCommandData":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "base graphic command",
+	"text": "graphic command object describing input command id and output command data",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicCommand",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicCommand"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"command": "Number: 0"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicCommand": "",
+		"toCommandData": "; return Array"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"command": "",
+		"GraphicCommand": {
+			"this": "",
+			"return": ""
+		},
+		"toCommandData": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

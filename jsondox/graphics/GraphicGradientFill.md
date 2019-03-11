@@ -1,14 +1,13 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __graphic gradient fill command object__  
 # created by beginGradientFill/lineGradientStyle of Graphics model, described by flags, types, colors, alphas and command ids  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicGradientFill  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicGradientFill  
 
 ### *Properties*  

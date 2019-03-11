@@ -1,14 +1,13 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __graphic path command object__  
 # created by drawCircle/drawEllipse/drawEllipse2/drawPath/drawRect/drawRect2/drawRoundRect/drawRoundRect2/drawOuterRect/drawOuterArc/drawRadient of Graphics model, described by line settings  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicPath  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicPath  
 
 ### *Properties*  

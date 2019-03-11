@@ -1,42 +1,42 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"graphic fill command object",
-    "text":"created by beginFill of Graphics model, described by color and alpha",
-    "requires":"protoss.all.js",
-    "version":"1.03",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicFill",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicFill"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "color":"Number|String|CanvasGradient|CanvasPattern: 0",
-        "alpha":"Number: 1",
-        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.BEGIN_FILL"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicFill":"",
-        "toCommandData":"; return Array"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "color":"",
-        "GraphicFill":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "graphic fill command object",
+	"text": "created by beginFill of Graphics model, described by color and alpha",
+	"requires": "protoss.all.js",
+	"version": "1.03",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicFill",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicFill"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"color": "Number|String|CanvasGradient|CanvasPattern: 0",
+		"alpha": "Number: 1",
+		"command": "Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.BEGIN_FILL"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicFill": "",
+		"toCommandData": "; return Array"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"color": "",
+		"GraphicFill": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

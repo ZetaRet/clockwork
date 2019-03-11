@@ -1,51 +1,51 @@
 {
-    "author":"Zeta Ret, Ivo Yankulovski",
-    "description":"graphic shader fill command object",
-    "text":"custom command, described by graphic language byte code, data, dimensions and shader method",
-    "requires":"protoss.all.js",
-    "version":"1.04",
-    "date":"2017 - Today",
-    "supername":"zetaret.global.packages.clockwork.graphics::GraphicShaderFill",
-    "inherits":[],
-    "interfaces":["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicShaderFill"],
-    "static":{
-        "public_properties":{},
-        "protected_properties":{},
-        "private_properties":{},
-        "public_methods":{},
-        "protected_methods":{},
-        "private_methods":{}
-    },
-    "public_properties":{
-        "matrix":"Object: null",
-        "shader":"Function: null",
-        "data":"Object: null",
-        "xoffset":"Number: 0",
-        "yoffset":"Number: 0",
-        "x":"Number: 0",
-        "y":"Number: 0",
-        "width":"Number: 0",
-        "height":"Number: 0",
-        "byteCode":"Object: null",
-        "precisionHint":"String: ''",
-        "command":"Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SHADER"
-    },
-    "protected_properties":{},
-    "private_properties":{},
-    "public_methods":{
-        "GraphicShaderFill":"",
-        "toCommandData":"; return Array"
-    },
-    "protected_methods":{},
-    "private_methods":{},
-    "static_descriptions":{},
-    "descriptions":{
-        "propertyName":"",
-        "GraphicShaderFill":{
-            "this":"",
-            "return":""
-        }
-    },
-    "static_examples":{},
-    "examples":{}
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "graphic shader fill command object",
+	"text": "custom command, described by graphic language byte code, data, dimensions and shader method",
+	"requires": "protoss.all.js",
+	"version": "1.04",
+	"date": "2017 - Today",
+	"supername": "zetaret.global.packages.clockwork.graphics::GraphicShaderFill",
+	"inherits": null,
+	"interfaces": ["zetaret.global.packages.clockwork.graphics.interfaces::IGraphicShaderFill"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"matrix": "Object: null",
+		"shader": "Function: null",
+		"data": "Object: null",
+		"xoffset": "Number: 0",
+		"yoffset": "Number: 0",
+		"x": "Number: 0",
+		"y": "Number: 0",
+		"width": "Number: 0",
+		"height": "Number: 0",
+		"byteCode": "Object: null",
+		"precisionHint": "String: ''",
+		"command": "Number: zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SHADER"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"GraphicShaderFill": "",
+		"toCommandData": "; return Array"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {
+		"propertyName": "",
+		"GraphicShaderFill": {
+			"this": "",
+			"return": ""
+		}
+	},
+	"static_examples": {},
+	"examples": {}
 }

@@ -1,14 +1,13 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __base graphic command__  
 # graphic command object describing input command id and output command data  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicCommand  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicCommand  
 
 ### *Properties*  

@@ -1,14 +1,13 @@
 > __Author: Zeta Ret, Ivo Yankulovski__  
 > __graphic end fill command object__  
 # created by endFill of Graphics model, described by reset flags and command ids  
-> *Requires: protoss.all.js*  
+> *Requires: ProtoSS, protoss.all.js*  
 > *Version: 1.03*  
 > *Date: 2017 - Today*  
 
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicEndFill  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicEndFill  
 
 ### *Properties*  

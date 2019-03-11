@@ -8,7 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicText  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicText  
 
 ### *Properties*  

@@ -8,7 +8,6 @@
 __required*__
 
 ## zetaret.global.packages.clockwork.graphics::GraphicShaderFill  
-> Inherits:   
 > Interfaces: zetaret.global.packages.clockwork.graphics.interfaces::IGraphicShaderFill  
 
 ### *Properties*  
