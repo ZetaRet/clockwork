@@ -26,6 +26,6 @@ In development: 2017
 
 ## Demos
 Canvas Live Demo based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
-:alien: Zeta Ret Clockwork demo: https://clockwork.lovesvn.com/demo/  
+:alien: Zeta Ret Clockwork demo: https://clockwork.zetaret.com/demo/  
 
 Author: Zeta Ret, Ivo Yankulovski, https://zetaret.com/
