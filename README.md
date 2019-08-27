@@ -7,7 +7,7 @@
 
 Based on [ProtoSS](https://github.com/ZetaRet/protoss), this library brings the classic OOP from C-suit/Java/ActionScript into JavaScript.
 
-PHP Bundling enforces the compilation at real time, including a JSON auto documentation strategy based on a single JSON descriptor template of the JS Class which generates MarkDown and HTML output readable files.
+PHP Bundling enforces the compilation at real time, including a JSON auto documentation strategy based on a single JSON descriptor template of the JS Class which generates Markdown and HTML output readable files.
 
 Zeta Ret Clockwork is ProtoSS based environment framework and supports:  
 * desktop browsers: IE 11, Edge, Chrome, Firefox, Safari, Opera  
@@ -22,10 +22,9 @@ Our Stage renderer does not define nor constitute the demonstrated rendering but
 
 Clockwork means a mechanism with a spring and toothed gearwheels, used to drive a mechanical clock, very smooth and regular using repetitive and predictable precision. In horology, "caliber" refers to the specific internal mechanism of a watch or clock, also known as a movement. Although the term originally was only used to refer to the size of a movement, it is now used to designate a specific model.
 
-In development: 2017
-
 ## Demos
 Canvas Live Demo based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
-:alien: Zeta Ret Clockwork demo: https://clockwork.zetaret.com/demo/  
+:alien: [Zeta Ret Clockwork demo](https://clockwork.zetaret.com/demo/)  
 
-Author: Zeta Ret, Ivo Yankulovski, https://zetaret.com/
+## Author  
+[Zeta Ret](https://zetaret.com/)  
