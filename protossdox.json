@@ -6,5 +6,7 @@
 	"namespace": "zetaret.global.packages.clockwork",
 	"relative": true,
 	"markdown": true,
-	"ext": ["js"]
+	"ext": ["js"],
+	"version": "1.2.0",
+	"license": "MIT"
 }
