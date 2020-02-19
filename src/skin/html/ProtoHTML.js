@@ -7,7 +7,8 @@ window.package("zetaret.global.packages.clockwork.skin.html").internal(
 		var s = o.superize(a, m, true, true);
 		o.statis(a, a.callee.packobj.ProtoHTMLStatis, s, true, true);
 		return o;
-	}).internal(
+	}
+).internal(
 	function ProtoHTMLStatis(s, c) {
 		s.registerZetaConstructor = function(name) {
 			HTMLDocument.prototype.registerZetaConstructor(name, this[name]);
