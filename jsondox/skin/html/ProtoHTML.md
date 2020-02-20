@@ -2,7 +2,7 @@
 > __Zeta Ret Proto HTML__  
 # Register Custom prototypes of HTML Elements by using HTMLUnknownElement  
 > *Requires: protoss.all.js*  
-> *Version: 1.05*  
+> *Version: 1.1.0*  
 > *Date: 2018 - Today*  
 
 __required*__
