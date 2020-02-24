@@ -17,7 +17,7 @@ function GraphicShaderFill() {
 	o.command = zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SHADER;
 	var m = {};
 	m.toCommandData = function() {
-		if (o.data) o.data.shaderMatrix = matrix;
+		if (o.data) o.data.shaderMatrix = o.matrix;
 		var d = [o.shader, o.byteCode, o.precisionHint, o.x, o.y, o.width, o.height, o.data, o.x, o.y, o.xoffset, o.yoffset, o.width, o.height];
 		return [o.command, d];
 	};
