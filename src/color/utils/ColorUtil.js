@@ -306,7 +306,7 @@ window.package("zetaret.global.packages.clockwork.color.utils").internal({
 	},
 	SetBlue: function(color, blue, alpha) {
 		if (alpha)
-			return this.FromARGB(GetAlpha(color), this.GetRed(color), this.GetGreen(color), blue);
+			return this.FromARGB(this.GetAlpha(color), this.GetRed(color), this.GetGreen(color), blue);
 		return this.FromRGB(this.GetRed(color), this.GetGreen(color), blue);
 	},
 	SetGreen: function(color, green, alpha) {
