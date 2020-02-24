@@ -92,20 +92,20 @@ function Clockwork() {
 				if (xclsc.__xeltoss_amaps) {
 					xa = xclsc.__xeltoss_amaps;
 					for (x = 0; x < xa.length; x++)
-						o.augmentKey(xclsc, zcl.augmentKeyMap[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
+						o.augmentKey(xclsc, o.augmentKeyMap[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
 				}
 				m = 1;
 				if (xclsc.__xeltoss_emaps) {
 					xa = xclsc.__xeltoss_emaps;
 					for (x = 0; x < xa.length; x++)
-						o.addEmbedMap(xclsc, zcl.embedMaps[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
+						o.addEmbedMap(xclsc, o.embedMaps[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
 				}
 				m = 2;
 				if (xclsc.__xeltoss_eamaps) {
 					xa = xclsc.__xeltoss_eamaps;
 					for (x = 0; x < xa.length; x++) {
-						o.augmentKey(xclsc, zcl.augmentKeyMap[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
-						o.addEmbedMap(xclsc, zcl.embedMaps[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
+						o.augmentKey(xclsc, o.augmentKeyMap[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
+						o.addEmbedMap(xclsc, o.embedMaps[ProtoSS.getDefinitionByName(xa[x]).getSuperName2()]);
 					}
 				}
 				m = 3;
