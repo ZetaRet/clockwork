@@ -1,9 +1,9 @@
 # Zeta Ret Clockwork
-[![Zeta Ret Clockwork Logo](https://clockwork.zetaret.com/demo/imgs/clockwork_logo_small.png)](https://clockwork.zetaret.com/demo/) [Open Our G-Demo](https://clockwork.zetaret.com/demo/)
+[![Zeta Ret Clockwork Logo](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/local/clockwork_logo_small.png)](https://clockwork.zetaret.com/demo/) [Open Our G-Demo](https://clockwork.zetaret.com/demo/)
 
 ## ProtoSS OOP Framework
 
-![Zeta Ret Clockwork Cover](https://zetaret.com/images/clockwork1.jpg)
+![Zeta Ret Clockwork Cover](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/local/clockwork1.jpg)
 
 Based on [ProtoSS](https://github.com/ZetaRet/protoss), this library brings the classic OOP from C-suit/Java/ActionScript into JavaScript.
 
