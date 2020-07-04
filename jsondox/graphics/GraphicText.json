@@ -27,7 +27,7 @@
 	},
 	"public_properties": {
 		"color": "Number|String|CanvasGradient|CanvasPattern: 0",
-		"alpha": "alpha: 1",
+		"alpha": "Number: 1",
 		"stroke": "Boolean: false",
 		"font": "String: ''",
 		"textAlign": "String: ''",

@@ -17,7 +17,7 @@ __color__ Number|String|CanvasGradient|CanvasPattern
 default 0,   
 
 #  
-__alpha__ alpha  
+__alpha__ Number  
 default 1,   
 
 #  
@@ -50,12 +50,12 @@ default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.TEXT,
 
 ##  
 __GraphicText() : *void*__  
-  
+
 > *return __void__*  
 
 ##  
 __toCommandData() : *Array*__  
-  
+
 > *return __Array__*  
 
 ##  
