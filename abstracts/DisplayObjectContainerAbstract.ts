@@ -10,19 +10,19 @@ export abstract class DisplayObjectContainerAbstract extends zetaret.global.pack
 	recursiveStage: boolean;
 	stageEvents: boolean;
 
-	getChildren(): Array<object> { return super.getChildren.apply(arguments); }
-	numChildren(): number { return super.numChildren.apply(arguments); }
-	addChild(child: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.addChild.apply(arguments); }
-	addChildAt(child: object, indexo: number): zetaret.global.packages.clockwork.data.ChildContainer { return super.addChildAt.apply(arguments); }
-	containsChild(child: object): boolean { return super.containsChild.apply(arguments); }
-	removeChild(child: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.removeChild.apply(arguments); }
-	removeChildAt(index: number): object { return super.removeChildAt.apply(arguments); }
-	getChildIndex(child: object): number { return super.getChildIndex.apply(arguments); }
-	getChildByName(name: string, cache?: boolean): object { return super.getChildByName.apply(arguments); }
-	getChildByType(type: object, strict?: boolean): object { return super.getChildByType.apply(arguments); }
-	getChildIndexByName(name: string): number { return super.getChildIndexByName.apply(arguments); }
-	swapChildren(child1: object, child2: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.swapChildren.apply(arguments); }
-	swapChildrenAt(index1: number, index2: number): zetaret.global.packages.clockwork.data.ChildContainer { return super.swapChildrenAt.apply(arguments); }
+	getChildren(): Array<object> { return super.getChildren.apply(this, arguments); }
+	numChildren(): number { return super.numChildren.apply(this, arguments); }
+	addChild(child: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.addChild.apply(this, arguments); }
+	addChildAt(child: object, indexo: number): zetaret.global.packages.clockwork.data.ChildContainer { return super.addChildAt.apply(this, arguments); }
+	containsChild(child: object): boolean { return super.containsChild.apply(this, arguments); }
+	removeChild(child: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.removeChild.apply(this, arguments); }
+	removeChildAt(index: number): object { return super.removeChildAt.apply(this, arguments); }
+	getChildIndex(child: object): number { return super.getChildIndex.apply(this, arguments); }
+	getChildByName(name: string, cache?: boolean): object { return super.getChildByName.apply(this, arguments); }
+	getChildByType(type: object, strict?: boolean): object { return super.getChildByType.apply(this, arguments); }
+	getChildIndexByName(name: string): number { return super.getChildIndexByName.apply(this, arguments); }
+	swapChildren(child1: object, child2: object): zetaret.global.packages.clockwork.data.ChildContainer { return super.swapChildren.apply(this, arguments); }
+	swapChildrenAt(index1: number, index2: number): zetaret.global.packages.clockwork.data.ChildContainer { return super.swapChildrenAt.apply(this, arguments); }
 
 	name: string;
 	x: number;
@@ -67,59 +67,59 @@ export abstract class DisplayObjectContainerAbstract extends zetaret.global.pack
 	cachedcolortransform: Array<object>;
 	cachedbounds: Array<object>;
 
-	addToList(list: zetaret.global.packages.clockwork.data.ChildContainer, id?: string): zetaret.global.packages.clockwork.ui.DisplayObject { return super.addToList.apply(arguments); }
-	removeList(list: zetaret.global.packages.clockwork.data.ChildContainer, id?: string): boolean { return super.removeList.apply(arguments); }
-	setDisplayTarget(target: zetaret.global.packages.clockwork.ui.DisplayObject): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setDisplayTarget.apply(arguments); }
-	syncDisplayTarget(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.syncDisplayTarget.apply(arguments); }
-	getRoot(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.getRoot.apply(arguments); }
-	getParent(): zetaret.global.packages.clockwork.data.ChildContainer { return super.getParent.apply(arguments); }
-	setX(x: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setX.apply(arguments); }
-	setY(y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setY.apply(arguments); }
-	getX(): number { return super.getX.apply(arguments); }
-	getY(): number { return super.getY.apply(arguments); }
-	setVisible(val: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setVisible.apply(arguments); }
-	getVisible(): boolean { return super.getVisible.apply(arguments); }
-	isVisible(): boolean { return super.isVisible.apply(arguments); }
-	getScaleX(): number { return super.getScaleX.apply(arguments); }
-	setScaleX(sx: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setScaleX.apply(arguments); }
-	getScaleY(): number { return super.getScaleY.apply(arguments); }
-	setScaleY(sy: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setScaleY.apply(arguments); }
-	getRotation(): number { return super.getRotation.apply(arguments); }
-	setRotation(r: number, radians?: boolean): number { return super.setRotation.apply(arguments); }
-	setSkew(skewx: number, skewy: number, radians?: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setSkew.apply(arguments); }
-	moveTo(x: number, y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.moveTo.apply(arguments); }
-	scale(sx: number, sy: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.scale.apply(arguments); }
-	rotate(r: number, radians?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.rotate.apply(arguments); }
-	skew(skewx: number, skewy: number, radians?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.skew.apply(arguments); }
-	translate(x: number, y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.translate.apply(arguments); }
-	setTransform(a: number, b: number, c: number, d: number, e: number, f: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setTransform.apply(arguments); }
-	getTransform(): Array<number> { return super.getTransform.apply(arguments); }
-	updateTransform(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.updateTransform.apply(arguments); }
-	transformize(a2: number, b2: number, c2: number, d2: number, e2: number, f2: number): Array<object> { return super.transformize.apply(arguments); }
-	transformizeParent(a1: number, b1: number, c1: number, d1: number, e1: number, f1: number): Array<object> { return super.transformizeParent.apply(arguments); }
-	setColorTransform(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.setColorTransform.apply(arguments); }
-	getColorTransform(): Array<number> { return super.getColorTransform.apply(arguments); }
-	colorTransformize(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.colorTransformize.apply(arguments); }
-	rotatePoint(p: object, invertSigma?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.rotatePoint.apply(arguments); }
-	getSkewAngle(): Array<object> { return super.getSkewAngle.apply(arguments); }
-	getStageTransform(disableLocalTransform?: boolean): object { return super.getStageTransform.apply(arguments); }
-	globalToLocal(x: number, y: number): Array<object> { return super.globalToLocal.apply(arguments); }
-	localToGlobal(x: number, y: number): Array<object> { return super.localToGlobal.apply(arguments); }
-	getBounds(tm: Array<object>): object { return super.getBounds.apply(arguments); }
-	setMask(mask: zetaret.global.packages.clockwork.ui.DisplayObject): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setMask.apply(arguments); }
-	setCache(id: string, box: boolean, local: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setCache.apply(arguments); }
-	render(stage: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer: zetaret.global.packages.clockwork.context.ContextRenderer, ctx: CanvasRenderingContext2D, t: Array<object>, ct: Array<object>): zetaret.global.packages.clockwork.ui.DisplayObject { return super.render.apply(arguments); }
-	invalidateStage(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.invalidateStage.apply(arguments); }
-	clone(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.clone.apply(arguments); }
+	addToList(list: zetaret.global.packages.clockwork.data.ChildContainer, id?: string): zetaret.global.packages.clockwork.ui.DisplayObject { return super.addToList.apply(this, arguments); }
+	removeList(list: zetaret.global.packages.clockwork.data.ChildContainer, id?: string): boolean { return super.removeList.apply(this, arguments); }
+	setDisplayTarget(target: zetaret.global.packages.clockwork.ui.DisplayObject): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setDisplayTarget.apply(this, arguments); }
+	syncDisplayTarget(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.syncDisplayTarget.apply(this, arguments); }
+	getRoot(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.getRoot.apply(this, arguments); }
+	getParent(): zetaret.global.packages.clockwork.data.ChildContainer { return super.getParent.apply(this, arguments); }
+	setX(x: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setX.apply(this, arguments); }
+	setY(y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setY.apply(this, arguments); }
+	getX(): number { return super.getX.apply(this, arguments); }
+	getY(): number { return super.getY.apply(this, arguments); }
+	setVisible(val: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setVisible.apply(this, arguments); }
+	getVisible(): boolean { return super.getVisible.apply(this, arguments); }
+	isVisible(): boolean { return super.isVisible.apply(this, arguments); }
+	getScaleX(): number { return super.getScaleX.apply(this, arguments); }
+	setScaleX(sx: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setScaleX.apply(this, arguments); }
+	getScaleY(): number { return super.getScaleY.apply(this, arguments); }
+	setScaleY(sy: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setScaleY.apply(this, arguments); }
+	getRotation(): number { return super.getRotation.apply(this, arguments); }
+	setRotation(r: number, radians?: boolean): number { return super.setRotation.apply(this, arguments); }
+	setSkew(skewx: number, skewy: number, radians?: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setSkew.apply(this, arguments); }
+	moveTo(x: number, y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.moveTo.apply(this, arguments); }
+	scale(sx: number, sy: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.scale.apply(this, arguments); }
+	rotate(r: number, radians?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.rotate.apply(this, arguments); }
+	skew(skewx: number, skewy: number, radians?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.skew.apply(this, arguments); }
+	translate(x: number, y: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.translate.apply(this, arguments); }
+	setTransform(a: number, b: number, c: number, d: number, e: number, f: number): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setTransform.apply(this, arguments); }
+	getTransform(): Array<number> { return super.getTransform.apply(this, arguments); }
+	updateTransform(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.updateTransform.apply(this, arguments); }
+	transformize(a2: number, b2: number, c2: number, d2: number, e2: number, f2: number): Array<object> { return super.transformize.apply(this, arguments); }
+	transformizeParent(a1: number, b1: number, c1: number, d1: number, e1: number, f1: number): Array<object> { return super.transformizeParent.apply(this, arguments); }
+	setColorTransform(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.setColorTransform.apply(this, arguments); }
+	getColorTransform(): Array<number> { return super.getColorTransform.apply(this, arguments); }
+	colorTransformize(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.colorTransformize.apply(this, arguments); }
+	rotatePoint(p: object, invertSigma?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.rotatePoint.apply(this, arguments); }
+	getSkewAngle(): Array<object> { return super.getSkewAngle.apply(this, arguments); }
+	getStageTransform(disableLocalTransform?: boolean): object { return super.getStageTransform.apply(this, arguments); }
+	globalToLocal(x: number, y: number): Array<object> { return super.globalToLocal.apply(this, arguments); }
+	localToGlobal(x: number, y: number): Array<object> { return super.localToGlobal.apply(this, arguments); }
+	getBounds(tm: Array<object>): object { return super.getBounds.apply(this, arguments); }
+	setMask(mask: zetaret.global.packages.clockwork.ui.DisplayObject): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setMask.apply(this, arguments); }
+	setCache(id: string, box: boolean, local: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setCache.apply(this, arguments); }
+	render(stage: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer: zetaret.global.packages.clockwork.context.ContextRenderer, ctx: CanvasRenderingContext2D, t: Array<object>, ct: Array<object>): zetaret.global.packages.clockwork.ui.DisplayObject { return super.render.apply(this, arguments); }
+	invalidateStage(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.invalidateStage.apply(this, arguments); }
+	clone(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.clone.apply(this, arguments); }
 
 	eventTarget: zetaret.global.packages.clockwork.events.EventTarget;
 	events: object;
 
-	setEventTarget(target: zetaret.global.packages.clockwork.events.EventTarget): zetaret.global.packages.clockwork.events.EventDispatcher { return super.setEventTarget.apply(arguments); }
-	addEventListener(event: string, callback: Function): zetaret.global.packages.clockwork.events.EventDispatcher { return super.addEventListener.apply(arguments); }
-	removeEventListener(event: string, callback?: Function): zetaret.global.packages.clockwork.events.EventDispatcher { return super.removeEventListener.apply(arguments); }
-	hasEvent(event: string): boolean { return super.hasEvent.apply(arguments); }
-	dispatch(event: string, data?: object | zetaret.global.packages.clockwork.events.EventData): zetaret.global.packages.clockwork.events.EventDispatcher { return super.dispatch.apply(arguments); }
-	dispatchEvent(event: zetaret.global.packages.clockwork.events.Event, data?: object | zetaret.global.packages.clockwork.events.EventData, settarget?: boolean): zetaret.global.packages.clockwork.events.EventDispatcher { return super.dispatchEvent.apply(arguments); }
-	destruct(): void { return super.destruct.apply(arguments); }
+	setEventTarget(target: zetaret.global.packages.clockwork.events.EventTarget): zetaret.global.packages.clockwork.events.EventDispatcher { return super.setEventTarget.apply(this, arguments); }
+	addEventListener(event: string, callback: Function): zetaret.global.packages.clockwork.events.EventDispatcher { return super.addEventListener.apply(this, arguments); }
+	removeEventListener(event: string, callback?: Function): zetaret.global.packages.clockwork.events.EventDispatcher { return super.removeEventListener.apply(this, arguments); }
+	hasEvent(event: string): boolean { return super.hasEvent.apply(this, arguments); }
+	dispatch(event: string, data?: object | zetaret.global.packages.clockwork.events.EventData): zetaret.global.packages.clockwork.events.EventDispatcher { return super.dispatch.apply(this, arguments); }
+	dispatchEvent(event: zetaret.global.packages.clockwork.events.Event, data?: object | zetaret.global.packages.clockwork.events.EventData, settarget?: boolean): zetaret.global.packages.clockwork.events.EventDispatcher { return super.dispatchEvent.apply(this, arguments); }
+	destruct(): void { return super.destruct.apply(this, arguments); }
 }
