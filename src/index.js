@@ -61,6 +61,7 @@ pack.zetaret.global.packages.clockwork.ui = {};
 pack.zetaret.global.packages.clockwork.ui.DisplayObject = Origin.ProtoSS("zetaret.global.packages.clockwork.ui::DisplayObject");
 pack.zetaret.global.packages.clockwork.ui.DisplayObjectContainer = Origin.ProtoSS("zetaret.global.packages.clockwork.ui::DisplayObjectContainer");
 pack.zetaret.global.packages.clockwork.ui.PageBase = Origin.ProtoSS("zetaret.global.packages.clockwork.ui::PageBase");
+pack.zetaret.global.packages.clockwork.ui.Shape = Origin.ProtoSS("zetaret.global.packages.clockwork.ui::Shape");
 
 module.exports.Origin = Origin;
 module.exports.zetaret = pack.zetaret;
@@ -103,3 +104,4 @@ module.exports.ProtoHTML = zetaret.global.packages.clockwork.skin.html.ProtoHTML
 module.exports.DisplayObject = zetaret.global.packages.clockwork.ui.DisplayObject;
 module.exports.DisplayObjectContainer = zetaret.global.packages.clockwork.ui.DisplayObjectContainer;
 module.exports.PageBase = zetaret.global.packages.clockwork.ui.PageBase;
+module.exports.Shape = zetaret.global.packages.clockwork.ui.Shape;
