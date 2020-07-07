@@ -40,8 +40,8 @@ export abstract class DisplayObjectAbstract extends zetaret.global.packages.cloc
 	stage: zetaret.global.packages.clockwork.controllers.Stage2DController;
 	mask: zetaret.global.packages.clockwork.ui.DisplayObject;
 	cachetransforms: boolean;
-	cachedtransform: Array<object>;
-	cachedcolortransform: Array<object>;
+	cachedtransform: Array<number>;
+	cachedcolortransform: Array<number>;
 	cachedbounds: Array<object>;
 
 	addToList(list: zetaret.global.packages.clockwork.data.ChildContainer, id?: string): zetaret.global.packages.clockwork.ui.DisplayObject { return super.addToList.apply(this, arguments); }
@@ -74,18 +74,18 @@ export abstract class DisplayObjectAbstract extends zetaret.global.packages.cloc
 	updateTransform(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.updateTransform.apply(this, arguments); }
 	transformize(a2: number, b2: number, c2: number, d2: number, e2: number, f2: number): Array<object> { return super.transformize.apply(this, arguments); }
 	transformizeParent(a1: number, b1: number, c1: number, d1: number, e1: number, f1: number): Array<object> { return super.transformizeParent.apply(this, arguments); }
-	setColorTransform(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.setColorTransform.apply(this, arguments); }
+	setColorTransform(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<number> { return super.setColorTransform.apply(this, arguments); }
 	getColorTransform(): Array<number> { return super.getColorTransform.apply(this, arguments); }
-	colorTransformize(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<object> { return super.colorTransformize.apply(this, arguments); }
+	colorTransformize(r: number, g: number, b: number, a: number, ro: number, go: number, bo: number, ao: number): Array<number> { return super.colorTransformize.apply(this, arguments); }
 	rotatePoint(p: object, invertSigma?: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.rotatePoint.apply(this, arguments); }
 	getSkewAngle(): Array<object> { return super.getSkewAngle.apply(this, arguments); }
 	getStageTransform(disableLocalTransform?: boolean): object { return super.getStageTransform.apply(this, arguments); }
-	globalToLocal(x: number, y: number): Array<object> { return super.globalToLocal.apply(this, arguments); }
-	localToGlobal(x: number, y: number): Array<object> { return super.localToGlobal.apply(this, arguments); }
-	getBounds(tm: Array<object>): object { return super.getBounds.apply(this, arguments); }
+	globalToLocal(x: number, y: number): Array<number> { return super.globalToLocal.apply(this, arguments); }
+	localToGlobal(x: number, y: number): Array<number> { return super.localToGlobal.apply(this, arguments); }
+	getBounds(tm: Array<number>): object { return super.getBounds.apply(this, arguments); }
 	setMask(mask: zetaret.global.packages.clockwork.ui.DisplayObject): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setMask.apply(this, arguments); }
 	setCache(id: string, box: boolean, local: boolean): zetaret.global.packages.clockwork.ui.DisplayObject { return super.setCache.apply(this, arguments); }
-	render(stage: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer: zetaret.global.packages.clockwork.context.ContextRenderer, ctx: CanvasRenderingContext2D, t: Array<object>, ct: Array<object>): zetaret.global.packages.clockwork.ui.DisplayObject { return super.render.apply(this, arguments); }
+	render(stage: zetaret.global.packages.clockwork.controllers.Stage2DController, renderer: zetaret.global.packages.clockwork.context.ContextRenderer, ctx: CanvasRenderingContext2D, t: Array<number>, ct: Array<number>): zetaret.global.packages.clockwork.ui.DisplayObject { return super.render.apply(this, arguments); }
 	invalidateStage(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.invalidateStage.apply(this, arguments); }
 	clone(): zetaret.global.packages.clockwork.ui.DisplayObject { return super.clone.apply(this, arguments); }
 
