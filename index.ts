@@ -53,6 +53,7 @@ const DisplayObjectInstance: zetaret.global.packages.clockwork.ui.DisplayObject 
 const DisplayObjectStatic: zetaret.global.packages.clockwork.ui.DisplayObjectStatic = zetaret.global.packages.clockwork.ui.DisplayObject;
 const DisplayObjectContainerInstance: zetaret.global.packages.clockwork.ui.DisplayObjectContainer = new zetaret.global.packages.clockwork.ui.DisplayObjectContainer();
 const PageBaseInstance: zetaret.global.packages.clockwork.ui.PageBase = new zetaret.global.packages.clockwork.ui.PageBase();
+const ShapeInstance: zetaret.global.packages.clockwork.ui.Shape = new zetaret.global.packages.clockwork.ui.Shape();
 
 [
 	ClockworkInstance,
@@ -99,5 +100,6 @@ const PageBaseInstance: zetaret.global.packages.clockwork.ui.PageBase = new zeta
 	DisplayObjectInstance,
 	DisplayObjectStatic,
 	DisplayObjectContainerInstance,
-	PageBaseInstance
+	PageBaseInstance,
+	ShapeInstance
 ].forEach((e: any) => console.log(e));
