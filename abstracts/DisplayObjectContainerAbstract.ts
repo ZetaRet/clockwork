@@ -1,6 +1,6 @@
-import { zetaret } from "./../src";
+import { DisplayObjectContainer } from "./../src";
 
-export abstract class DisplayObjectContainerAbstract extends zetaret.global.packages.clockwork.ui.DisplayObjectContainer implements zetaret.global.packages.clockwork.ui.DisplayObjectContainer {
+export abstract class DisplayObjectContainerAbstract extends DisplayObjectContainer implements zetaret.global.packages.clockwork.ui.DisplayObjectContainer {
 	containerGroup: string;
 
 	children: Array<object>;

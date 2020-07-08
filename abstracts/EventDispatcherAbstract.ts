@@ -1,6 +1,6 @@
-import { zetaret } from "./../src";
+import { EventDispatcher } from "./../src";
 
-export abstract class EventDispatcherAbstract extends zetaret.global.packages.clockwork.events.EventDispatcher implements zetaret.global.packages.clockwork.events.EventDispatcher {
+export abstract class EventDispatcherAbstract extends EventDispatcher implements zetaret.global.packages.clockwork.events.EventDispatcher {
 	eventTarget: zetaret.global.packages.clockwork.events.EventTarget;
 	events: object;
 
