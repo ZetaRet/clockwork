@@ -2,7 +2,7 @@
 > __flawless button model__  
 # normal/over/down state button with gradient/color/font configuration, states are cached as canvases and may use the same canvas id across multiple instances of the same flawless button, inset shadow and border radius  
 > *Requires: ProtoSS, protoss.all.js*  
-> *Version: 1.04*  
+> *Version: 1.1.0*  
 > *Date: 2017 - Today*  
 
 __required*__
@@ -13,11 +13,11 @@ __required*__
 ### *Properties*  
 
 #  
-__bgshadow__ zetaret.global.packages.clockwork.Shape  
+__bgshadow__ zetaret.global.packages.clockwork.ui.Shape  
 default null,   
 
 #  
-__bg__ zetaret.global.packages.clockwork.Shape  
+__bg__ zetaret.global.packages.clockwork.ui.Shape  
 default null,   
 
 #  
