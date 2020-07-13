@@ -3,7 +3,7 @@
 	"description": "image model",
 	"text": "canvas image wrapper based on id, url, HTMLImageElement, caching and pattern mechanism using custom positioning of the outer frame",
 	"requires": "protoss.all.js",
-	"version": "1.03",
+	"version": "1.1.0",
 	"date": "2017 - Today",
 	"supername": "zetaret.global.packages.clockwork.ui::Image",
 	"inherits": ["[zetaret.global.packages.clockwork.ui::Shape](Shape.md)"],
@@ -34,7 +34,7 @@
 		"imageDrawHandler": "Function: null",
 		"imageHandlerScope": "Object: null",
 		"rebuild": "Boolean: false",
-		"invalidateStage": "Boolean: false",
+		"autoInvalidateStage": "Boolean: false",
 		"imgCrossOrigin": "String: null"
 	},
 	"protected_properties": {},
