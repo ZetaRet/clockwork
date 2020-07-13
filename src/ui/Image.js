@@ -19,7 +19,7 @@ function Image() {
 	o.imageDrawHandler = null;
 	o.imageHandlerScope = null;
 	o.rebuild = false;
-	o.invalidateStage = false;
+	o.autoInvalidateStage = false;
 	o.imgCrossOrigin = null;
 	o.super(a, null);
 	var m = {};
@@ -41,7 +41,7 @@ function Image() {
 			o.setImageData(o.imageTag);
 			if (o.rebuild) o.buildImage();
 			o.drawImage();
-			if (o.invalidateStage && o.stage) o.stage.invalidate = true;
+			if (o.autoInvalidateStage && o.stage) o.stage.invalidate = true;
 			o.dispatchEvent(new zetaret.global.packages.clockwork.events.Event("imageLoaded"));
 		}
 	};
@@ -71,13 +71,13 @@ function Image() {
 	m.setDefaults = function() {
 		o.cacheAssets = true;
 		o.rebuild = true;
-		o.invalidateStage = true;
+		o.autoInvalidateStage = true;
 		return o;
 	};
 	m.clearDefaults = function() {
 		o.cacheAssets = false;
 		o.rebuild = false;
-		o.invalidateStage = false;
+		o.autoInvalidateStage = false;
 		o.patternEnabled = false;
 		o.patternStyle = "";
 		return o;
@@ -111,7 +111,7 @@ function Image() {
 		}
 		if (!keepurl) o.imageUrl = "";
 		if (!keepid) o.imageId = "";
-		if (o.invalidateStage && o.stage) o.stage.invalidate = true;
+		if (o.autoInvalidateStage && o.stage) o.stage.invalidate = true;
 		o.dispatchEvent(new zetaret.global.packages.clockwork.events.Event("imageClear"));
 		return o;
 	};
