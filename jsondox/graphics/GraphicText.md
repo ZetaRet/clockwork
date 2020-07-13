@@ -50,12 +50,12 @@ default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.TEXT,
 
 ##  
 __GraphicText() : *void*__  
-
+  
 > *return __void__*  
 
 ##  
 __toCommandData() : *Array*__  
-
+  
 > *return __Array__*  
 
 ##  
