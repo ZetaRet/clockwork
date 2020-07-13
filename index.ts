@@ -49,16 +49,36 @@ const GraphicContext2DMediatorInstance: zetaret.global.packages.clockwork.mediat
 const ProtoCSSInstance: zetaret.global.packages.clockwork.skin.css.ProtoCSS = new zetaret.global.packages.clockwork.skin.css.ProtoCSS();
 const ProtoHTMLInstance: zetaret.global.packages.clockwork.skin.html.ProtoHTML = new zetaret.global.packages.clockwork.skin.html.ProtoHTML();
 
+const AlertBoxInstance: zetaret.global.packages.clockwork.ui.AlertBox = new zetaret.global.packages.clockwork.ui.AlertBox();
+const DialogInstance: zetaret.global.packages.clockwork.ui.Dialog = new zetaret.global.packages.clockwork.ui.Dialog();
 const ButtonInstance: zetaret.global.packages.clockwork.ui.Button = new zetaret.global.packages.clockwork.ui.Button();
 const ButtonStatic: zetaret.global.packages.clockwork.ui.ButtonStatic = zetaret.global.packages.clockwork.ui.Button;
 const ButtonContainerInstance: zetaret.global.packages.clockwork.ui.ButtonContainer = new zetaret.global.packages.clockwork.ui.ButtonContainer();
 const DisplayObjectInstance: zetaret.global.packages.clockwork.ui.DisplayObject = new zetaret.global.packages.clockwork.ui.DisplayObject();
 const DisplayObjectStatic: zetaret.global.packages.clockwork.ui.DisplayObjectStatic = zetaret.global.packages.clockwork.ui.DisplayObject;
 const DisplayObjectContainerInstance: zetaret.global.packages.clockwork.ui.DisplayObjectContainer = new zetaret.global.packages.clockwork.ui.DisplayObjectContainer();
+const FlawlessButtonInstance: zetaret.global.packages.clockwork.ui.FlawlessButton = new zetaret.global.packages.clockwork.ui.FlawlessButton();
+const GalleryInstance: zetaret.global.packages.clockwork.ui.Gallery = new zetaret.global.packages.clockwork.ui.Gallery();
+const GalleryItemInstance: zetaret.global.packages.clockwork.ui.GalleryItem = new zetaret.global.packages.clockwork.ui.GalleryItem();
+const HTMLElementInstance: zetaret.global.packages.clockwork.ui.HTMLElement = new zetaret.global.packages.clockwork.ui.HTMLElement();
+const ImageInstance: zetaret.global.packages.clockwork.ui.Image = new zetaret.global.packages.clockwork.ui.Image();
+const LabelInstance: zetaret.global.packages.clockwork.ui.Label = new zetaret.global.packages.clockwork.ui.Label();
+const LabelButtonInstance: zetaret.global.packages.clockwork.ui.LabelButton = new zetaret.global.packages.clockwork.ui.LabelButton();
+const ListInstance: zetaret.global.packages.clockwork.ui.List = new zetaret.global.packages.clockwork.ui.List();
+const MaskedObjectInstance: zetaret.global.packages.clockwork.ui.MaskedObject = new zetaret.global.packages.clockwork.ui.MaskedObject();
+const MenuInstance: zetaret.global.packages.clockwork.ui.Menu = new zetaret.global.packages.clockwork.ui.Menu();
+const MenuButtonInstance: zetaret.global.packages.clockwork.ui.MenuButton = new zetaret.global.packages.clockwork.ui.MenuButton();
 const PageBaseInstance: zetaret.global.packages.clockwork.ui.PageBase = new zetaret.global.packages.clockwork.ui.PageBase();
+const ProgressLoaderInstance: zetaret.global.packages.clockwork.ui.ProgressLoader = new zetaret.global.packages.clockwork.ui.ProgressLoader();
+const RadioButtonInstance: zetaret.global.packages.clockwork.ui.RadioButton = new zetaret.global.packages.clockwork.ui.RadioButton();
+const ScrollbarInstance: zetaret.global.packages.clockwork.ui.Scrollbar = new zetaret.global.packages.clockwork.ui.Scrollbar();
+const ScrollpaneInstance: zetaret.global.packages.clockwork.ui.Scrollpane = new zetaret.global.packages.clockwork.ui.Scrollpane();
 const ShapeInstance: zetaret.global.packages.clockwork.ui.Shape = new zetaret.global.packages.clockwork.ui.Shape();
+const SimpleScrollpaneInstance: zetaret.global.packages.clockwork.ui.SimpleScrollpane = new zetaret.global.packages.clockwork.ui.SimpleScrollpane();
+const SkinnableComponentInstance: zetaret.global.packages.clockwork.ui.SkinnableComponent = new zetaret.global.packages.clockwork.ui.SkinnableComponent();
 const TextFieldInstance: zetaret.global.packages.clockwork.ui.TextField = new zetaret.global.packages.clockwork.ui.TextField();
 const TextFieldStatic: zetaret.global.packages.clockwork.ui.TextField = zetaret.global.packages.clockwork.ui.TextField;
+const WindowInstance: zetaret.global.packages.clockwork.ui.Window = new zetaret.global.packages.clockwork.ui.Window();
 
 [
 	ClockworkInstance,
@@ -102,14 +122,34 @@ const TextFieldStatic: zetaret.global.packages.clockwork.ui.TextField = zetaret.
 	GraphicContext2DMediatorInstance,
 	ProtoCSSInstance,
 	ProtoHTMLInstance,
+	AlertBoxInstance,
+	DialogInstance,
 	ButtonInstance,
 	ButtonStatic,
 	ButtonContainerInstance,
 	DisplayObjectInstance,
 	DisplayObjectStatic,
 	DisplayObjectContainerInstance,
+	FlawlessButtonInstance,
+	GalleryInstance,
+	GalleryItemInstance,
+	HTMLElementInstance,
+	ImageInstance,
+	LabelInstance,
+	LabelButtonInstance,
+	ListInstance,
+	MaskedObjectInstance,
+	MenuInstance,
+	MenuButtonInstance,
 	PageBaseInstance,
+	ProgressLoaderInstance,
+	RadioButtonInstance,
+	ScrollbarInstance,
+	ScrollpaneInstance,
 	ShapeInstance,
+	SimpleScrollpaneInstance,
+	SkinnableComponentInstance,
 	TextFieldInstance,
-	TextFieldStatic
+	TextFieldStatic,
+	WindowInstance
 ].forEach((e: any) => console.log(e));
