@@ -1,0 +1,31 @@
+{
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "defaults to event type, normal extend is EventDispatcher",
+	"text": "target of an event",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.0.0",
+	"date": "2019 - Today",
+	"supername": "zetaret.global.packages.clockwork.events::EventTarget",
+	"inherits": ["zetaret.global.packages.clockwork.events::Event"],
+	"interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IEventTarget"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"EventTarget": "type: String, target: Object"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {},
+	"static_examples": {},
+	"examples": {}
+}

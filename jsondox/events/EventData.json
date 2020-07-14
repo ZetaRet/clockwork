@@ -1,0 +1,34 @@
+{
+	"author": "Zeta Ret, Ivo Yankulovski",
+	"description": "data attachment to an event",
+	"text": "describe an event flow",
+	"requires": "ProtoSS, protoss.all.js",
+	"version": "1.0.0",
+	"date": "2019 - Today",
+	"supername": "zetaret.global.packages.clockwork.events::EventData",
+	"inherits": ["zetaret.global.packages.clockwork.events::Event"],
+	"interfaces": ["zetaret.global.packages.clockwork.events.interfaces::IEventData"],
+	"static": {
+		"public_properties": {},
+		"protected_properties": {},
+		"private_properties": {},
+		"public_methods": {},
+		"protected_methods": {},
+		"private_methods": {}
+	},
+	"public_properties": {
+		"data": "Object: null"
+	},
+	"protected_properties": {},
+	"private_properties": {},
+	"public_methods": {
+		"EventData": "type: String, target: Object",
+		"getData": "; return Object"
+	},
+	"protected_methods": {},
+	"private_methods": {},
+	"static_descriptions": {},
+	"descriptions": {},
+	"static_examples": {},
+	"examples": {}
+}
