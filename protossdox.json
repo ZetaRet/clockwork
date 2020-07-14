@@ -7,6 +7,6 @@
 	"relative": true,
 	"markdown": true,
 	"ext": ["js"],
-	"version": "1.4.8",
+	"version": "1.4.9",
 	"license": "MIT"
 }
