@@ -1,11 +1,3 @@
-/**
- * Author: Zeta Ret, Ivo Yankulovski
- * Zeta Ret Clockwork, ProtoSS OOP
- * Interface Generator, Mass Class/Header Resolve, Function Decomposer, Class Parser, ProtoSS-XeltoSS Transformator
- * Requires: ProtoSS, XeltoSS, protoss.all.js
- * Version: 1.04
- * Date: 2017 - Today
- **/
 window.package("zetaret.global.packages.clockwork").internal(
 function Clockwork() {
 	var o = this,
