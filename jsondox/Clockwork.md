@@ -1,8 +1,8 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Zeta Ret Clockwork, ProtoSS OOP__  
 # Interface Generator, Mass Class/Header Resolve, Function Decomposer, Class Parser, ProtoSS-XeltoSS Transformator  
 > *Requires: ProtoSS, XeltoSS, protoss.all.js*  
-> *Version: 1.04*  
+> *Version: 1.0.4*  
 > *Date: 2017 - Today*  
 
 __required*__
