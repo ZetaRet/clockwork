@@ -1,5 +1,5 @@
 # Zeta Ret Clockwork
-[![Zeta Ret Clockwork Logo](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/local/clockwork_logo_small.png)](https://clockwork.zetaret.com/demo/) [Open Our G-Demo](https://clockwork.zetaret.com/demo/)
+[![Zeta Ret Clockwork Logo](https://raw.githubusercontent.com/ZetaRet/atom.io-packages/master/images/local/clockwork_logo_small.png)](https://protoss.zetaret.com/demo/) [Open Our G-Demo](https://protoss.zetaret.com/demo/)
 
 ## ProtoSS OOP Framework
 
@@ -23,8 +23,4 @@ Our Stage renderer does not define nor constitute the demonstrated rendering but
 Clockwork means a mechanism with a spring and toothed gearwheels, used to drive a mechanical clock, very smooth and regular using repetitive and predictable precision. In horology, "caliber" refers to the specific internal mechanism of a watch or clock, also known as a movement. Although the term originally was only used to refer to the size of a movement, it is now used to designate a specific model.
 
 ## Demos
-Canvas Live Demo based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
-:alien: [Zeta Ret Clockwork demo](https://clockwork.zetaret.com/demo/)  
-
-## Author  
-[Zeta Ret](https://zetaret.com/)  
+Canvas [Live Demo](https://protoss.zetaret.com/demo/) based on OOP ProtoSS in ES6 Class Standard [ProtoSS + XeltoSS]:  
