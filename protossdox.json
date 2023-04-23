@@ -1,12 +1,14 @@
 {
 	"name": "Zeta Ret Clockwork",
 	"type": "protossdox",
+	"url": "https://github.com/ZetaRet/clockwork",
+	"author": "Zeta Ret",
 	"path": "jsondox/",
 	"src": "src/",
 	"namespace": "zetaret.global.packages.clockwork",
 	"relative": true,
 	"markdown": true,
-	"ext": ["js"],
-	"version": "1.4.9",
+	"ext": ["js", "ts"],
+	"version": "1.5.0",
 	"license": "MIT"
 }
