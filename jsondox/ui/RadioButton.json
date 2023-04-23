@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "radio button model",
 	"text": "button container bound to skin capabilities with background, button and text",
 	"requires": "protoss.all.js",

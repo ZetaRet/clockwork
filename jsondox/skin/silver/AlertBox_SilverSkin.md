@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __AlertBox Silver Skin__  
 # change appearance based on skin data in buttons, background and text of AlertBox component  
 > *Requires: protoss.all.js*  
@@ -15,7 +15,7 @@ __required*__
 ### *Methods*  
 
 ##  
-__AlertBox_SilverSkin() : *void*__  
+__AlertBox\_SilverSkin() : *void*__  
   
 > *return __void__*  
 
@@ -101,5 +101,3 @@ __icon(*zetaret.global.packages.clockwork.ui.Image* skin, *zetaret.global.packag
 - __scomp*__ - __*zetaret.global.packages.clockwork.ui.SkinnableComponent*__,   
 > *return __zetaret.global.packages.clockwork.skin.silver::AlertBox_SilverSkin__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

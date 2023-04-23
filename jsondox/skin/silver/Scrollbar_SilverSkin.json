@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Scrollbar Silver Skin",
 	"text": "change appearance based on skin data in background and bar of Scrollbar component",
 	"requires": "protoss.all.js",

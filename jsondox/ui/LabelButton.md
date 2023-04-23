@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __label button model__  
 # button container with TextField and background initialization  
 > *Requires: protoss.all.js*  
@@ -36,5 +36,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

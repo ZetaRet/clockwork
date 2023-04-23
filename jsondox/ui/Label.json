@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "label model",
 	"text": "simple display object container with TextField and support methods",
 	"requires": "protoss.all.js",

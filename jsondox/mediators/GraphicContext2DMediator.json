@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "contex mediator for Canvas2DRenderer",
 	"text": "cache, clear and reset mechanisms, transform/style/composite/color/gradient/pattern polyfills, shader/filter instruction availability",
 	"requires": "protoss.all.js",

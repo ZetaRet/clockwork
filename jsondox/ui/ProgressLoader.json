@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "progress loader model",
 	"text": "display object container with background and slider, support of horizontal/vertical view",
 	"requires": "protoss.all.js",

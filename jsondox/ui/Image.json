@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "image model",
 	"text": "canvas image wrapper based on id, url, HTMLImageElement, caching and pattern mechanism using custom positioning of the outer frame",
 	"requires": "protoss.all.js",

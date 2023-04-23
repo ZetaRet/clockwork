@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "gallery item display model",
 	"text": "display object container with text, image and alignment rules",
 	"requires": "protoss.all.js",

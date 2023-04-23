@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __gallery display model__  
 # display object container with gallery item navigation  
 > *Requires: protoss.all.js*  
@@ -59,5 +59,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

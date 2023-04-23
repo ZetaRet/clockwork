@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "scrolling container model with scrollbars",
 	"text": "rectangular masked display object container with background and horizontal/vertical scrollbars",
 	"requires": "protoss.all.js",

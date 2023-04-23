@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __menu button model__  
 # button container expecting additional visual decoration of graphics assets  
 > *Requires: protoss.all.js*  
@@ -36,5 +36,3 @@ __initMenuButton() : *zetaret.global.packages.clockwork.ui::MenuButton*__
   
 > *return __zetaret.global.packages.clockwork.ui::MenuButton__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

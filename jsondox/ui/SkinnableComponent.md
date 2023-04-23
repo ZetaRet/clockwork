@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __skin model__  
 # component to skin and decorate objects  
 > *Requires: protoss.all.js*  
@@ -67,5 +67,3 @@ __skinme() : *zetaret.global.packages.clockwork.ui::SkinnableComponent*__
   
 > *return __zetaret.global.packages.clockwork.ui::SkinnableComponent__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

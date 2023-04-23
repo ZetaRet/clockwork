@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "flawless button model",
 	"text": "normal/over/down state button with gradient/color/font configuration, states are cached as canvases and may use the same canvas id across multiple instances of the same flawless button, inset shadow and border radius",
 	"requires": "ProtoSS, protoss.all.js",

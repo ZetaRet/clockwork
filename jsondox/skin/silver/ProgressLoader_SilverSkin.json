@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Progress Loader Silver Skin",
 	"text": "change appearance based on skin data in background and slide of ProgressLoader component",
 	"requires": "protoss.all.js",

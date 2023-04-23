@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "shape model",
 	"text": "basic overrides of DisplayObject methods and Graphics properties availability",
 	"requires": "ProtoSS, protoss.all.js",

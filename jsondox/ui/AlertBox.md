@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __alert box model__  
 # dialog with yes/no/close buttons, background and icon label  
 > *Requires: protoss.all.js*  
@@ -85,5 +85,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

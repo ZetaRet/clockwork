@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Prototype CSS",
 	"text": "dynamic programming of style tag in the DOM, create selectors [classes, tags, ids] in real time, bind style ids and update DOM",
 	"requires": "protoss.all.js",

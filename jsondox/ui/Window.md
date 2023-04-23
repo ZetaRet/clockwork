@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __window model__  
 # display object container with background shape, header/footer button container, sidebar/body/details scrollpanes and properties  
 > *Requires: protoss.all.js*  
@@ -71,12 +71,12 @@ default true,
 
 ##  
 __Window() : *void*__  
-
+  
 > *return __void__*  
 
 ##  
 __initWindow(*Number* width, *Number* height, *Boolean* header, *Boolean* footer, *Boolean* sidebar, *Boolean* details) : *zetaret.global.packages.clockwork.ui::Window*__  
-
+  
 - __width*__ - __*Number*__,   
 - __height*__ - __*Number*__,   
 - header - __*Boolean*__,   
@@ -87,8 +87,6 @@ __initWindow(*Number* width, *Number* height, *Boolean* header, *Boolean* footer
 
 ##  
 __destruct() : *void*__  
-
+  
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

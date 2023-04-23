@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "scrollbar model",
 	"text": "draggable display object container with background and button shapes, supports horizontal/vertical view",
 	"requires": "protoss.all.js",

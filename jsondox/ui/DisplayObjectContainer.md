@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __DisplayObject container model__  
 # display container model used by the Stage2DController to manipulate Context2D rendering  
 > *Requires: protoss.all.js*  
@@ -31,5 +31,3 @@ obtain all rectangular bounds of children using static zetaret.global.packages.c
 - __tm*__ - __*Array*__,   
 > *return __Object__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

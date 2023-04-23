@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Radio Button Silver Skin",
 	"text": "change appearance based on skin data in button, background and text of RadioButton component",
 	"requires": "protoss.all.js",

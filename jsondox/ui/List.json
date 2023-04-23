@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "list model",
 	"text": "horizontal/vertical list display object container with auto arrange based on properties and configuration",
 	"requires": "protoss.all.js",

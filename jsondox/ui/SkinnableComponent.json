@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "skin model",
 	"text": "component to skin and decorate objects",
 	"requires": "protoss.all.js",

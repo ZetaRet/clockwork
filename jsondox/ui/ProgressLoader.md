@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __progress loader model__  
 # display object container with background and slider, support of horizontal/vertical view  
 > *Requires: protoss.all.js*  
@@ -62,5 +62,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

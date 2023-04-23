@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Progress Loader Silver Skin__  
 # change appearance based on skin data in background and slide of ProgressLoader component  
 > *Requires: protoss.all.js*  
@@ -15,7 +15,7 @@ __required*__
 ### *Methods*  
 
 ##  
-__ProgressLoader_SilverSkin() : *void*__  
+__ProgressLoader\_SilverSkin() : *void*__  
   
 > *return __void__*  
 
@@ -58,5 +58,3 @@ __slide(*zetaret.global.packages.clockwork.ui.Shape* skin, *zetaret.global.packa
 - __scomp*__ - __*zetaret.global.packages.clockwork.ui.SkinnableComponent*__,   
 > *return __zetaret.global.packages.clockwork.skin.silver::ProgressLoader_SilverSkin__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "button model",
 	"text": "display object model with button functionality and predefined button methods",
 	"requires": "ProtoSS, protoss.all.js",

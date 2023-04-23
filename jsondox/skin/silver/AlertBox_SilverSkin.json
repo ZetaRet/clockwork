@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "AlertBox Silver Skin",
 	"text": "change appearance based on skin data in buttons, background and text of AlertBox component",
 	"requires": "protoss.all.js",

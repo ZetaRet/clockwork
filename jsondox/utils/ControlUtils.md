@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __static object type__  
 # access of enumerated control utils used for direct reference in inheritance  
 > *Requires: protoss.all.js*  
@@ -24,5 +24,3 @@ __configDrag(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *Boole
 - hscope - __*Object*__,   
 > *return __zetaret.global.packages.clockwork.controllers::DragController__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Zeta Ret Proto HTML__  
 # Register Custom prototypes of HTML Elements by using HTMLUnknownElement  
 > *Requires: protoss.all.js*  
@@ -44,5 +44,3 @@ __ProtoHTMLStatis(*Object* s, *zetaret.global.packages.clockwork.skin.html.Proto
 - __c*__ - __*zetaret.global.packages.clockwork.skin.html.ProtoHTML*__,   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

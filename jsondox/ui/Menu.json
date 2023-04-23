@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "menu model",
 	"text": "button container of MenuButton instances, label cache and background",
 	"requires": "protoss.all.js",

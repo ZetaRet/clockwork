@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Zeta Ret Proto HTML",
 	"text": "Register Custom prototypes of HTML Elements by using HTMLUnknownElement",
 	"requires": "protoss.all.js",

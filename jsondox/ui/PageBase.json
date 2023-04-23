@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "page container model",
 	"text": "display object container with constructors/destructors and adjacent events/methods",
 	"requires": "protoss.all.js",

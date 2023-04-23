@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Radio Button Silver Skin__  
 # change appearance based on skin data in button, background and text of RadioButton component  
 > *Requires: protoss.all.js*  
@@ -15,7 +15,7 @@ __required*__
 ### *Methods*  
 
 ##  
-__RadioButton_SilverSkin() : *void*__  
+__RadioButton\_SilverSkin() : *void*__  
   
 > *return __void__*  
 
@@ -67,5 +67,3 @@ __txt(*zetaret.global.packages.clockwork.ui.TextField* skin, *zetaret.global.pac
 - __scomp*__ - __*zetaret.global.packages.clockwork.ui.SkinnableComponent*__,   
 > *return __zetaret.global.packages.clockwork.skin.silver::RadioButton_SilverSkin__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

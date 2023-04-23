@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __contex mediator for Canvas2DRenderer__  
 # cache, clear and reset mechanisms, transform/style/composite/color/gradient/pattern polyfills, shader/filter instruction availability  
 > *Requires: protoss.all.js*  
@@ -297,5 +297,3 @@ __flushGradientCache() : *CanvasRenderingContext2D*__
   
 > *return __CanvasRenderingContext2D__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

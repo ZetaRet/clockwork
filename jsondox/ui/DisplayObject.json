@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "DisplayObject model",
 	"text": "display model used by the Stage2DController to manipulate Context2D rendering",
 	"requires": "ProtoSS, protoss.all.js",

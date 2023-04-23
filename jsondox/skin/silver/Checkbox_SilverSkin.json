@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "Checkbox Silver Skin",
 	"text": "change appearance based on skin data in button, background and text of Checkbox component",
 	"requires": "protoss.all.js",

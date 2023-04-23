@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "ProtoSS HTMLElement model",
 	"text": "self rendering html element outside canvas represented as normal stage child in the display list",
 	"requires": "protoss.all.js",

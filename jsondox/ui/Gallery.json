@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "gallery display model",
 	"text": "display object container with gallery item navigation",
 	"requires": "protoss.all.js",

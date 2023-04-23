@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Prototype CSS__  
 # dynamic programming of style tag in the DOM, create selectors [classes, tags, ids] in real time, bind style ids and update DOM  
 > *Requires: protoss.all.js*  
@@ -102,5 +102,3 @@ __destroy() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __ProtoSS HTMLElement model__  
 # self rendering html element outside canvas represented as normal stage child in the display list  
 > *Requires: protoss.all.js*  
@@ -113,5 +113,3 @@ __render(*zetaret.global.packages.clockwork.controllers.Stage2DController* stage
 - __ct*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.ui::HTMLElement__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

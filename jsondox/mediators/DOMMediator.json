@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "HTML Dom Mediator",
 	"text": "mediate events from HTMLElement into another object",
 	"requires": "protoss.all.js",

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __menu model__  
 # button container of MenuButton instances, label cache and background  
 > *Requires: protoss.all.js*  
@@ -65,5 +65,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

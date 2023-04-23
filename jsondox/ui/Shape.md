@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __shape model__  
 # basic overrides of DisplayObject methods and Graphics properties availability  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -46,7 +46,7 @@ constructor
 
 ##  
 __render(*zetaret.global.packages.clockwork.controllers.Stage2DController* stage, *zetaret.global.packages.clockwork.context.ContextRenderer* renderer, *CanvasRenderingContext2D* ctx, *Array* t, *Array* ct) : *zetaret.global.packages.clockwork.ui::Shape*__  
-
+  
 - __stage*__ - __*zetaret.global.packages.clockwork.controllers.Stage2DController*__,   
 - __renderer*__ - __*zetaret.global.packages.clockwork.context.ContextRenderer*__,   
 - __ctx*__ - __*CanvasRenderingContext2D*__,   
@@ -56,13 +56,13 @@ __render(*zetaret.global.packages.clockwork.controllers.Stage2DController* stage
 
 ##  
 __getBounds(*Array* tm) : *Object*__  
-
+  
 - __tm*__ - __*Array*__,   
 > *return __Object__*  
 
 ##  
 __clone() : *zetaret.global.packages.clockwork.ui::Shape*__  
-
+  
 > *return __zetaret.global.packages.clockwork.ui::Shape__*  
 
 ##  
@@ -125,5 +125,3 @@ statis invoker of the Shape constructor
 - __c*__ - __*zetaret.global.packages.clockwork.ui.Shape*__, invoked constructor  
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

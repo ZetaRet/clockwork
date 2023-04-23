@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __radio button model__  
 # button container bound to skin capabilities with background, button and text  
 > *Requires: protoss.all.js*  
@@ -51,57 +51,55 @@ default true,
 
 ##  
 __RadioButton() : *void*__  
-
+  
 > *return __void__*  
 
 ##  
 __createRadioGroup(*Array* btns) : *zetaret.global.packages.clockwork.ui::RadioButton*__  
-
+  
 - __btns*__ - __*Array*__,   
 > *return __zetaret.global.packages.clockwork.ui::RadioButton__*  
 
 ##  
 __configureRadioGroupButton(*zetaret.global.packages.clockwork.ui.RadioButton* button) : *zetaret.global.packages.clockwork.ui::RadioButton*__  
-
+  
 - __button*__ - __*zetaret.global.packages.clockwork.ui.RadioButton*__,   
 > *return __zetaret.global.packages.clockwork.ui::RadioButton__*  
 
 ##  
 __onRadioChange(*zetaret.global.packages.clockwork.events.Event* e, *zetaret.global.packages.clockwork.controllers.Stage2DController* d) : *void*__  
-
+  
 - e - __*zetaret.global.packages.clockwork.events.Event*__,   
 - d - __*zetaret.global.packages.clockwork.controllers.Stage2DController*__,   
 > *return __void__*  
 
 ##  
 __initBox(*Boolean* check, *Boolean* label) : *zetaret.global.packages.clockwork.ui::RadioButton*__  
-
+  
 - check - __*Boolean*__,   
 - label - __*Boolean*__,   
 > *return __zetaret.global.packages.clockwork.ui::RadioButton__*  
 
 ##  
 __onCheckClick(*zetaret.global.packages.clockwork.events.Event* e, *zetaret.global.packages.clockwork.controllers.Stage2DController* d) : *void*__  
-
+  
 - e - __*zetaret.global.packages.clockwork.events.Event*__,   
 - d - __*zetaret.global.packages.clockwork.controllers.Stage2DController*__,   
 > *return __void__*  
 
 ##  
 __check(*Boolean* val) : *Boolean*__  
-
+  
 - val - __*Boolean*__,   
 > *return __Boolean__*  
 
 ##  
 __change() : *zetaret.global.packages.clockwork.ui::RadioButton*__  
-
+  
 > *return __zetaret.global.packages.clockwork.ui::RadioButton__*  
 
 ##  
 __destruct() : *void*__  
-
+  
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

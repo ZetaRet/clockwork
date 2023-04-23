@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __button container model__  
 # display object container with button functionality applied to children  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -89,5 +89,3 @@ statis invoker of the ButtonContainer constructor
 - __c*__ - __*zetaret.global.packages.clockwork.ui.ButtonContainer*__, invoked constructor  
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

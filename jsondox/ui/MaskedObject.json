@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "masked container model",
 	"text": "display object container with mask shape",
 	"requires": "protoss.all.js",

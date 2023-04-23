@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __flawless button model__  
 # normal/over/down state button with gradient/color/font configuration, states are cached as canvases and may use the same canvas id across multiple instances of the same flawless button, inset shadow and border radius  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -229,5 +229,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

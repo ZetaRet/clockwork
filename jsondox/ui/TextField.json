@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "text field model",
 	"text": "basic text field properties and graphics api shortcuts, manage style lists based on css-like rules and execute text rendering",
 	"requires": "ProtoSS, protoss.all.js",

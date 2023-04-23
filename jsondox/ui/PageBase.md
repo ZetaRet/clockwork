@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __page container model__  
 # display object container with constructors/destructors and adjacent events/methods  
 > *Requires: protoss.all.js*  
@@ -100,14 +100,12 @@ __Destroy() : *void*__
 > *return __void__*  
 
 ##  
-___constructor() : *void*__  
+__\_constructor() : *void*__  
   
 > *return __void__*  
 
 ##  
-___destructor() : *void*__  
+__\_destructor() : *void*__  
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

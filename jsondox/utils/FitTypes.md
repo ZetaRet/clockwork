@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __static object type__  
 # access of enumerated fitting utils used for direct reference in inheritance  
 > *Requires: protoss.all.js*  
@@ -51,5 +51,3 @@ __Fit(*Number* targetWidth, *Number* targetHeight, *Number* frameWidth, *Number*
 - minMaxMultiplier - __*Number*__,   
 > *return __Object__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

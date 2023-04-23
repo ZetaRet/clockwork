@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __dialog model__  
 # display object container with button capabilities and show/hide methods  
 > *Requires: protoss.all.js*  
@@ -35,23 +35,21 @@ default false,
 
 ##  
 __Dialog() : *void*__  
-
+  
 > *return __void__*  
 
 ##  
 __arrangeBox() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-
+  
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
 ##  
 __show() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-
+  
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
 ##  
 __hide() : *zetaret.global.packages.clockwork.ui::Dialog*__  
-
+  
 > *return __zetaret.global.packages.clockwork.ui::Dialog__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

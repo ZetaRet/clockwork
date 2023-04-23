@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __HTML Dom Mediator__  
 # mediate events from HTMLElement into another object  
 > *Requires: protoss.all.js*  
@@ -43,5 +43,3 @@ __eventize(*String* e1, *String* e2, *zetaret.global.packages.clockwork.events.E
 - domo - __*HTMLElement*__,   
 > *return __Function__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

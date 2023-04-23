@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __Scrollbar Silver Skin__  
 # change appearance based on skin data in background and bar of Scrollbar component  
 > *Requires: protoss.all.js*  
@@ -15,7 +15,7 @@ __required*__
 ### *Methods*  
 
 ##  
-__Scrollbar_SilverSkin() : *void*__  
+__Scrollbar\_SilverSkin() : *void*__  
   
 > *return __void__*  
 
@@ -58,5 +58,3 @@ __bar(*zetaret.global.packages.clockwork.ui.Shape* skin, *zetaret.global.package
 - __scomp*__ - __*zetaret.global.packages.clockwork.ui.SkinnableComponent*__,   
 > *return __zetaret.global.packages.clockwork.skin.silver::Scrollbar_SilverSkin__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

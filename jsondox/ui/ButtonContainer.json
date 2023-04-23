@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "button container model",
 	"text": "display object container with button functionality applied to children",
 	"requires": "ProtoSS, protoss.all.js",

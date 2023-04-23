@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "menu button model",
 	"text": "button container expecting additional visual decoration of graphics assets",
 	"requires": "protoss.all.js",

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __image model__  
 # canvas image wrapper based on id, url, HTMLImageElement, caching and pattern mechanism using custom positioning of the outer frame  
 > *Requires: protoss.all.js*  
@@ -168,5 +168,3 @@ __destruct() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

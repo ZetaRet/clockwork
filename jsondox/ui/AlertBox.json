@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "alert box model",
 	"text": "dialog with yes/no/close buttons, background and icon label",
 	"requires": "protoss.all.js",
