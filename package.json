@@ -1,0 +1,9 @@
+{
+	"name": "clockwork",
+	"version": "1.5.0",
+	"author": "Zeta Ret",
+	"license": "MIT",
+	"dependencies": {
+		"@types/clockwork": "git+https://github.com/ZetaRet/clockwork-types.git"
+	}
+}
