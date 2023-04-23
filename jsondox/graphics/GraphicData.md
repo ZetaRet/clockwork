@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __base graphic data__  
 # graphic data object describing input command data, id and type  
 > *Requires: protoss.all.js*  
@@ -33,5 +33,3 @@ __GraphicData() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

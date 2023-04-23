@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "defaults to event type, normal extend is EventDispatcher",
 	"text": "target of an event",
 	"requires": "ProtoSS, protoss.all.js",

@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "event model used in event dispatchers",
 	"text": "bubbles, phase, target and native capabilities support",
 	"requires": "ProtoSS, protoss.all.js",

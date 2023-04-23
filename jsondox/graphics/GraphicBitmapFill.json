@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic bitmap fill command object",
 	"text": "created by beginBitmapFill/lineBitmapStyle of Graphics model, described by flags, alpha, image data and command id",
 	"requires": "ProtoSS, protoss.all.js",

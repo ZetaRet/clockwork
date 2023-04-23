@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __color transform model__  
 # red, green, blue, alpha multiplier/offset of color and adjacent methods  
 > *Requires: protoss.all.js*  
@@ -85,5 +85,3 @@ __toArr() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

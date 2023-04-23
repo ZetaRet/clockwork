@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "interaction controller",
 	"text": "independent interaction context with maps and types",
 	"requires": "protoss.all.js",

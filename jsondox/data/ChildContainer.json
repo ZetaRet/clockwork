@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "base parent-child container model",
 	"text": "configuration properties and crud operations on child objects",
 	"requires": "protoss.all.js",

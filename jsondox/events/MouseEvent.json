@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "mouse event model used in mouse controller",
 	"text": "x/y, local x/y, offset x/y properties and methods, overrides setNativeEvent to use DOM MouseEvent",
 	"requires": "ProtoSS, protoss.all.js",

@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic end fill command object",
 	"text": "created by endFill of Graphics model, described by reset flags and command ids",
 	"requires": "ProtoSS, protoss.all.js",

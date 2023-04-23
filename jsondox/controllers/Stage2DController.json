@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "2D stage controller",
 	"text": "precise display graph processor of child-parent structures rendering transformations with context and mediator facility",
 	"requires": "protoss.all.js",

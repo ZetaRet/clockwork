@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "ARGB color model",
 	"text": "color object based on alpha, red, green, blue channel, converters and formatters",
 	"requires": "protoss.all.js",

@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "keyboard event model used in keyboard controller",
 	"text": "key, code, and numeric keyCode properties and methods, overrides setNativeEvent to use DOM KeyboardEvent",
 	"requires": "ProtoSS, protoss.all.js",

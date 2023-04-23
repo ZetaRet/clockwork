@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "RGB color model",
 	"text": "color object based on red, green, blue channel, converters and formatters",
 	"requires": "protoss.all.js",

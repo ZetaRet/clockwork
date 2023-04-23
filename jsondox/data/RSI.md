@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __RSI data model__  
 # residual self image data with transfer/clear methods, may replicate properties by keys to self object  
 > *Requires: protoss.all.js*  
@@ -62,5 +62,3 @@ __clearRSI() : *void*__
   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "base parent-child controller of hierarchy structures",
 	"text": "direct and inversed interator of complex structures using bubble mechanics",
 	"requires": "ProtoSS, protoss.all.js",

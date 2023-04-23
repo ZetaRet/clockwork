@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic solid fill command object",
 	"text": "manually create and add this command, usually acts as GraphicEndFill with a single color value",
 	"requires": "protoss.all.js",

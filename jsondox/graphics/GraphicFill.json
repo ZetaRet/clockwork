@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic fill command object",
 	"text": "created by beginFill of Graphics model, described by color and alpha",
 	"requires": "protoss.all.js",

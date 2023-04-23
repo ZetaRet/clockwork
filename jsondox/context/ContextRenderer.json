@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "base context renderer wrapper",
 	"text": "mapping, clear, invalidation and rendering capabilities",
 	"requires": "protoss.all.js",

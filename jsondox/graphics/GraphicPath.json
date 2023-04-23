@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic path command object",
 	"text": "created by drawCircle/drawEllipse/drawEllipse2/drawPath/drawRect/drawRect2/drawRoundRect/drawRoundRect2/drawOuterRect/drawOuterArc/drawRadient of Graphics model, described by line settings",
 	"requires": "ProtoSS, protoss.all.js",

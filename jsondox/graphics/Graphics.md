@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __canvas graphics api__  
 # draw paths/shapes/lines/curves/text, composite layers and gradients, compute dimensions and execute crud operations on graphics data commands, manage invalidation and cache clearance  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -521,5 +521,3 @@ __clone() : *zetaret.global.packages.clockwork.graphics::Graphics*__
   
 > *return __zetaret.global.packages.clockwork.graphics::Graphics__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

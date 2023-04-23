@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic fill command object__  
 # created by beginFill of Graphics model, described by color and alpha  
 > *Requires: protoss.all.js*  
@@ -22,7 +22,7 @@ default 1,
 
 #  
 __command__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.BEGIN_FILL,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.BEGIN\_FILL,   
 
 
 ##  
@@ -38,5 +38,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

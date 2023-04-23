@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "page controller",
 	"text": "display object container with page controller capabilities, queue, cache, maps and data per page",
 	"requires": "protoss.all.js",

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic path command object__  
 # created by drawCircle/drawEllipse/drawEllipse2/drawPath/drawRect/drawRect2/drawRoundRect/drawRoundRect2/drawOuterRect/drawOuterArc/drawRadient of Graphics model, described by line settings  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -139,12 +139,10 @@ __toCommandData() : *Array*__
 ### *Static Properties*  
 
 #  
-__EVEN_ODD__ String  
+__EVEN\_ODD__ String  
 default 'evenOdd',   
 
 #  
-__NON_ZERO__ String  
+__NON\_ZERO__ String  
 default 'nonZero',   
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

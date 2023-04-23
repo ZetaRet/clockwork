@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "aggregate an instance of event dispatcher",
 	"text": "subscribe, unsubscribe and observe pattern, event and data dispatching mechanism along with adjacent crud operations",
 	"requires": "ProtoSS, protoss.all.js",

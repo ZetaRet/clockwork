@@ -60,5 +60,3 @@ Transforms an Array of ProtoSS Function into XeltoSS ES6 Classes, reading __xelt
 - __xcls*__ - __*Array*__, executes augmentKey/addEmbedMap using __xeltoss_amaps:Array and __xeltoss_emaps:Array, __xeltoss_eamaps:Array is mapped version of augmentKey/addEmbedMap, __xeltoss_augmentmap:Object is custom augmentKey, __xeltoss_embedmap:Object is custom addEmbedMap, __xeltoss_prepare is custom function using ProtoSS function scope  
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

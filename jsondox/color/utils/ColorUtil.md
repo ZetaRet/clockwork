@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __static object type__  
 # access of enumerated color utils used for direct reference in inheritance or color data models  
 > *Requires: protoss.all.js*  
@@ -59,11 +59,11 @@ __HALF__ Number
 default 0.5,   
 
 #  
-__TWO_THIRDS__ Number  
+__TWO\_THIRDS__ Number  
 default 2/3,   
 
 #  
-__ONE_THIRD__ Number  
+__ONE\_THIRD__ Number  
 default 1/3,   
 
 #  
@@ -75,72 +75,72 @@ __HEX__ Number
 default 0xff,   
 
 #  
-__HALF_HEX__ Number  
+__HALF\_HEX__ Number  
 default 0x80,   
 
 #  
-__FOURTH_HEX__ Number  
+__FOURTH\_HEX__ Number  
 default 0x40,   
 
 #  
-__HUE_SECTION__ Number  
+__HUE\_SECTION__ Number  
 default 1/6,   
 
 #  
-__HUE_SECTIONS__ Number  
+__HUE\_SECTIONS__ Number  
 default 6,   
 
 #  
-__MAX_CHANNEL__ Number  
+__MAX\_CHANNEL__ Number  
 default 0xff,   
 
 #  
-__MIN_CHANNEL__ Number  
+__MIN\_CHANNEL__ Number  
 default 0,   
 
 #  
-__MAX_PERCENT__ Number  
+__MAX\_PERCENT__ Number  
 default 1,   
 
 #  
-__MIN_PERCENT__ Number  
+__MIN\_PERCENT__ Number  
 default 0,   
 
 #  
-__ColorTransform_Normal__ Object  
+__ColorTransform\_Normal__ Object  
 default default,   
 
 #  
-__ColorTransform_Darkness__ Object  
+__ColorTransform\_Darkness__ Object  
 default default,   
 
 #  
-__ColorTransform_Lightness__ Object  
+__ColorTransform\_Lightness__ Object  
 default default,   
 
 #  
-__ColorTransform_Inverse__ Object  
+__ColorTransform\_Inverse__ Object  
 default default,   
 
 ##  
 ### *Static Methods*  
 
 ##  
-__Blend_Normal(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Normal(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_ColorReplace(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_ColorReplace(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Alpha(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base, *Number* alpha) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Alpha(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base, *Number* alpha) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
@@ -148,14 +148,14 @@ __Blend_Alpha(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.gl
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Add(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Add(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_AlphaMethod(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base, *Function* method, *Number* alpha) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_AlphaMethod(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base, *Function* method, *Number* alpha) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
@@ -164,182 +164,182 @@ __Blend_AlphaMethod(*zetaret.global.packages.clockwork.color.RGB* blender, *zeta
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Average(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Average(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_ColorBurn(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_ColorBurn(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Darken(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Darken(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Difference(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Difference(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_DodgeColor(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_DodgeColor(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Exclusion(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Exclusion(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Glow(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Glow(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_HardLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_HardLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_HardMix(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_HardMix(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Lighten(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Lighten(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_LinearBurn(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_LinearBurn(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_LinearDodge(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_LinearDodge(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_LinearLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_LinearLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Multiply(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Multiply(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Negation(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Negation(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Overlay(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Overlay(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Phoenix(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Phoenix(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_PinLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_PinLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Reflect(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Reflect(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Screen(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Screen(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_SoftLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_SoftLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_VividLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_VividLight(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Color(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Color(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Hue(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Hue(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Luminosity(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Luminosity(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 > *return __zetaret.global.packages.clockwork.color::RGB__*  
 
 ##  
-__Blend_Saturation(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
+__Blend\_Saturation(*zetaret.global.packages.clockwork.color.RGB* blender, *zetaret.global.packages.clockwork.color.RGB* base) : *zetaret.global.packages.clockwork.color::RGB*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.RGB*__,   
@@ -522,28 +522,28 @@ __VividLight(*Number* blender, *Number* base) : *Number*__
 > *return __Number__*  
 
 ##  
-__Color_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
+__Color\_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 > *return __zetaret.global.packages.clockwork.color::HSL__*  
 
 ##  
-__Hue_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
+__Hue\_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 > *return __zetaret.global.packages.clockwork.color::HSL__*  
 
 ##  
-__Luminosity_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
+__Luminosity\_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 > *return __zetaret.global.packages.clockwork.color::HSL__*  
 
 ##  
-__Saturation_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
+__Saturation\_HSL(*zetaret.global.packages.clockwork.color.HSL* blender, *zetaret.global.packages.clockwork.color.HSL* base) : *zetaret.global.packages.clockwork.color::HSL*__  
   
 - __blender*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
 - __base*__ - __*zetaret.global.packages.clockwork.color.HSL*__,   
@@ -605,7 +605,7 @@ __SetRed(*Number* color, *Number* red, *Number* alpha) : *Number*__
 > *return __Number__*  
 
 ##  
-__Color_Process(*Number* startColor, *Number* endColor, *Number* time, *Number* alpha) : *Number*__  
+__Color\_Process(*Number* startColor, *Number* endColor, *Number* time, *Number* alpha) : *Number*__  
   
 - __startColor*__ - __*Number*__,   
 - __endColor*__ - __*Number*__,   
@@ -619,40 +619,40 @@ __InitColorTransformConsts() : *void*__
 > *return __void__*  
 
 ##  
-__ColorTransform_Equal(*zetaret.global.packages.clockwork.color.ColorTransform* transform1, *zetaret.global.packages.clockwork.color.ColorTransform* transform2) : *Boolean*__  
+__ColorTransform\_Equal(*zetaret.global.packages.clockwork.color.ColorTransform* transform1, *zetaret.global.packages.clockwork.color.ColorTransform* transform2) : *Boolean*__  
   
 - transform1 - __*zetaret.global.packages.clockwork.color.ColorTransform*__,   
 - transform2 - __*zetaret.global.packages.clockwork.color.ColorTransform*__,   
 > *return __Boolean__*  
 
 ##  
-__ColorTransform_Clone(*zetaret.global.packages.clockwork.color.ColorTransform* transform) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_Clone(*zetaret.global.packages.clockwork.color.ColorTransform* transform) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 - __transform*__ - __*zetaret.global.packages.clockwork.color.ColorTransform*__,   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_GenerateNormal() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_GenerateNormal() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_GenerateDarkness() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_GenerateDarkness() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_GenerateLightness() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_GenerateLightness() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_GenerateInverse() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_GenerateInverse() : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_Process(*zetaret.global.packages.clockwork.color.ColorTransform* start, *zetaret.global.packages.clockwork.color.ColorTransform* end, *Number* time) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_Process(*zetaret.global.packages.clockwork.color.ColorTransform* start, *zetaret.global.packages.clockwork.color.ColorTransform* end, *Number* time) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 - __start*__ - __*zetaret.global.packages.clockwork.color.ColorTransform*__,   
 - __end*__ - __*zetaret.global.packages.clockwork.color.ColorTransform*__,   
@@ -660,7 +660,7 @@ __ColorTransform_Process(*zetaret.global.packages.clockwork.color.ColorTransform
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_TransformSetter(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *String* parameter, *zetaret.global.packages.clockwork.color.ColorTransform* colorTransform) : *void*__  
+__ColorTransform\_TransformSetter(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *String* parameter, *zetaret.global.packages.clockwork.color.ColorTransform* colorTransform) : *void*__  
   
 - __target*__ - __*zetaret.global.packages.clockwork.ui.DisplayObject*__,   
 - __parameter*__ - __*String*__,   
@@ -668,14 +668,14 @@ __ColorTransform_TransformSetter(*zetaret.global.packages.clockwork.ui.DisplayOb
 > *return __void__*  
 
 ##  
-__ColorTransform_Tint(*Number* color, *Number* percent) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_Tint(*Number* color, *Number* percent) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 - __color*__ - __*Number*__,   
 - __percent*__ - __*Number*__,   
 > *return __zetaret.global.packages.clockwork.color::ColorTransform__*  
 
 ##  
-__ColorTransform_ProcessTint(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *Number* color, *Number* time, *Number* percent) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
+__ColorTransform\_ProcessTint(*zetaret.global.packages.clockwork.ui.DisplayObject* target, *Number* color, *Number* time, *Number* percent) : *zetaret.global.packages.clockwork.color::ColorTransform*__  
   
 - __target*__ - __*zetaret.global.packages.clockwork.ui.DisplayObject*__,   
 - __color*__ - __*Number*__,   
@@ -824,5 +824,3 @@ __ToPercent(*Number* value) : *Number*__
 - __value*__ - __*Number*__,   
 > *return __Number__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

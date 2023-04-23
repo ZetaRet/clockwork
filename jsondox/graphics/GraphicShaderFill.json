@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic shader fill command object",
 	"text": "custom command, described by graphic language byte code, data, dimensions and shader method",
 	"requires": "protoss.all.js",

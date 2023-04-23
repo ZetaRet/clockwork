@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic gradient fill command object",
 	"text": "created by beginGradientFill/lineGradientStyle of Graphics model, described by flags, types, colors, alphas and command ids",
 	"requires": "ProtoSS, protoss.all.js",

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __base parent-child container model__  
 # configuration properties and crud operations on child objects  
 > *Requires: protoss.all.js*  
@@ -129,5 +129,3 @@ __swapChildrenAt(*Number* index1, *Number* index2) : *zetaret.global.packages.cl
 - __index2*__ - __*Number*__,   
 > *return __zetaret.global.packages.clockwork.data::ChildContainer__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

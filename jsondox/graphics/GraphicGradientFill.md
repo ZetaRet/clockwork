@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic gradient fill command object__  
 # created by beginGradientFill/lineGradientStyle of Graphics model, described by flags, types, colors, alphas and command ids  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -66,11 +66,11 @@ default null,
 
 #  
 __commandLinear__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.LINEAR_GRADIENT,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.LINEAR\_GRADIENT,   
 
 #  
 __commandRadial__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RADIAL_GRADIENT,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RADIAL\_GRADIENT,   
 
 
 ##  
@@ -91,5 +91,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

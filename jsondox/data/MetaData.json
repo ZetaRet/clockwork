@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "meta data model",
 	"text": "data class with set/get methods prepared for inheritance",
 	"requires": "protoss.all.js",

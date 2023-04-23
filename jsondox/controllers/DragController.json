@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "display object drag controller",
 	"text": "controller with tracking events on down/move/up with Stage2DController or HTMLDocument, setup/unsetup methods",
 	"requires": "protoss.all.js",

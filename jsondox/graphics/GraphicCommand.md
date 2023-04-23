@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __base graphic command__  
 # graphic command object describing input command id and output command data  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -30,5 +30,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

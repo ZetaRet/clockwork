@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "static object type",
 	"text": "access of enumerated color utils used for direct reference in inheritance or color data models",
 	"requires": "protoss.all.js",

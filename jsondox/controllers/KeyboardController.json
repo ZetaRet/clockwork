@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "keyboard controller",
 	"text": "interacts with stage, down/press/up event control, focus, default keyboard maps, support of bubble events and inversed stage iterator",
 	"requires": "protoss.all.js",

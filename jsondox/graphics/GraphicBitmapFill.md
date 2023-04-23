@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic bitmap fill command object__  
 # created by beginBitmapFill/lineBitmapStyle of Graphics model, described by flags, alpha, image data and command id  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -58,5 +58,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

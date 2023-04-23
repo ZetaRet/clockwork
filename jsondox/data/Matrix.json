@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "rectangular array matrix",
 	"text": "MxN matrix data object with adjacent mathematical methods and transformations",
 	"requires": "protoss.all.js",

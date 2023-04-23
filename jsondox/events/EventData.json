@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "data attachment to an event",
 	"text": "describe an event flow",
 	"requires": "ProtoSS, protoss.all.js",

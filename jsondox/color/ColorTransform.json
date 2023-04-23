@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "color transform model",
 	"text": "red, green, blue, alpha multiplier/offset of color and adjacent methods",
 	"requires": "protoss.all.js",

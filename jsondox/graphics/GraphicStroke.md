@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic stroke command object__  
 # created by lineStyle of Graphics model, described by line settings  
 > *Requires: protoss.all.js*  
@@ -101,5 +101,3 @@ default 'horizontal',
 __VERTICAL__ String  
 default 'vertical',   
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

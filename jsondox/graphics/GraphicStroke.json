@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic stroke command object",
 	"text": "created by lineStyle of Graphics model, described by line settings",
 	"requires": "protoss.all.js",

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic end fill command object__  
 # created by endFill of Graphics model, described by reset flags and command ids  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -34,11 +34,11 @@ default false,
 
 #  
 __commandResetColor__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET_COLOR,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET\_COLOR,   
 
 #  
 __commandResetStroke__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET_STROKE,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.RESET\_STROKE,   
 
 #  
 __commandStroke__ Number  
@@ -46,7 +46,7 @@ default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.STROKE,
 
 #  
 __command__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.END_FILL,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.END\_FILL,   
 
 
 ##  
@@ -73,5 +73,3 @@ default 'nonzero',
 __EVENODD__ String  
 default 'evenodd',   
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

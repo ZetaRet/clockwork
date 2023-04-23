@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "graphic text command object",
 	"text": "created by textStyle of Graphics model, described by color and font settings",
 	"requires": "protoss.all.js",

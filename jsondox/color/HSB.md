@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __HSB color model__  
 # color object based on hue, saturation, brightness geometries, converters and formatters  
 > *Requires: protoss.all.js*  
@@ -93,5 +93,3 @@ __toString() : *String*__
   
 > *return __String__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __data attachment to an event__  
 # describe an event flow  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -33,5 +33,3 @@ __getData() : *Object*__
   
 > *return __Object__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

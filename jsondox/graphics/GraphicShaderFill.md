@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic shader fill command object__  
 # custom command, described by graphic language byte code, data, dimensions and shader method  
 > *Requires: protoss.all.js*  
@@ -74,5 +74,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

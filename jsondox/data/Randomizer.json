@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "pseudo-random generator",
 	"text": "RNG with time/int/number/range getters and cloning capability",
 	"requires": "protoss.all.js",

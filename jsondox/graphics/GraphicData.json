@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "base graphic data",
 	"text": "graphic data object describing input command data, id and type",
 	"requires": "protoss.all.js",

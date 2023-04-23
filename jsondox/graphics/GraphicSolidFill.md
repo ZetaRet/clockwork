@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic solid fill command object__  
 # manually create and add this command, usually acts as GraphicEndFill with a single color value  
 > *Requires: protoss.all.js*  
@@ -18,7 +18,7 @@ default 0,
 
 #  
 __command__ Number  
-default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SOLID_FILL,   
+default zetaret.global.packages.clockwork.graphics.GraphicCommand.TYPES.SOLID\_FILL,   
 
 
 ##  
@@ -34,5 +34,3 @@ __toCommandData() : *Array*__
   
 > *return __Array__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

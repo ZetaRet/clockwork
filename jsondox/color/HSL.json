@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "HSL color model",
 	"text": "color object based on hue, saturation, luminosity geometries, converters and formatters",
 	"requires": "protoss.all.js",

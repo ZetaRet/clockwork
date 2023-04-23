@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "base graphic command",
 	"text": "graphic command object describing input command id and output command data",
 	"requires": "ProtoSS, protoss.all.js",

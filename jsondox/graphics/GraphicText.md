@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __graphic text command object__  
 # created by textStyle of Graphics model, described by color and font settings  
 > *Requires: protoss.all.js*  
@@ -93,5 +93,3 @@ default 'ideographic',
 __BOTTOM__ String  
 default 'bottom',   
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

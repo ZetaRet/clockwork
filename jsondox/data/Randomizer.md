@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __pseudo-random generator__  
 # RNG with time/int/number/range getters and cloning capability  
 > *Requires: protoss.all.js*  
@@ -95,5 +95,3 @@ __Clone() : *zetaret.global.packages.clockwork.data::Randomizer*__
   
 > *return __zetaret.global.packages.clockwork.data::Randomizer__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

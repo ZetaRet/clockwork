@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __defaults to event type, normal extend is EventDispatcher__  
 # target of an event  
 > *Requires: ProtoSS, protoss.all.js*  
@@ -22,5 +22,3 @@ __EventTarget(*String* type, *Object* target) : *void*__
 - target - __*Object*__,   
 > *return __void__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

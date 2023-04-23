@@ -1,5 +1,5 @@
 {
-	"author": "Zeta Ret, Ivo Yankulovski",
+	"author": "Zeta Ret",
 	"description": "basic app data capsule",
 	"text": "application data wrapper with capabilities, stage, interaction, controllers",
 	"requires": "protoss.all.js",

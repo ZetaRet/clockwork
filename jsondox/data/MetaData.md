@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __meta data model__  
 # data class with set/get methods prepared for inheritance  
 > *Requires: protoss.all.js*  
@@ -42,5 +42,3 @@ __getMetaDataByKey(*String* key) : *Object*__
 - __key*__ - __*String*__,   
 > *return __Object__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator

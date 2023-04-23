@@ -1,4 +1,4 @@
-> __Author: Zeta Ret, Ivo Yankulovski__  
+> __Author: Zeta Ret__  
 > __rectangular array matrix__  
 # MxN matrix data object with adjacent mathematical methods and transformations  
 > *Requires: protoss.all.js*  
@@ -272,5 +272,3 @@ __clone() : *zetaret.global.packages.clockwork.data::Matrix*__
   
 > *return __zetaret.global.packages.clockwork.data::Matrix__*  
 
----  
-### MarkDown - JsonDox 1.02 - Zeta Ret Zetadmin Documentation Generator
